@@ -1,0 +1,1759 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2009-01-000001-00</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">전라선 신리~임실간 전력설비 신설 기타공사(긴급)</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	5,525,758,400 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	5,023,416,728 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	장기계속
+	                    	
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	
+	                    	적격심사
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>37-1. 100억미만 50억이상</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	85.495 %
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2009-01-16 17:59</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2009-02-04 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td>2009-02-05 12:00</td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2009-01-19 09:00 ~ 2009-02-05 12:00</td>
+	                    <th>개찰일시</th>
+	                    <td>2009-02-05 13:00</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>남희목</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		5,408,733,059 원 (97.882%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>2148188924</td>
+						<td>우민전기(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,626,266,258</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.533
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 09:17:01</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>2188108562</td>
+						<td>합자회사 부원전기</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,626,459,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.537
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 11:09:50</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>5138101538</td>
+						<td>국제전기주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,633,229,870</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.662
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-04 09:11:17</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>1208117027</td>
+						<td>세안이엔씨 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,633,447,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.666
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 11:28:38</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>2298119166</td>
+						<td>(주)삼영기업</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,639,125,700</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.771
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 08:47:10</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>1258104793</td>
+						<td>광성전업 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,643,364,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.849
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 10:35:02</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>1298119624</td>
+						<td>우일계전공업 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,643,380,500</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.850
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 09:42:54</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>2078110694</td>
+						<td>범한기공 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,645,739,470</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.893
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 09:18:43</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>6108112224</td>
+						<td>주식회사 창운</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,650,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.972
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 09:34:49</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>2058126341</td>
+						<td>종합전기 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,668,055,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.306
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-04 19:16:00</td>
+					</tr>
+					
+					
+					<tr>
+						<td>11</td>
+						<td>2148720571</td>
+						<td>현대엠코(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,675,433,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.442
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 08:13:38</td>
+					</tr>
+					
+					
+					<tr>
+						<td>12</td>
+						<td>1058181307</td>
+						<td>우남하우징(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,677,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.471
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 10:20:29</td>
+					</tr>
+					
+					
+					<tr>
+						<td>13</td>
+						<td>1118101759</td>
+						<td>신원전설(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,730,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.451
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 09:39:25</td>
+					</tr>
+					
+					
+					<tr>
+						<td>14</td>
+						<td>1058640413</td>
+						<td>(주)지앤에스이엔지</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,771,644,337</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.221
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 11:07:50</td>
+					</tr>
+					
+					
+					<tr>
+						<td>15</td>
+						<td>1058169109</td>
+						<td>대조전설 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,807,465,534</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.883
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 09:43:12</td>
+					</tr>
+					
+					
+					<tr>
+						<td>16</td>
+						<td>1178120962</td>
+						<td>에스엠파워텍 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,861,757,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									89.887
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 10:51:37</td>
+					</tr>
+					
+					
+					<tr>
+						<td>17</td>
+						<td>2148138083</td>
+						<td>유한회사 일석</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,948,317,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									91.488
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-04 09:27:48</td>
+					</tr>
+					
+					
+					<tr>
+						<td>18</td>
+						<td>1243080821</td>
+						<td>신양전기</td>
+						<td></td>
+						
+						
+							
+							<td>자격부적격</td>
+							<td>자격부적격</td>
+							
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-04 08:38:59</td>
+					</tr>
+					
+					
+					<tr>
+						<td>19</td>
+						<td>2028136758</td>
+						<td>주식회사 남양계전</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,568,333,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.462
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 11:15:31</td>
+					</tr>
+					
+					
+					<tr>
+						<td>20</td>
+						<td>4038111234</td>
+						<td>(주)공성엔지니어링</td>
+						<td></td>
+						
+						
+							
+							<td>자격부적격</td>
+							<td>자격부적격</td>
+							
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-01-31 00:23:29</td>
+					</tr>
+					
+					
+					<tr>
+						<td>21</td>
+						<td>1148158853</td>
+						<td>현대산업개발(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,569,389,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.482
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 11:08:22</td>
+					</tr>
+					
+					
+					<tr>
+						<td>22</td>
+						<td>3048108709</td>
+						<td>(주)광산전력</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,578,787,574</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.655
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 09:14:12</td>
+					</tr>
+					
+					
+					<tr>
+						<td>23</td>
+						<td>1208101957</td>
+						<td>쌍용건설(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,579,130,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.662
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-04 14:46:53</td>
+					</tr>
+					
+					
+					<tr>
+						<td>24</td>
+						<td>1058188616</td>
+						<td>케이디전력(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,593,621,710</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.930
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 08:08:45</td>
+					</tr>
+					
+					
+					<tr>
+						<td>25</td>
+						<td>1068180878</td>
+						<td>주식회사 신보</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,607,175,490</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.180
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 10:45:59</td>
+					</tr>
+					
+					
+					<tr>
+						<td>26</td>
+						<td>3078107562</td>
+						<td>대광전업 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,610,183,740</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.236
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-02 11:17:06</td>
+					</tr>
+					
+					
+					<tr>
+						<td>27</td>
+						<td>1128120900</td>
+						<td>(주)조일이씨에스</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,612,660,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.282
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 09:31:15</td>
+					</tr>
+					
+					
+					<tr>
+						<td>28</td>
+						<td>2098113590</td>
+						<td>(주)통광</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,613,881,029</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.304
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-04 17:52:04</td>
+					</tr>
+					
+					
+					<tr>
+						<td>29</td>
+						<td>1288163786</td>
+						<td>봉신이앤씨(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,614,755,630</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.320
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 10:25:55</td>
+					</tr>
+					
+					
+					<tr>
+						<td>30</td>
+						<td>1328145021</td>
+						<td>주식회사 태건</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,615,013,107</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.325
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-04 10:50:45</td>
+					</tr>
+					
+					
+					<tr>
+						<td>31</td>
+						<td>1268145759</td>
+						<td>(주)창원기전</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,615,589,460</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.336
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 09:21:52</td>
+					</tr>
+					
+					
+					<tr>
+						<td>32</td>
+						<td>2078129117</td>
+						<td>경우전기(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,617,128,600</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.364
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 09:12:39</td>
+					</tr>
+					
+					
+					<tr>
+						<td>33</td>
+						<td>1148137654</td>
+						<td>(주)미동이엔씨</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,618,708,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.394
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-03 14:27:55</td>
+					</tr>
+					
+					
+					<tr>
+						<td>34</td>
+						<td>1028137710</td>
+						<td>서광종합개발 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,619,785,590</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.413
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 09:05:30</td>
+					</tr>
+					
+					
+					<tr>
+						<td>35</td>
+						<td>2208110402</td>
+						<td>정안전기(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>4,621,475,871</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.445
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 09:45:50</td>
+					</tr>
+					
+					
+					<tr>
+						<td>36</td>
+						<td>2148637814</td>
+						<td>현중전력 주식회사</td>
+						<td></td>
+						
+						
+							
+							<td>자격부적격</td>
+							<td>자격부적격</td>
+							
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-05 09:09:24</td>
+					</tr>
+					
+					
+					<tr>
+						<td>37</td>
+						<td>4058102876</td>
+						<td>(유)정일전업사</td>
+						<td></td>
+						
+						
+							
+							<td>자격부적격</td>
+							<td>자격부적격</td>
+							
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-03 16:57:30</td>
+					</tr>
+					
+					
+					<tr>
+						<td>38</td>
+						<td>4058108400</td>
+						<td>정일건설(주)</td>
+						<td></td>
+						
+						
+							
+							<td>자격부적격</td>
+							<td>자격부적격</td>
+							
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-03 16:39:06</td>
+					</tr>
+					
+					
+					<tr>
+						<td>39</td>
+						<td>1198116692</td>
+						<td>주식회사 서우건설산업</td>
+						<td></td>
+						
+						
+							
+							<td>자격부적격</td>
+							<td>자격부적격</td>
+							
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2009-02-04 17:23:54</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_전라선 신리~임실간 전력설비 신설 기타공사(긴급).pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>

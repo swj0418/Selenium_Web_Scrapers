@@ -1,0 +1,1723 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2017-01-000177-00</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">KR어린이집 실외 놀이터 신설공사</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	84,989,400 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	77,263,091 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	장기계속
+	                    	
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	
+	                    	적격심사
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>39-1. 2억미만</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	86.995 %
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2017-12-19 17:16</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2017-12-26 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td>2017-12-26 18:00</td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2017-12-21 09:00 ~ 2017-12-27 10:00</td>
+	                    <th>개찰일시</th>
+	                    <td>2017-12-27 11:00</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>박진우</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		85,281,355 원 (100.343%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>3140293644</td>
+						<td>한밭조경</td>
+						<td>박종업</td>
+						
+						
+							
+							
+								<td>74,223,800</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.034
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-22 10:31:05</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>3063576507</td>
+						<td>에덴조경건설</td>
+						<td>송봉섭</td>
+						
+						
+							
+							
+								<td>74,295,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.118
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-27 09:14:06</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>3148188791</td>
+						<td>천지조경(주)</td>
+						<td>안은찬</td>
+						
+						
+							
+							
+								<td>74,345,500</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.177
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 14:45:58</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>3058191628</td>
+						<td>(주)산내조경</td>
+						<td>송인기</td>
+						
+						
+							
+							
+								<td>74,420,998</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.265
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-21 17:42:06</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>3058116124</td>
+						<td>주식회사 대우조경</td>
+						<td>정인수</td>
+						
+						
+							
+							
+								<td>74,450,166</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.299
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-27 09:38:21</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>3058156053</td>
+						<td>주식회사 하나건설조경</td>
+						<td>최재길</td>
+						
+						
+							
+							
+								<td>74,573,940</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.445
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 17:27:01</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>3148126136</td>
+						<td>코니그린체육건설(주)</td>
+						<td>김용숙</td>
+						
+						
+							
+							
+								<td>74,581,699</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.454
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 10:35:19</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>3148167312</td>
+						<td>주식회사 상록원</td>
+						<td>최정대</td>
+						
+						
+							
+							
+								<td>74,675,900</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.564
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 09:56:35</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>3058187541</td>
+						<td>(주)화인조경</td>
+						<td>곽조해</td>
+						
+						
+							
+							
+								<td>74,737,113</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.636
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 22:09:29</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>3148198417</td>
+						<td>주식회사 모든</td>
+						<td>조성훈</td>
+						
+						
+							
+							
+								<td>74,971,600</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.911
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 13:50:21</td>
+					</tr>
+					
+					
+					<tr>
+						<td>11</td>
+						<td>3052672485</td>
+						<td>대륙체육산업</td>
+						<td>박영준</td>
+						
+						
+							
+							
+								<td>75,003,728</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.949
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-27 09:39:35</td>
+					</tr>
+					
+					
+					<tr>
+						<td>12</td>
+						<td>5138143708</td>
+						<td>주식회사 가가조경</td>
+						<td>이규정</td>
+						
+						
+							
+							
+								<td>72,716,600</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.267
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-27 09:39:44</td>
+					</tr>
+					
+					
+					<tr>
+						<td>13</td>
+						<td>3148141286</td>
+						<td>주식회사 휘게건설</td>
+						<td>박태성</td>
+						
+						
+							
+							
+								<td>73,003,894</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.604
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-23 10:57:50</td>
+					</tr>
+					
+					
+					<tr>
+						<td>14</td>
+						<td>3058164311</td>
+						<td>대영조경 주식회사</td>
+						<td>송대영</td>
+						
+						
+							
+							
+								<td>73,296,460</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.947
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 11:48:22</td>
+					</tr>
+					
+					
+					<tr>
+						<td>15</td>
+						<td>3148194556</td>
+						<td>한성조경 주식회사</td>
+						<td>한상권</td>
+						
+						
+							
+							
+								<td>73,339,833</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.997
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-27 09:36:55</td>
+					</tr>
+					
+					
+					<tr>
+						<td>16</td>
+						<td>3058618205</td>
+						<td>주식회사 엠제이건설</td>
+						<td>최미자</td>
+						
+						
+							
+							
+								<td>73,343,300</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.002
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-24 17:46:37</td>
+					</tr>
+					
+					
+					<tr>
+						<td>17</td>
+						<td>3058133365</td>
+						<td>건우조경(주)</td>
+						<td>김오태</td>
+						
+						
+							
+							
+								<td>73,437,235</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.112
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 22:38:13</td>
+					</tr>
+					
+					
+					<tr>
+						<td>18</td>
+						<td>3148194065</td>
+						<td>주식회사금평조경건설</td>
+						<td>엄서영</td>
+						
+						
+							
+							
+								<td>73,495,850</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.180
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-22 16:42:04</td>
+					</tr>
+					
+					
+					<tr>
+						<td>19</td>
+						<td>3148639198</td>
+						<td>주식회사 래인</td>
+						<td>송순범</td>
+						
+						
+							
+							
+								<td>73,570,800</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.268
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 09:40:19</td>
+					</tr>
+					
+					
+					<tr>
+						<td>20</td>
+						<td>3058120782</td>
+						<td>(유)미목조경개발</td>
+						<td>김진호</td>
+						
+						
+							
+							
+								<td>73,611,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.315
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 18:06:29</td>
+					</tr>
+					
+					
+					<tr>
+						<td>21</td>
+						<td>3148657589</td>
+						<td>주식회사 더함플러스</td>
+						<td>박은영</td>
+						
+						
+							
+							
+								<td>73,653,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.365
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-22 14:32:01</td>
+					</tr>
+					
+					
+					<tr>
+						<td>22</td>
+						<td>3051965458</td>
+						<td>푸른조경</td>
+						<td>강숙자</td>
+						
+						
+							
+							
+								<td>73,671,300</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.386
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-27 08:58:07</td>
+					</tr>
+					
+					
+					<tr>
+						<td>23</td>
+						<td>3148109103</td>
+						<td>주식회사 미림</td>
+						<td>이세종</td>
+						
+						
+							
+							
+								<td>73,683,400</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.400
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-21 09:14:34</td>
+					</tr>
+					
+					
+					<tr>
+						<td>24</td>
+						<td>3148187389</td>
+						<td>고려조경주식회사</td>
+						<td>황윤성</td>
+						
+						
+							
+							
+								<td>73,707,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.428
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-21 16:15:42</td>
+					</tr>
+					
+					
+					<tr>
+						<td>25</td>
+						<td>3148167651</td>
+						<td>(주)울타리조경</td>
+						<td>정하운</td>
+						
+						
+							
+							
+								<td>73,714,900</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.437
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 18:26:46</td>
+					</tr>
+					
+					
+					<tr>
+						<td>26</td>
+						<td>3148658064</td>
+						<td>동성건설산업(주)</td>
+						<td>이순영</td>
+						
+						
+							
+							
+								<td>73,732,600</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.458
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 16:45:59</td>
+					</tr>
+					
+					
+					<tr>
+						<td>27</td>
+						<td>6218138016</td>
+						<td>주식회사 지원조경</td>
+						<td>홍종은</td>
+						
+						
+							
+							
+								<td>73,820,310</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.561
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 14:50:46</td>
+					</tr>
+					
+					
+					<tr>
+						<td>28</td>
+						<td>3148143533</td>
+						<td>재림조경건설(주)</td>
+						<td>송재학</td>
+						
+						
+							
+							
+								<td>73,879,670</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.631
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 13:28:54</td>
+					</tr>
+					
+					
+					<tr>
+						<td>29</td>
+						<td>3140856786</td>
+						<td>주성조경</td>
+						<td>문현순</td>
+						
+						
+							
+							
+								<td>73,897,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.651
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-27 09:49:51</td>
+					</tr>
+					
+					
+					<tr>
+						<td>30</td>
+						<td>1208176327</td>
+						<td>임하조경 주식회사</td>
+						<td>인치국</td>
+						
+						
+							
+							
+								<td>73,929,709</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.689
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 09:22:25</td>
+					</tr>
+					
+					
+					<tr>
+						<td>31</td>
+						<td>1398100796</td>
+						<td>기흥조경건설(주)</td>
+						<td>임문빈</td>
+						
+						
+							
+							
+								<td>73,973,060</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.740
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-27 09:12:56</td>
+					</tr>
+					
+					
+					<tr>
+						<td>32</td>
+						<td>3148188108</td>
+						<td>(주)야원</td>
+						<td>임해연</td>
+						
+						
+							
+							
+								<td>74,080,187</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.866
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 17:45:48</td>
+					</tr>
+					
+					
+					<tr>
+						<td>33</td>
+						<td>3058136815</td>
+						<td>태영조경 주식회사</td>
+						<td>김광진</td>
+						
+						
+							
+							
+								<td>74,110,700</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.901
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-21 11:36:02</td>
+					</tr>
+					
+					
+					<tr>
+						<td>34</td>
+						<td>3148603744</td>
+						<td>(주)삼성조경개발</td>
+						<td>탁승철</td>
+						
+						
+							
+							
+								<td>74,122,260</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.915
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 13:20:20</td>
+					</tr>
+					
+					
+					<tr>
+						<td>35</td>
+						<td>1328140986</td>
+						<td>신평조경건설 (주)</td>
+						<td>정미영</td>
+						
+						
+							
+							
+								<td>74,127,300</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.921
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-21 10:38:40</td>
+					</tr>
+					
+					
+					<tr>
+						<td>36</td>
+						<td>3148174486</td>
+						<td>주식회사 드림랜드</td>
+						<td>양태홍</td>
+						
+						
+							
+							
+								<td>74,169,500</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.970
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-12-26 13:09:49</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_KR어린이집 실외 놀이터 신설공사.pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>

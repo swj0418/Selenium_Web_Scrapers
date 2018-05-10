@@ -1,0 +1,1063 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2017-01-000127-01</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">시설장비사무소 하수 및 폐수처리시설 개량공사(변경공고)</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	261,875,900 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	238,069,000 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	장기계속
+	                    	
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	
+	                    	적격심사
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>32-1. 3억미만 2억이상</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	86.995 %
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2017-09-13 10:59</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2017-09-19 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td></td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2017-09-13 09:00 ~ 2017-09-19 18:00</td>
+	                    <th>개찰일시</th>
+	                    <td>2017-09-20 10:00</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>김구라</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		263,050,936 원 (100.448%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>3158119832</td>
+						<td>(주)한국종합건설</td>
+						<td>김경배</td>
+						
+						
+							
+							
+								<td>228,969,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.044
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-18 17:12:27</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>3158135526</td>
+						<td>(주)덕일</td>
+						<td>정용희</td>
+						
+						
+							
+							
+								<td>229,079,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.085
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-19 09:42:20</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>3038112909</td>
+						<td>(주)영동환경</td>
+						<td>김종진</td>
+						
+						
+							
+							
+								<td>230,168,200</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.499
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-15 16:17:59</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>3018135885</td>
+						<td>(주)하나환경개발</td>
+						<td>한연수</td>
+						
+						
+							
+							
+								<td>230,552,740</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.646
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-19 15:43:32</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>3018118305</td>
+						<td>대화건설 주식회사</td>
+						<td>이화련</td>
+						
+						
+							
+							
+								<td>231,077,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.845
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-19 11:43:55</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>3038110876</td>
+						<td>주식회사 대흥종합건설</td>
+						<td>김정우</td>
+						
+						
+							
+							
+								<td>231,154,583</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.874
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-19 09:02:22</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>3088107508</td>
+						<td>주식회사 건양기술공사건축사사무소</td>
+						<td>유대현</td>
+						
+						
+							
+							
+								<td>232,516,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.392
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-19 14:55:17</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>3018191214</td>
+						<td>(주)창세엔지니어링</td>
+						<td>허용무</td>
+						
+						
+							
+							
+								<td>226,493,030</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.102
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-18 17:28:39</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>3018149259</td>
+						<td>(주)푸른환경산업</td>
+						<td>전덕환</td>
+						
+						
+							
+							
+								<td>226,708,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.184
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-18 17:51:10</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>3158135996</td>
+						<td>(주)천수환경산업</td>
+						<td>서동기</td>
+						
+						
+							
+							
+								<td>226,724,300</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.190
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-18 14:18:46</td>
+					</tr>
+					
+					
+					<tr>
+						<td>11</td>
+						<td>3018173569</td>
+						<td>주식회사 자원건설</td>
+						<td>오충진</td>
+						
+						
+							
+							
+								<td>227,354,190</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.430
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-19 13:28:15</td>
+					</tr>
+					
+					
+					<tr>
+						<td>12</td>
+						<td>3158135676</td>
+						<td>주식회사 삼양건설</td>
+						<td>윤현우</td>
+						
+						
+							
+							
+								<td>227,699,500</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.561
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-19 11:50:14</td>
+					</tr>
+					
+					
+					<tr>
+						<td>13</td>
+						<td>3178107064</td>
+						<td>청수기술환경 주식회사</td>
+						<td>남기양</td>
+						
+						
+							
+							
+								<td>227,817,345</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.606
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-19 11:29:22</td>
+					</tr>
+					
+					
+					<tr>
+						<td>14</td>
+						<td>2148682492</td>
+						<td>(주)루선트엔지니어링</td>
+						<td>김진오</td>
+						
+						
+							
+							
+								<td>228,026,200</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.685
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-19 09:22:43</td>
+					</tr>
+					
+					
+					<tr>
+						<td>15</td>
+						<td>3018116059</td>
+						<td>남영건설(주)</td>
+						<td>문대식</td>
+						
+						
+							
+							
+								<td>228,299,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.789
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-19 15:10:26</td>
+					</tr>
+					
+					
+					<tr>
+						<td>16</td>
+						<td>3038136857</td>
+						<td>일진건설산업 주식회사</td>
+						<td>신민철</td>
+						
+						
+							
+							
+								<td>228,372,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.817
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-19 09:30:24</td>
+					</tr>
+					
+					
+					<tr>
+						<td>17</td>
+						<td>3038126403</td>
+						<td>우일건설 주식회사</td>
+						<td>이건철</td>
+						
+						
+							
+							
+								<td>228,535,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.879
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-18 18:08:29</td>
+					</tr>
+					
+					
+					<tr>
+						<td>18</td>
+						<td>3018108409</td>
+						<td>(합자)신양건설</td>
+						<td>이종명</td>
+						
+						
+							
+							
+								<td>228,548,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.884
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-19 14:20:28</td>
+					</tr>
+					
+					
+					<tr>
+						<td>19</td>
+						<td>3038144454</td>
+						<td>주식회사 좋은이엔지</td>
+						<td>김주식</td>
+						
+						
+							
+							
+								<td>228,555,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.886
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-18 13:45:42</td>
+					</tr>
+					
+					
+					<tr>
+						<td>20</td>
+						<td>3158101104</td>
+						<td>주식회사 대원</td>
+						<td>전응식</td>
+						
+						
+							
+							
+								<td>228,600,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.903
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-09-18 13:39:23</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_시설장비사무소 하수 및 폐수처리시설 개량공사(변경공고).pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>

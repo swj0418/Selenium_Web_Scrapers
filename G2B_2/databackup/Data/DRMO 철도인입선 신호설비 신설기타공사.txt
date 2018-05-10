@@ -1,0 +1,994 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2008-01-000106-00</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">DRMO 철도인입선 신호설비 신설기타공사</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	290,495,000 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	264,086,364 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	장기계속
+	                    	
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	
+	                    	적격심사
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>32-1. 3억미만 2억이상</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	86.995 %
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2008-12-11 17:12</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2008-12-17 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td></td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2008-12-15 09:00 ~ 2008-12-18 14:00</td>
+	                    <th>개찰일시</th>
+	                    <td>2008-12-18 16:00</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>염진구</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		282,466,902 원 (97.236%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>5108101219</td>
+						<td>주식회사 서보</td>
+						<td></td>
+						
+						
+							
+							
+								<td>245,954,740</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.074
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-18 11:34:37</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>5158107902</td>
+						<td>주식회사 남도이앤지</td>
+						<td></td>
+						
+						
+							
+							
+								<td>245,972,400</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.080
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-15 13:42:31</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>5021188264</td>
+						<td>대진전력</td>
+						<td></td>
+						
+						
+							
+							
+								<td>246,436,130</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.244
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-18 13:45:02</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>5038158617</td>
+						<td>주식회사 세광전력</td>
+						<td></td>
+						
+						
+							
+							
+								<td>246,791,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.370
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-18 10:32:42</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>1018168864</td>
+						<td>주식회사 에스비 신호기술</td>
+						<td></td>
+						
+						
+							
+							
+								<td>247,049,930</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.462
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-18 11:22:21</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>5088101201</td>
+						<td>(주)삼영전업사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>247,351,300</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.568
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-18 12:06:19</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>5021934861</td>
+						<td>유신전기공사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>247,447,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.602
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-18 13:50:12</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>5078108458</td>
+						<td>주식회사 조양</td>
+						<td></td>
+						
+						
+							
+							
+								<td>247,526,600</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.630
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 15:14:22</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>5108117273</td>
+						<td>구문전력 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>248,130,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.844
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-18 11:42:20</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>5022285467</td>
+						<td>대상기업</td>
+						<td></td>
+						
+						
+							
+							
+								<td>248,457,860</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.960
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-18 13:53:05</td>
+					</tr>
+					
+					
+					<tr>
+						<td>11</td>
+						<td>5048118296</td>
+						<td>映進綜合建設 株式會社</td>
+						<td></td>
+						
+						
+							
+							
+								<td>248,563,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.997
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-18 13:43:07</td>
+					</tr>
+					
+					
+					<tr>
+						<td>12</td>
+						<td>5138120200</td>
+						<td>주식회사 한우기업</td>
+						<td></td>
+						
+						
+							
+							
+								<td>248,565,440</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.998
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 16:58:33</td>
+					</tr>
+					
+					
+					<tr>
+						<td>13</td>
+						<td>5128107994</td>
+						<td>(주)건아전기</td>
+						<td></td>
+						
+						
+							
+							
+								<td>250,500,170</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.683
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-18 09:28:07</td>
+					</tr>
+					
+					
+					<tr>
+						<td>14</td>
+						<td>5068136679</td>
+						<td>세광전력(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>252,952,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									89.551
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-15 15:26:38</td>
+					</tr>
+					
+					
+					<tr>
+						<td>15</td>
+						<td>5068139341</td>
+						<td>에이스기전(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>254,841,500</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									90.220
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-18 10:07:11</td>
+					</tr>
+					
+					
+					<tr>
+						<td>16</td>
+						<td>5138139015</td>
+						<td>광명이엔씨 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>255,979,200</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									90.623
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-15 11:57:08</td>
+					</tr>
+					
+					
+					<tr>
+						<td>17</td>
+						<td>5028130260</td>
+						<td>대경전기주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>244,371,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.513
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-15 14:51:06</td>
+					</tr>
+					
+					
+					<tr>
+						<td>18</td>
+						<td>5041422880</td>
+						<td>세명전기</td>
+						<td></td>
+						
+						
+							
+							
+								<td>245,268,742</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.831
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 10:51:43</td>
+					</tr>
+					
+					
+					<tr>
+						<td>19</td>
+						<td>5028108550</td>
+						<td>株式會社 溪林</td>
+						<td></td>
+						
+						
+							
+							
+								<td>245,373,880</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.868
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 09:25:57</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_DRMO 철도인입선 신호설비 신설기타공사.pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>

@@ -1,0 +1,1627 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2014-01-000150-00</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">경전선 횡천~광양간 전력설비 신설공사</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	8,091,179,000 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	7,355,617,273 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	장기계속
+	                    	
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	
+	                    	적격심사
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>37-1. 100억미만 50억이상</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	85.495 %
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2014-10-31 16:59</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2014-12-08 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td>2014-12-08 18:00</td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2014-11-24 09:00 ~ 2014-12-09 14:00</td>
+	                    <th>개찰일시</th>
+	                    <td>2014-12-09 15:00</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>김기원</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		7,870,223,870 원 (97.269%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>2148104884</td>
+						<td>두원이에프씨주식회사</td>
+						<td>박광섭</td>
+						
+						
+							
+							
+								<td>6,731,900,186</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.536
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-08 16:21:44</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>1128120900</td>
+						<td>(주)조일이씨에스</td>
+						<td>안종석</td>
+						
+						
+							
+							
+								<td>6,734,847,063</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.574
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 13:52:13</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>2098113590</td>
+						<td>(주)통광</td>
+						<td>박응성</td>
+						
+						
+							
+							
+								<td>6,735,614,913</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.584
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-08 11:03:37</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>3028103727</td>
+						<td>주식회사 세봉전기</td>
+						<td>정구상</td>
+						
+						
+							
+							
+								<td>6,736,486,500</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.595
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-08 15:33:24</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>1238163592</td>
+						<td>(주)엠파워</td>
+						<td>이창수</td>
+						
+						
+							
+							
+								<td>6,739,283,980</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.630
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 09:41:14</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>1268145759</td>
+						<td>(주)창원기전</td>
+						<td>김귀범</td>
+						
+						
+							
+							
+								<td>6,756,668,486</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.851
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 08:25:20</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>1068180878</td>
+						<td>주식회사 신보</td>
+						<td>박종규</td>
+						
+						
+							
+							
+								<td>6,756,713,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.852
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 09:23:28</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>1148137654</td>
+						<td>(주)미동이엔씨</td>
+						<td>이병복</td>
+						
+						
+							
+							
+								<td>6,757,384,454</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.860
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 09:44:14</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>1278122443</td>
+						<td>주식회사 정우이엔씨</td>
+						<td>이종협</td>
+						
+						
+							
+							
+								<td>6,762,289,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.922
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 11:18:57</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>4168103894</td>
+						<td>주식회사 금호전력</td>
+						<td>장복규</td>
+						
+						
+							
+							
+								<td>6,766,169,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.972
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 10:56:56</td>
+					</tr>
+					
+					
+					<tr>
+						<td>11</td>
+						<td>2028104237</td>
+						<td>대선이엔씨(주)</td>
+						<td>최승재</td>
+						
+						
+							
+							
+								<td>6,766,849,396</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.980
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 11:10:09</td>
+					</tr>
+					
+					
+					<tr>
+						<td>12</td>
+						<td>1198107631</td>
+						<td>승아전기(주)</td>
+						<td>김태훈</td>
+						
+						
+							
+							
+								<td>6,769,794,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.018
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 08:58:45</td>
+					</tr>
+					
+					
+					<tr>
+						<td>13</td>
+						<td>1138107384</td>
+						<td>지에스네오텍 주식회사</td>
+						<td>최성진</td>
+						
+						
+							
+							
+								<td>6,773,787,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.069
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 09:22:16</td>
+					</tr>
+					
+					
+					<tr>
+						<td>14</td>
+						<td>1248127925</td>
+						<td>대명지이씨 주식회사</td>
+						<td>김한욱</td>
+						
+						
+							
+							
+								<td>6,776,393,880</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.102
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 08:38:52</td>
+					</tr>
+					
+					
+					<tr>
+						<td>15</td>
+						<td>1208117027</td>
+						<td>세안이엔씨 주식회사</td>
+						<td>이은상</td>
+						
+						
+							
+							
+								<td>6,780,496,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.154
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 10:01:18</td>
+					</tr>
+					
+					
+					<tr>
+						<td>16</td>
+						<td>2148188924</td>
+						<td>우민전기(주)</td>
+						<td>이학표</td>
+						
+						
+							
+							
+								<td>6,784,445,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.204
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 11:17:08</td>
+					</tr>
+					
+					
+					<tr>
+						<td>17</td>
+						<td>1258104793</td>
+						<td>광성전업 주식회사</td>
+						<td>박준연</td>
+						
+						
+							
+							
+								<td>6,784,556,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.205
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 11:38:13</td>
+					</tr>
+					
+					
+					<tr>
+						<td>18</td>
+						<td>5138101538</td>
+						<td>국제전기주식회사</td>
+						<td>권영동</td>
+						
+						
+							
+							
+								<td>6,787,614,170</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.244
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 11:57:56</td>
+					</tr>
+					
+					
+					<tr>
+						<td>19</td>
+						<td>1168119273</td>
+						<td>엘에스산전(주)</td>
+						<td>구자균</td>
+						
+						
+							
+							
+								<td>6,791,920,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.299
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 13:15:26</td>
+					</tr>
+					
+					
+					<tr>
+						<td>20</td>
+						<td>1058635171</td>
+						<td>태산무역 주식회사</td>
+						<td>박철한</td>
+						
+						
+							
+							
+								<td>6,797,879,800</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.375
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 11:56:19</td>
+					</tr>
+					
+					
+					<tr>
+						<td>21</td>
+						<td>6138134815</td>
+						<td>주식회사 이레전기</td>
+						<td>강미경</td>
+						
+						
+							
+							
+								<td>6,809,944,024</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.528
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-08 11:36:49</td>
+					</tr>
+					
+					
+					<tr>
+						<td>22</td>
+						<td>4168113543</td>
+						<td>두양산전(주)</td>
+						<td>김용운</td>
+						
+						
+							
+							
+								<td>6,833,785,299</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.831
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 08:58:10</td>
+					</tr>
+					
+					
+					<tr>
+						<td>23</td>
+						<td>5048121485</td>
+						<td>합자회사 태성산업사</td>
+						<td>김재홍</td>
+						
+						
+							
+							
+								<td>6,855,468,444</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.106
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 11:08:30</td>
+					</tr>
+					
+					
+					<tr>
+						<td>24</td>
+						<td>6108112224</td>
+						<td>주식회사 창운</td>
+						<td>조현수</td>
+						
+						
+							
+							
+								<td>6,866,345,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.245
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 09:40:21</td>
+					</tr>
+					
+					
+					<tr>
+						<td>25</td>
+						<td>2148122316</td>
+						<td>금송전기(주)</td>
+						<td>조인환</td>
+						
+						
+							
+							
+								<td>6,885,748,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.491
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 09:25:41</td>
+					</tr>
+					
+					
+					<tr>
+						<td>26</td>
+						<td>1058640413</td>
+						<td>(주)지앤에스이엔지</td>
+						<td>전종수</td>
+						
+						
+							
+							
+								<td>6,942,477,554</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.212
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-06 10:35:16</td>
+					</tr>
+					
+					
+					<tr>
+						<td>27</td>
+						<td>1388117464</td>
+						<td>주식회사 동진</td>
+						<td>김학수</td>
+						
+						
+							
+							
+								<td>7,032,799,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									89.360
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-05 17:41:19</td>
+					</tr>
+					
+					
+					<tr>
+						<td>28</td>
+						<td>2018145083</td>
+						<td>극동건설 주식회사</td>
+						<td>박상철</td>
+						
+						
+							
+							
+								<td>7,036,422,090</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									89.406
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-08 17:41:03</td>
+					</tr>
+					
+					
+					<tr>
+						<td>29</td>
+						<td>1198192235</td>
+						<td>(주)성림파워넷</td>
+						<td>임성수</td>
+						
+						
+							
+							
+								<td>7,118,584,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									90.450
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-05 16:48:28</td>
+					</tr>
+					
+					
+					<tr>
+						<td>30</td>
+						<td>2298119166</td>
+						<td>(주)삼영기업</td>
+						<td>금동흠</td>
+						
+						
+							
+							
+								<td>6,686,488,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.959
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 08:29:45</td>
+					</tr>
+					
+					
+					<tr>
+						<td>31</td>
+						<td>6208111902</td>
+						<td>(주)복산종합전기</td>
+						<td>백귀현</td>
+						
+						
+							
+							
+								<td>6,688,215,835</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.981
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-08 10:55:33</td>
+					</tr>
+					
+					
+					<tr>
+						<td>32</td>
+						<td>1388147634</td>
+						<td>엘에스전선 주식회사</td>
+						<td>구자은</td>
+						
+						
+							
+							
+								<td>6,702,224,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.159
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 10:50:10</td>
+					</tr>
+					
+					
+					<tr>
+						<td>33</td>
+						<td>1238150044</td>
+						<td>일진파워텍(주)</td>
+						<td>박시덕</td>
+						
+						
+							
+							
+								<td>6,706,685,700</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.216
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-08 17:17:38</td>
+					</tr>
+					
+					
+					<tr>
+						<td>34</td>
+						<td>2058126341</td>
+						<td>종합전기 주식회사</td>
+						<td>김유훈</td>
+						
+						
+							
+							
+								<td>6,713,832,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.307
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-09 08:58:02</td>
+					</tr>
+					
+					
+					<tr>
+						<td>35</td>
+						<td>6078176009</td>
+						<td>주식회사 승현전설</td>
+						<td>김청조</td>
+						
+						
+							
+							
+								<td>6,719,344,820</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.377
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-12-08 14:53:54</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_경전선 횡천~광양간 전력설비 신설공사.pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>

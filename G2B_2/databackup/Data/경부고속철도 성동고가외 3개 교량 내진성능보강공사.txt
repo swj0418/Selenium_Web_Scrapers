@@ -1,0 +1,790 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2016-01-000117-00</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">경부고속철도 성동고가외 3개 교량 내진성능보강공사</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	12,163,000,000 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	11,057,272,727 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	장기계속
+	                    	
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	
+	                    	적격심사
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>38-1. 300억미만 100억이상</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	79.995 %
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2016-05-16 20:58</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2016-06-27 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td>2016-06-27 18:00</td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2016-06-21 09:00 ~ 2016-06-28 10:00</td>
+	                    <th>개찰일시</th>
+	                    <td>2016-06-28 13:00</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>박진우</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		12,040,232,759 원 (98.99%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>2208131635</td>
+						<td>(주)세길건설</td>
+						<td>안승유</td>
+						
+						
+							
+							
+								<td>9,641,284,800</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.076
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-06-28 09:30:38</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>2128150572</td>
+						<td>수자원기술 주식회사</td>
+						<td>김완규</td>
+						
+						
+							
+							
+								<td>9,650,571,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.153
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-06-28 09:50:49</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>1328113631</td>
+						<td>원하종합건설(주)</td>
+						<td>손승호</td>
+						
+						
+							
+							
+								<td>9,654,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.181
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-06-28 09:54:56</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>2128148528</td>
+						<td>(주)케이에스씨건설</td>
+						<td>정희공</td>
+						
+						
+							
+							
+								<td>9,697,798,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.545
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-06-28 09:47:14</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>1208101957</td>
+						<td>쌍용건설(주)</td>
+						<td>김석준</td>
+						
+						
+							
+							
+								<td>9,699,435,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.559
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-06-28 09:09:51</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>5038171376</td>
+						<td>(주)부영이엔씨</td>
+						<td>성명석</td>
+						
+						
+							
+							
+								<td>9,727,300,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.790
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-06-28 09:38:59</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>2218123555</td>
+						<td>(주)삼우아이엠씨</td>
+						<td>김기헌</td>
+						
+						
+							
+							
+								<td>9,727,977,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.796
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-06-28 09:25:29</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>1268105325</td>
+						<td>주식회사 케이알산업</td>
+						<td>박종화</td>
+						
+						
+							
+							
+								<td>9,746,340,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.948
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-06-28 09:50:12</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>5088102200</td>
+						<td>동신건설 주식회사</td>
+						<td>김근한</td>
+						
+						
+							
+							
+								<td>9,754,311,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									81.014
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-06-28 09:19:52</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>2138613798</td>
+						<td>(주)대한하이텍건설</td>
+						<td>이평원</td>
+						
+						
+							
+							
+								<td>9,782,510,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									81.249
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-06-28 08:45:04</td>
+					</tr>
+					
+					
+					<tr>
+						<td>11</td>
+						<td>2148186004</td>
+						<td>주식회사 거성토건</td>
+						<td>강재봉</td>
+						
+						
+							
+							
+								<td>9,790,440,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									81.314
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-06-28 09:44:31</td>
+					</tr>
+					
+					
+					<tr>
+						<td>12</td>
+						<td>5158124726</td>
+						<td>우진건설주식회사</td>
+						<td>권제원</td>
+						
+						
+							
+							
+								<td>9,829,787,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									81.641
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-06-27 21:34:51</td>
+					</tr>
+					
+					
+					<tr>
+						<td>13</td>
+						<td>2128174220</td>
+						<td>홍용종합건설(주)</td>
+						<td>정영승</td>
+						
+						
+							
+							
+								<td>9,836,980,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									81.701
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-06-28 09:40:11</td>
+					</tr>
+					
+					
+					<tr>
+						<td>14</td>
+						<td>1198133745</td>
+						<td>매일엔지니어링(주)</td>
+						<td>이기욱</td>
+						
+						
+							
+							
+								<td>9,911,490,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									82.320
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-06-28 09:50:20</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_경부고속철도 성동고가외 3개 교량 내진성능보강공사.pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>

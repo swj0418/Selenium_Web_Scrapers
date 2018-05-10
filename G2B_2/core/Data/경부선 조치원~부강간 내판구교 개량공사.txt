@@ -1,0 +1,649 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2016-01-000159-00</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">경부선 조치원~부강간 내판구교 개량공사</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	7,374,000,000 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	6,703,636,364 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	장기계속
+	                    	
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	
+	                    	적격심사
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>37-1. 100억미만 50억이상</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	85.495 %
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2016-07-14 16:55</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2016-08-23 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td>2016-08-23 18:00</td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2016-08-17 09:00 ~ 2016-08-24 10:00</td>
+	                    <th>개찰일시</th>
+	                    <td>2016-08-24 11:00</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>박진우</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		7,432,361,706 원 (100.791%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>3128119148</td>
+						<td>주식회사 금성백조건설</td>
+						<td>정대식</td>
+						
+						
+							
+							
+								<td>6,358,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.545
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-08-24 09:20:06</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>3028106442</td>
+						<td>다우종합건설 주식회사</td>
+						<td>서동호</td>
+						
+						
+							
+							
+								<td>6,397,076,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.071
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-08-23 15:25:59</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>4028121933</td>
+						<td>(주)동영건설</td>
+						<td>이성수</td>
+						
+						
+							
+							
+								<td>6,513,389,800</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.636
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-08-23 16:44:05</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>2648115839</td>
+						<td>장호건설 주식회사</td>
+						<td>이윤주</td>
+						
+						
+							
+							
+								<td>6,575,959,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.477
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-08-22 10:26:45</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>3058152815</td>
+						<td>이오스건설주식회사</td>
+						<td>엄태강</td>
+						
+						
+							
+							
+								<td>6,577,649,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.500
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-08-23 23:47:33</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>1248624675</td>
+						<td>금송산업개발주식회사</td>
+						<td>박상재</td>
+						
+						
+							
+							
+								<td>6,292,079,300</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.658
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-08-18 09:48:13</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>4098130791</td>
+						<td>대운종합건설 주식회사</td>
+						<td>김기학</td>
+						
+						
+							
+							
+								<td>6,313,855,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.951
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-08-23 18:49:09</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>4188101650</td>
+						<td>새한建設 주식회사</td>
+						<td>김현간</td>
+						
+						
+							
+							
+								<td>6,315,708,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.976
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-08-23 17:02:53</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>3078104022</td>
+						<td>신일건설산업 주식회사</td>
+						<td>김영준</td>
+						
+						
+							
+							
+								<td>6,346,670,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.392
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-08-24 08:17:00</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>4118136110</td>
+						<td>(주)라인산업</td>
+						<td>이용일</td>
+						
+						
+							
+							
+								<td>6,349,718,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.433
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-08-24 09:02:54</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_경부선 조치원~부강간 내판구교 개량공사.pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>

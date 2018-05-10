@@ -1,0 +1,1492 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2015-01-000156-00</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">중앙선 도담~영천 복선전철 제12공구 노반신설 기타공사</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	128,705,000,000 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	117,004,545,455 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	
+	                    	계속비
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	PQ
+	                    	
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>43. 300억이상(최저가)</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2015-07-27 16:57</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2015-10-05 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td>2015-08-17 18:00</td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2015-09-30 09:00 ~ 2015-10-06 10:30</td>
+	                    <th>개찰일시</th>
+	                    <td>2015-10-06 11:30</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>이주한</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		126,537,295,690 원 (98.315%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>1018100452</td>
+						<td>삼환기업(주)</td>
+						<td>정화동</td>
+						
+						
+							
+							
+								<td>96,722,502,690</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.438
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:25:43</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>2158140656</td>
+						<td>주식회사 한라</td>
+						<td>최병수</td>
+						
+						
+							
+							
+								<td>96,807,979,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.505
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:22:56</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>1048173406</td>
+						<td>주식회사 한화건설</td>
+						<td>최광호</td>
+						
+						
+							
+							
+								<td>96,835,278,127</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.527
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:25:22</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>1018166755</td>
+						<td>현대엔지니어링 주식회사</td>
+						<td>김위철</td>
+						
+						
+							
+							
+								<td>96,923,750,506</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.597
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:27:51</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>1168135007</td>
+						<td>대림산업 주식회사</td>
+						<td>김동수</td>
+						
+						
+							
+							
+								<td>96,937,496,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.608
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:26:35</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>1208101995</td>
+						<td>남광토건 주식회사</td>
+						<td>최장식</td>
+						
+						
+							
+							
+								<td>96,950,931,634</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.618
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:24:21</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>1208150012</td>
+						<td>코오롱글로벌 주식회사</td>
+						<td>윤창운</td>
+						
+						
+							
+							
+								<td>96,962,546,520</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.628
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:26:33</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>2018145083</td>
+						<td>극동건설 주식회사</td>
+						<td>박상철</td>
+						
+						
+							
+							
+								<td>96,962,909,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.628
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:27:00</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>1108114611</td>
+						<td>주식회사 한양</td>
+						<td>한동영</td>
+						
+						
+							
+							
+								<td>96,968,333,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.632
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:25:12</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>3148107954</td>
+						<td>계룡건설산업 주식회사</td>
+						<td>한승구</td>
+						
+						
+							
+							
+								<td>97,008,543,878</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.664
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:27:05</td>
+					</tr>
+					
+					
+					<tr>
+						<td>11</td>
+						<td>6028142993</td>
+						<td>주식회사 한진중공업</td>
+						<td>이만영</td>
+						
+						
+							
+							
+								<td>97,056,777,695</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.702
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:26:42</td>
+					</tr>
+					
+					
+					<tr>
+						<td>12</td>
+						<td>1048158180</td>
+						<td>주식회사 대우건설</td>
+						<td>박영식</td>
+						
+						
+							
+							
+								<td>97,084,317,476</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.724
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:25:14</td>
+					</tr>
+					
+					
+					<tr>
+						<td>13</td>
+						<td>1018116293</td>
+						<td>현대건설 주식회사</td>
+						<td>정수현</td>
+						
+						
+							
+							
+								<td>97,171,649,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.793
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:28:15</td>
+					</tr>
+					
+					
+					<tr>
+						<td>14</td>
+						<td>1148116377</td>
+						<td>롯데건설(주)</td>
+						<td>김치현</td>
+						
+						
+							
+							
+								<td>97,178,216,951</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.798
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:21:51</td>
+					</tr>
+					
+					
+					<tr>
+						<td>15</td>
+						<td>2148169965</td>
+						<td>(주)케이씨씨건설</td>
+						<td>정몽열</td>
+						
+						
+							
+							
+								<td>97,204,946,249</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.819
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:23:15</td>
+					</tr>
+					
+					
+					<tr>
+						<td>16</td>
+						<td>2208110116</td>
+						<td>풍림산업 주식회사</td>
+						<td>이필승</td>
+						
+						
+							
+							
+								<td>97,209,046,475</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.822
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:23:30</td>
+					</tr>
+					
+					
+					<tr>
+						<td>17</td>
+						<td>1068144682</td>
+						<td>고려개발 주식회사</td>
+						<td>김종오</td>
+						
+						
+							
+							
+								<td>97,254,203,396</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.858
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:25:03</td>
+					</tr>
+					
+					
+					<tr>
+						<td>18</td>
+						<td>2018145685</td>
+						<td>동부건설 주식회사</td>
+						<td>이순병</td>
+						
+						
+							
+							
+								<td>97,268,753,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.870
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:25:44</td>
+					</tr>
+					
+					
+					<tr>
+						<td>19</td>
+						<td>3138102806</td>
+						<td>대보건설(주)</td>
+						<td>남관우</td>
+						
+						
+							
+							
+								<td>97,308,413,074</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.901
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:25:58</td>
+					</tr>
+					
+					
+					<tr>
+						<td>20</td>
+						<td>5068102280</td>
+						<td>주식회사 포스코건설</td>
+						<td>황태현</td>
+						
+						
+							
+							
+								<td>97,339,720,399</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.926
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:26:45</td>
+					</tr>
+					
+					
+					<tr>
+						<td>21</td>
+						<td>1028131754</td>
+						<td>두산건설 주식회사</td>
+						<td>이병화</td>
+						
+						
+							
+							
+								<td>97,355,594,983</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.938
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:27:43</td>
+					</tr>
+					
+					
+					<tr>
+						<td>22</td>
+						<td>2208122460</td>
+						<td>한일건설 주식회사</td>
+						<td>양승권</td>
+						
+						
+							
+							
+								<td>97,359,584,869</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.941
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:27:18</td>
+					</tr>
+					
+					
+					<tr>
+						<td>23</td>
+						<td>1048131309</td>
+						<td>금호산업(주)</td>
+						<td>원일우</td>
+						
+						
+							
+							
+								<td>97,382,843,069</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.960
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:24:33</td>
+					</tr>
+					
+					
+					<tr>
+						<td>24</td>
+						<td>1058174543</td>
+						<td>주식회사 태영건설</td>
+						<td>이재규</td>
+						
+						
+							
+							
+								<td>97,383,036,571</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.960
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:28:06</td>
+					</tr>
+					
+					
+					<tr>
+						<td>25</td>
+						<td>1388108534</td>
+						<td>주식회사 동양건설산업</td>
+						<td>우승헌</td>
+						
+						
+							
+							
+								<td>97,394,814,736</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.969
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:25:13</td>
+					</tr>
+					
+					
+					<tr>
+						<td>26</td>
+						<td>6098104684</td>
+						<td>두산중공업 주식회사</td>
+						<td>정지택</td>
+						
+						
+							
+							
+								<td>97,431,930,024</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									76.999
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:27:45</td>
+					</tr>
+					
+					
+					<tr>
+						<td>27</td>
+						<td>1148104605</td>
+						<td>한신공영(주)</td>
+						<td>태기전</td>
+						
+						
+							
+							
+								<td>97,454,384,395</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									77.016
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:25:50</td>
+					</tr>
+					
+					
+					<tr>
+						<td>28</td>
+						<td>1048118121</td>
+						<td>지에스건설 주식회사</td>
+						<td>임병용</td>
+						
+						
+							
+							
+								<td>97,570,392,899</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									77.108
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:26:43</td>
+					</tr>
+					
+					
+					<tr>
+						<td>29</td>
+						<td>2018131027</td>
+						<td>주식회사 흥화</td>
+						<td>이충규</td>
+						
+						
+							
+							
+								<td>97,607,321,818</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									77.137
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:26:24</td>
+					</tr>
+					
+					
+					<tr>
+						<td>30</td>
+						<td>1068132769</td>
+						<td>진흥기업(주)</td>
+						<td>차천수</td>
+						
+						
+							
+							
+								<td>98,293,189,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									77.679
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:22:42</td>
+					</tr>
+					
+					
+					<tr>
+						<td>31</td>
+						<td>1148158853</td>
+						<td>현대산업개발(주)</td>
+						<td>김재식</td>
+						
+						
+							
+							
+								<td>101,782,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.436
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 10:24:52</td>
+					</tr>
+					
+					
+					<tr>
+						<td>32</td>
+						<td>1018134928</td>
+						<td>에스케이건설 주식회사</td>
+						<td>조기행</td>
+						
+						
+							
+							
+								<td>115,071,922,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									90.939
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2015-10-06 09:36:41</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_중앙선 도담~영천 복선전철 제12공구 노반신설 기타공사.pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>

@@ -1,0 +1,967 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2017-01-000027-01</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">경부고속철도 봉담1교외 7개 교량 내진성능보강공사(변경공고)</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	13,052,000,000 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	11,865,454,546 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	장기계속
+	                    	
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	
+	                    	적격심사
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>38-1. 300억미만 100억이상</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	79.995 %
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2017-05-15 17:01</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2017-05-23 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td>2017-05-23 18:00</td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2017-05-17 09:00 ~ 2017-05-24 10:00</td>
+	                    <th>개찰일시</th>
+	                    <td>2017-05-24 14:00</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>박진우</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		13,071,068,645 원 (100.146%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>1298131555</td>
+						<td>코벡(주)</td>
+						<td>김정현</td>
+						
+						
+							
+							
+								<td>10,461,829,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.038
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-24 09:03:47</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>2028160414</td>
+						<td>(주)선하에스티</td>
+						<td>이주연</td>
+						
+						
+							
+							
+								<td>10,462,899,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.046
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-23 16:15:28</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>2128148528</td>
+						<td>(주)케이에스씨건설</td>
+						<td>정희공</td>
+						
+						
+							
+							
+								<td>10,484,564,450</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.212
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-24 09:09:03</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>1208101957</td>
+						<td>쌍용건설(주)</td>
+						<td>김석준</td>
+						
+						
+							
+							
+								<td>10,497,538,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.311
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-24 09:21:56</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>5148126890</td>
+						<td>주식회사 신행건설</td>
+						<td>정영화</td>
+						
+						
+							
+							
+								<td>10,508,813,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.398
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-24 09:20:12</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>4128116024</td>
+						<td>지엘기술 주식회사</td>
+						<td>윤인구</td>
+						
+						
+							
+							
+								<td>10,513,553,800</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.434
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-24 09:13:28</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>2148186004</td>
+						<td>주식회사 거성토건</td>
+						<td>강재봉</td>
+						
+						
+							
+							
+								<td>10,514,112,300</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.438
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-24 08:28:49</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>2138613798</td>
+						<td>(주)대한하이텍건설</td>
+						<td>이평원</td>
+						
+						
+							
+							
+								<td>10,573,584,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.893
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-22 19:12:20</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>2198123964</td>
+						<td>원화코퍼레이션(주)</td>
+						<td>조성종</td>
+						
+						
+							
+							
+								<td>10,597,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									81.072
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-24 09:26:35</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>1198133745</td>
+						<td>매일엔지니어링(주)</td>
+						<td>이기욱</td>
+						
+						
+							
+							
+								<td>10,636,846,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									81.377
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-23 18:47:11</td>
+					</tr>
+					
+					
+					<tr>
+						<td>11</td>
+						<td>5028139844</td>
+						<td>(주)오래건설</td>
+						<td>곽범구</td>
+						
+						
+							
+							
+								<td>10,644,137,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									81.433
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-23 14:56:46</td>
+					</tr>
+					
+					
+					<tr>
+						<td>12</td>
+						<td>2218123555</td>
+						<td>(주)삼우아이엠씨</td>
+						<td>김기헌</td>
+						
+						
+							
+							
+								<td>10,371,846,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.350
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-24 09:31:09</td>
+					</tr>
+					
+					
+					<tr>
+						<td>13</td>
+						<td>2128174220</td>
+						<td>홍용종합건설(주)</td>
+						<td>정영승</td>
+						
+						
+							
+							
+								<td>10,377,500,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.393
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-23 16:55:34</td>
+					</tr>
+					
+					
+					<tr>
+						<td>14</td>
+						<td>2158150552</td>
+						<td>용일토건(주)</td>
+						<td>박준상</td>
+						
+						
+							
+							
+								<td>10,398,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.550
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-24 09:17:41</td>
+					</tr>
+					
+					
+					<tr>
+						<td>15</td>
+						<td>1388162917</td>
+						<td>주식회사 다인건설</td>
+						<td>문지훈</td>
+						
+						
+							
+							
+								<td>10,398,637,216</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.555
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-24 09:37:54</td>
+					</tr>
+					
+					
+					<tr>
+						<td>16</td>
+						<td>2158661224</td>
+						<td>(주)이레하이테크이앤씨</td>
+						<td>장병하</td>
+						
+						
+							
+							
+								<td>10,420,065,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.719
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-24 07:42:59</td>
+					</tr>
+					
+					
+					<tr>
+						<td>17</td>
+						<td>2128172028</td>
+						<td>리플래시건설 주식회사</td>
+						<td>조근호</td>
+						
+						
+							
+							
+								<td>10,430,193,200</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.796
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-24 09:14:38</td>
+					</tr>
+					
+					
+					<tr>
+						<td>18</td>
+						<td>5138110740</td>
+						<td>주식회사 천일건설</td>
+						<td>황기진</td>
+						
+						
+							
+							
+								<td>10,435,721,800</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.838
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2017-05-24 09:38:07</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_경부고속철도 봉담1교외 7개 교량 내진성능보강공사(변경공고).pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>

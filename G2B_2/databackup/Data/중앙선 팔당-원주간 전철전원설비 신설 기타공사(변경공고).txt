@@ -1,0 +1,1240 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2008-01-000103-01</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">중앙선 팔당-원주간 전철전원설비 신설 기타공사(변경공고)</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	14,602,665,000 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	13,275,150,000 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	장기계속
+	                    	
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	
+	                    	적격심사
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>38-1. 300억미만 100억이상</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	79.995 %
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2008-11-26 11:34</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2008-12-16 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td>2008-12-17 12:00</td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2008-11-26 09:00 ~ 2008-12-17 12:00</td>
+	                    <th>개찰일시</th>
+	                    <td>2008-12-17 13:00</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>남희목</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		14,307,546,600 원 (97.979%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>4148100061</td>
+						<td>동광전업주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,458,988,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.091
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 10:16:24</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>4098107742</td>
+						<td>주식회사 삼원전력</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,497,210,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.358
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 09:58:00</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>2108108684</td>
+						<td>주식회사 대금이앤아이</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,721,400,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									81.925
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 09:33:01</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>2058126341</td>
+						<td>종합전기 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,781,443,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									82.344
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 09:44:18</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>6108112224</td>
+						<td>주식회사 창운</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,282,036,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									78.854
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 09:58:00</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>1248667922</td>
+						<td>일진전기 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,296,482,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									78.955
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 10:11:34</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>1138107384</td>
+						<td>지에스네오텍 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,307,337,361</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.031
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 10:21:06</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>6028142993</td>
+						<td>주식회사 한진중공업</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,330,600,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.193
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 11:50:37</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>1208101957</td>
+						<td>쌍용건설(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,356,776,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.376
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 09:57:39</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>1128120900</td>
+						<td>(주)조일이씨에스</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,358,761,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.390
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 09:06:01</td>
+					</tr>
+					
+					
+					<tr>
+						<td>11</td>
+						<td>1118112315</td>
+						<td>상명개발 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,361,300,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.408
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-16 09:04:27</td>
+					</tr>
+					
+					
+					<tr>
+						<td>12</td>
+						<td>1048158180</td>
+						<td>주식회사 대우건설</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,366,025,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.441
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 10:29:48</td>
+					</tr>
+					
+					
+					<tr>
+						<td>13</td>
+						<td>2018145685</td>
+						<td>동부건설 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,380,028,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.539
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 11:20:02</td>
+					</tr>
+					
+					
+					<tr>
+						<td>14</td>
+						<td>1198116692</td>
+						<td>주식회사 서우건설산업</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,381,768,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.551
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 09:38:16</td>
+					</tr>
+					
+					
+					<tr>
+						<td>15</td>
+						<td>1148137654</td>
+						<td>(주)미동이엔씨</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,397,625,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.662
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 08:53:34</td>
+					</tr>
+					
+					
+					<tr>
+						<td>16</td>
+						<td>1148158853</td>
+						<td>현대산업개발(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,398,365,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.667
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 08:21:30</td>
+					</tr>
+					
+					
+					<tr>
+						<td>17</td>
+						<td>1148116377</td>
+						<td>롯데건설(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,403,503,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.703
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 10:30:41</td>
+					</tr>
+					
+					
+					<tr>
+						<td>18</td>
+						<td>2148720571</td>
+						<td>현대엠코(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,405,157,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.714
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 08:32:09</td>
+					</tr>
+					
+					
+					<tr>
+						<td>19</td>
+						<td>1048118121</td>
+						<td>지에스건설 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,411,679,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.760
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 10:41:45</td>
+					</tr>
+					
+					
+					<tr>
+						<td>20</td>
+						<td>1018116293</td>
+						<td>현대건설 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,422,312,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.834
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 10:42:56</td>
+					</tr>
+					
+					
+					<tr>
+						<td>21</td>
+						<td>1088142910</td>
+						<td>주식회사 세온이엠에스</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,429,380,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.884
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-16 13:24:11</td>
+					</tr>
+					
+					
+					<tr>
+						<td>22</td>
+						<td>1018100452</td>
+						<td>삼환기업(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,430,251,728</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.890
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 09:06:58</td>
+					</tr>
+					
+					
+					<tr>
+						<td>23</td>
+						<td>2098113590</td>
+						<td>(주)통광</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,438,270,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.946
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 09:26:42</td>
+					</tr>
+					
+					
+					<tr>
+						<td>24</td>
+						<td>2098106236</td>
+						<td>(합) 고려공업기업사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,441,331,644</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.967
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-12-17 10:17:35</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_중앙선 팔당-원주간 전철전원설비 신설 기타공사(변경공고).pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>

@@ -1,0 +1,9 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+    element = WebDriverWait(driver, 60).until(EC.visibility_of_element_located((By.XPath, '//a[@class=\"ui-dialog-titlebar-close ui-corner-all\"]')))
+
+"""
+Waiting for some element to show up on the monitor. Implement it later!

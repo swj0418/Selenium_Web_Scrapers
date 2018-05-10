@@ -1,0 +1,823 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2012-01-000101-00</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">경부고속철도 취약변전설비 개량 봉담PP외 7개소 인출모선 분리용 부하개폐기 설치 등 공사(긴급)</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	1,875,871,000 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	1,705,337,273 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	장기계속
+	                    	
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	
+	                    	적격심사
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>35-1. 50억미만 3억이상(전기,통신,소방)</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	86.335 %
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2012-09-06 18:11</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2012-09-12 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td>2012-09-12 18:00</td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2012-09-11 09:00 ~ 2012-09-13 14:00</td>
+	                    <th>개찰일시</th>
+	                    <td>2012-09-13 15:00</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>최영택</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		1,845,485,735 원 (98.38%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>1208117027</td>
+						<td>세안이엔씨 주식회사</td>
+						<td>이은상</td>
+						
+						
+							
+							
+								<td>1,594,959,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.425
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-13 11:29:08</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>1198107631</td>
+						<td>승아전기(주)</td>
+						<td>김태훈</td>
+						
+						
+							
+							
+								<td>1,616,853,550</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.611
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-13 13:46:06</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>1148137654</td>
+						<td>(주)미동이엔씨</td>
+						<td>이병복</td>
+						
+						
+							
+							
+								<td>1,631,538,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.407
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-11 17:30:45</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>1258157058</td>
+						<td>주식회사 일렉이십일</td>
+						<td>최말자</td>
+						
+						
+							
+							<td>자격부적격</td>
+							<td>자격부적격</td>
+							
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-13 11:03:07</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>1338140499</td>
+						<td>주식회사 신우전기</td>
+						<td>임선옥</td>
+						
+						
+							
+							<td>자격부적격</td>
+							<td>자격부적격</td>
+							
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-13 09:40:07</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>1248613090</td>
+						<td>주식회사 동원전력개발</td>
+						<td>정광섭</td>
+						
+						
+							
+							
+								<td>1,570,205,485</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.084
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-11 14:34:25</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>1118112315</td>
+						<td>상명개발 주식회사</td>
+						<td>최병욱</td>
+						
+						
+							
+							
+								<td>1,573,513,100</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.263
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-12 09:48:20</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>1088142910</td>
+						<td>주식회사 세온이엠에스</td>
+						<td>조규석</td>
+						
+						
+							
+							
+								<td>1,573,708,535</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.273
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-12 15:53:43</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>1348673232</td>
+						<td>유일전기(주)</td>
+						<td>최해규</td>
+						
+						
+							
+							<td>자격부적격</td>
+							<td>자격부적격</td>
+							
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-12 09:45:57</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>1118101759</td>
+						<td>신원전설(주)</td>
+						<td>심한섭</td>
+						
+						
+							
+							
+								<td>1,580,986,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.668
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-13 08:56:03</td>
+					</tr>
+					
+					
+					<tr>
+						<td>11</td>
+						<td>6158162957</td>
+						<td>(주)상원쏠라</td>
+						<td>이재성</td>
+						
+						
+							
+							<td>자격부적격</td>
+							<td>자격부적격</td>
+							
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-12 09:14:49</td>
+					</tr>
+					
+					
+					<tr>
+						<td>12</td>
+						<td>3048104362</td>
+						<td>주식회사 건주</td>
+						<td>안병만</td>
+						
+						
+							
+							
+								<td>1,583,531,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.806
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-13 07:35:31</td>
+					</tr>
+					
+					
+					<tr>
+						<td>13</td>
+						<td>5058106056</td>
+						<td>주식회사 거산</td>
+						<td>권철순</td>
+						
+						
+							
+							<td>자격부적격</td>
+							<td>자격부적격</td>
+							
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-12 09:33:18</td>
+					</tr>
+					
+					
+					<tr>
+						<td>14</td>
+						<td>1198127199</td>
+						<td>대영종합산기 주식회사</td>
+						<td>이제순</td>
+						
+						
+							
+							
+								<td>1,587,714,259</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.032
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-13 10:02:17</td>
+					</tr>
+					
+					
+					<tr>
+						<td>15</td>
+						<td>5088101201</td>
+						<td>(주)삼영전업사</td>
+						<td>권준찬</td>
+						
+						
+							
+							<td>자격부적격</td>
+							<td>자격부적격</td>
+							
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-13 11:26:24</td>
+					</tr>
+					
+					
+					<tr>
+						<td>16</td>
+						<td>1358195103</td>
+						<td>주식회사 삼우이엔지</td>
+						<td>임향빈</td>
+						
+						
+							
+							<td>자격부적격</td>
+							<td>자격부적격</td>
+							
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-12 14:30:24</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_경부고속철도 취약변전설비 개량 봉담PP외 7개소 인출모선 분리용 부하개폐기 설치 등 공사(긴급).pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>

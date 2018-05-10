@@ -1,0 +1,1066 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2010-01-000078-00</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">오리~수원 복선전철(죽전~기흥)궤도공사</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	8,684,858,493 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	8,684,858,493 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	장기계속
+	                    	
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	
+	                    	적격심사
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>37-1. 100억미만 50억이상</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	85.495 %
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2010-07-30 17:41</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2010-08-15 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td>2010-08-15 18:00</td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2010-08-09 09:00 ~ 2010-08-16 12:00</td>
+	                    <th>개찰일시</th>
+	                    <td>2010-08-16 13:00</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>이경희</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		8,537,144,248 원 (98.299%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>6178110396</td>
+						<td>신춘토건(주)</td>
+						<td>김영근</td>
+						
+						
+							
+							
+								<td>7,317,455,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.713
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-13 14:23:09</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>5028147209</td>
+						<td>천운궤도(주)</td>
+						<td>강훈</td>
+						
+						
+							
+							
+								<td>7,344,440,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.029
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-16 11:05:56</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>1018150312</td>
+						<td>(주)대한철도</td>
+						<td>여대식</td>
+						
+						
+							
+							
+								<td>7,455,340,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.328
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-13 17:03:40</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>3048113560</td>
+						<td>주식회사 학산철도</td>
+						<td>김병락</td>
+						
+						
+							
+							
+								<td>7,492,339,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.762
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-13 15:34:27</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>5138100034</td>
+						<td>(주)지아이블루</td>
+						<td>김인철</td>
+						
+						
+							
+							
+								<td>7,531,276,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.218
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-16 11:21:30</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>1068623095</td>
+						<td>상경토건주식회사</td>
+						<td>이경자</td>
+						
+						
+							
+							
+								<td>8,480,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									99.331
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-16 11:24:40</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>1028134557</td>
+						<td>삼표피앤씨(주)</td>
+						<td>이종수</td>
+						
+						
+							
+							
+								<td>7,182,320,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.130
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-16 09:38:06</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>1108164367</td>
+						<td>골드레일로드(주)</td>
+						<td>박대규</td>
+						
+						
+							
+							
+								<td>7,184,430,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.155
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-16 11:46:20</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>5060698192</td>
+						<td>C.R.K(콘티넨탈레일코리아)</td>
+						<td>오삼택</td>
+						
+						
+							
+							
+								<td>7,201,319,800</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.353
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-16 11:39:33</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>3088111434</td>
+						<td>화성궤도(주)</td>
+						<td>강영기</td>
+						
+						
+							
+							
+								<td>7,224,540,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.625
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-16 10:33:33</td>
+					</tr>
+					
+					
+					<tr>
+						<td>11</td>
+						<td>1068100044</td>
+						<td>궤도공영(주)</td>
+						<td>정상구</td>
+						
+						
+							
+							
+								<td>7,232,742,300</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.721
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-16 11:09:35</td>
+					</tr>
+					
+					
+					<tr>
+						<td>12</td>
+						<td>1288142364</td>
+						<td>(주)한일철도</td>
+						<td>김만권</td>
+						
+						
+							
+							
+								<td>7,237,360,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.775
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-13 14:42:03</td>
+					</tr>
+					
+					
+					<tr>
+						<td>13</td>
+						<td>1298130124</td>
+						<td>(주) 한미철도</td>
+						<td>박인규</td>
+						
+						
+							
+							
+								<td>7,241,650,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.825
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-16 10:51:52</td>
+					</tr>
+					
+					
+					<tr>
+						<td>14</td>
+						<td>1208116620</td>
+						<td>삼동랜드(주)</td>
+						<td>이홍수</td>
+						
+						
+							
+							
+								<td>7,247,800,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.897
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-16 10:44:10</td>
+					</tr>
+					
+					
+					<tr>
+						<td>15</td>
+						<td>3058173178</td>
+						<td>코레일테크(주)</td>
+						<td>이달호</td>
+						
+						
+							
+							
+								<td>7,251,060,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.935
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-16 11:20:15</td>
+					</tr>
+					
+					
+					<tr>
+						<td>16</td>
+						<td>1128138166</td>
+						<td>화성종합엔지니어링 주식회사</td>
+						<td>고영조</td>
+						
+						
+							
+							
+								<td>7,255,480,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.987
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-16 10:59:09</td>
+					</tr>
+					
+					
+					<tr>
+						<td>17</td>
+						<td>1048623333</td>
+						<td>주식회사 미래로드</td>
+						<td>김승준</td>
+						
+						
+							
+							
+								<td>7,262,695,300</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.072
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-16 11:26:11</td>
+					</tr>
+					
+					
+					<tr>
+						<td>18</td>
+						<td>5028133777</td>
+						<td>동원궤도주식회사</td>
+						<td>이형규</td>
+						
+						
+							
+							
+								<td>7,263,188,900</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.078
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-16 11:49:26</td>
+					</tr>
+					
+					
+					<tr>
+						<td>19</td>
+						<td>2068167739</td>
+						<td>주식회사팬트랙</td>
+						<td>노명수</td>
+						
+						
+							
+							
+								<td>7,265,940,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.110
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-16 10:35:07</td>
+					</tr>
+					
+					
+					<tr>
+						<td>20</td>
+						<td>6048128610</td>
+						<td>(주)대륙철도</td>
+						<td>양석우</td>
+						
+						
+							
+							
+								<td>7,288,629,300</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.375
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-08-16 10:46:42</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_오리~수원 복선전철(죽전~기흥)궤도공사.pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>

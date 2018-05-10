@@ -1,0 +1,1204 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2010-01-000004-00</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">경부고속철도 2단계 오송역 신호설비 신설공사(긴급)</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	4,371,810,000 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	3,974,372,727 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	장기계속
+	                    	
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	
+	                    	적격심사
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>15. 50억미만 3억이상(전기,통신,소방)</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	86.335 %
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2010-01-12 18:03</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2010-01-18 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td>2010-01-18 18:00</td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2010-01-14 09:00 ~ 2010-01-19 14:00</td>
+	                    <th>개찰일시</th>
+	                    <td>2010-01-19 15:30</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>최석주</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		4,266,848,744 원 (97.599%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>6138116990</td>
+						<td>주식회사 대영전설</td>
+						<td>김태효</td>
+						
+						
+							
+							
+								<td>3,685,537,640</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.376
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-19 08:48:31</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>1138107384</td>
+						<td>지에스네오텍 주식회사</td>
+						<td>최성진</td>
+						
+						
+							
+							
+								<td>3,687,860,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.431
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-19 13:12:40</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>3158103169</td>
+						<td>금강엔지니어링주식회사</td>
+						<td>박종갑</td>
+						
+						
+							
+							
+								<td>3,689,189,200</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.462
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-19 10:29:53</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>2178115115</td>
+						<td>영승전력주식회사</td>
+						<td>정현용</td>
+						
+						
+							
+							
+								<td>3,693,942,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.573
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-19 11:11:30</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>4158125177</td>
+						<td>주식회사 명성이엔씨</td>
+						<td>윤화자</td>
+						
+						
+							
+							
+								<td>3,699,210,400</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.697
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-18 14:03:40</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>1198116692</td>
+						<td>주식회사 서우건설산업</td>
+						<td>이종근</td>
+						
+						
+							
+							
+								<td>3,705,957,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.855
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-19 11:39:19</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>3078107562</td>
+						<td>대광전업 주식회사</td>
+						<td>신준식</td>
+						
+						
+							
+							
+								<td>3,715,392,220</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.076
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-19 11:32:28</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>1328111424</td>
+						<td>신승전기(주)</td>
+						<td>이기용</td>
+						
+						
+							
+							
+								<td>3,717,257,710</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.120
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-18 09:06:40</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>3048108709</td>
+						<td>(주)광산전력</td>
+						<td>김시화</td>
+						
+						
+							
+							
+								<td>3,731,200,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.446
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-19 10:31:58</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>1168119273</td>
+						<td>엘에스산전(주)</td>
+						<td>구자균</td>
+						
+						
+							
+							
+								<td>3,755,400,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.013
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-19 11:56:25</td>
+					</tr>
+					
+					
+					<tr>
+						<td>11</td>
+						<td>1058110006</td>
+						<td>삼성전기산업 주식회사</td>
+						<td>정지혜</td>
+						
+						
+							
+							
+								<td>3,757,353,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.059
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-19 13:50:28</td>
+					</tr>
+					
+					
+					<tr>
+						<td>12</td>
+						<td>2178120210</td>
+						<td>현창전기(주)</td>
+						<td>한순례</td>
+						
+						
+							
+							
+								<td>3,783,970,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.683
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-14 12:09:33</td>
+					</tr>
+					
+					
+					<tr>
+						<td>13</td>
+						<td>2088114223</td>
+						<td>이성전기 주식회사</td>
+						<td>이재호</td>
+						
+						
+							
+							
+								<td>3,793,699,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.911
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-18 13:09:33</td>
+					</tr>
+					
+					
+					<tr>
+						<td>14</td>
+						<td>1058635171</td>
+						<td>태산무역 주식회사</td>
+						<td>박칠순</td>
+						
+						
+							
+							
+								<td>3,798,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									89.012
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-19 10:16:55</td>
+					</tr>
+					
+					
+					<tr>
+						<td>15</td>
+						<td>1298120422</td>
+						<td>이현종합건설(주)</td>
+						<td>박태환</td>
+						
+						
+							
+							
+								<td>3,999,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									93.723
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-19 13:22:26</td>
+					</tr>
+					
+					
+					<tr>
+						<td>16</td>
+						<td>4108131145</td>
+						<td>合資會社 瑞電社</td>
+						<td>백남길</td>
+						
+						
+							
+							
+								<td>4,185,400,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									98.091
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-18 17:00:05</td>
+					</tr>
+					
+					
+					<tr>
+						<td>17</td>
+						<td>3148147882</td>
+						<td>주식회사 신태양전기</td>
+						<td>손종필</td>
+						
+						
+							
+							
+								<td>3,646,385,766</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.459
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-18 17:31:09</td>
+					</tr>
+					
+					
+					<tr>
+						<td>18</td>
+						<td>1358142907</td>
+						<td>(주)한일전업사</td>
+						<td>성강환</td>
+						
+						
+							
+							
+								<td>3,647,742,663</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.490
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-17 20:32:37</td>
+					</tr>
+					
+					
+					<tr>
+						<td>19</td>
+						<td>6048101004</td>
+						<td>(주)협전사</td>
+						<td>문임순</td>
+						
+						
+							
+							
+								<td>3,664,906,757</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.893
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-18 17:55:58</td>
+					</tr>
+					
+					
+					<tr>
+						<td>20</td>
+						<td>2088100603</td>
+						<td>(주)전우사</td>
+						<td>김한재</td>
+						
+						
+							
+							
+								<td>3,667,435,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.952
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-19 10:24:03</td>
+					</tr>
+					
+					
+					<tr>
+						<td>21</td>
+						<td>6084089464</td>
+						<td>삼진종합전기</td>
+						<td>박부목</td>
+						
+						
+							
+							
+								<td>3,668,152,742</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.969
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-19 11:26:14</td>
+					</tr>
+					
+					
+					<tr>
+						<td>22</td>
+						<td>6098118096</td>
+						<td>대보전력 주식회사</td>
+						<td>노칠석</td>
+						
+						
+							
+							
+								<td>3,668,317,500</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.973
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-19 10:03:15</td>
+					</tr>
+					
+					
+					<tr>
+						<td>23</td>
+						<td>1198107631</td>
+						<td>승아전기(주)</td>
+						<td>김태훈</td>
+						
+						
+							
+							
+								<td>3,675,920,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.151
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-19 13:12:52</td>
+					</tr>
+					
+					
+					<tr>
+						<td>24</td>
+						<td>3158102457</td>
+						<td>주식회사 극동전기</td>
+						<td>민경임</td>
+						
+						
+							
+							
+								<td>3,681,095,160</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.272
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2010-01-18 17:12:15</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_경부고속철도 2단계 오송역 신호설비 신설공사(긴급).pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>

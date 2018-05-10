@@ -1,0 +1,1402 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2014-01-000004-00</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">오송역 홈지붕 신축 기타공사(긴급)</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	9,212,207,000 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	8,388,194,978 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	장기계속
+	                    	
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	
+	                    	적격심사
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>37-1. 100억미만 50억이상</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	85.495 %
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2014-01-29 14:02</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2014-02-10 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td>2014-02-10 18:00</td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2014-02-10 09:00 ~ 2014-02-11 13:00</td>
+	                    <th>개찰일시</th>
+	                    <td>2014-02-11 14:00</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>김지영</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		8,972,562,719 원 (97.398%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>3178115701</td>
+						<td>성아건설(주)</td>
+						<td>최주석</td>
+						
+						
+							
+							
+								<td>7,675,635,160</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.546
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 09:01:36</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>3018166826</td>
+						<td>성림건설산업주식회사</td>
+						<td>이재관</td>
+						
+						
+							
+							
+								<td>7,683,172,473</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.630
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-10 15:11:03</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>3018153035</td>
+						<td>주식회사 두진건설</td>
+						<td>곽희순</td>
+						
+						
+							
+							
+								<td>7,694,452,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.755
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 09:23:03</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>3018119323</td>
+						<td>주식회사 원건설</td>
+						<td>이경애</td>
+						
+						
+							
+							
+								<td>7,697,585,500</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.790
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 11:14:02</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>1248654276</td>
+						<td>(주)두공건설산업</td>
+						<td>송준화</td>
+						
+						
+							
+							
+								<td>7,709,793,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.926
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 10:54:05</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>3018142106</td>
+						<td>명진건설(주)</td>
+						<td>박종원</td>
+						
+						
+							
+							
+								<td>7,710,580,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.935
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 09:45:25</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>3178107399</td>
+						<td>고려캐슬건설(주)</td>
+						<td>황정수</td>
+						
+						
+							
+							
+								<td>7,718,535,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.024
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 11:31:18</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>3018144308</td>
+						<td>주식회사에이스건설</td>
+						<td>신현호</td>
+						
+						
+							
+							
+								<td>7,724,860,200</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.094
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-10 10:11:06</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>3158101104</td>
+						<td>주식회사 대원</td>
+						<td>전영우</td>
+						
+						
+							
+							
+								<td>7,729,357,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.144
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 11:48:08</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>3018197111</td>
+						<td>인종합건설(주)</td>
+						<td>정기호</td>
+						
+						
+							
+							
+								<td>7,729,998,900</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.152
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-10 14:26:25</td>
+					</tr>
+					
+					
+					<tr>
+						<td>11</td>
+						<td>3038100984</td>
+						<td>주식회사 안도종합건설</td>
+						<td>박철우</td>
+						
+						
+							
+							
+								<td>7,736,768,492</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.227
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 09:23:56</td>
+					</tr>
+					
+					
+					<tr>
+						<td>12</td>
+						<td>3018168163</td>
+						<td>지평건설(주)</td>
+						<td>송성섭</td>
+						
+						
+							
+							
+								<td>7,781,228,380</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									86.722
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 11:10:55</td>
+					</tr>
+					
+					
+					<tr>
+						<td>13</td>
+						<td>3038116415</td>
+						<td>국원건설 주식회사</td>
+						<td>홍성국</td>
+						
+						
+							
+							
+								<td>7,868,975,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.700
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-10 09:43:03</td>
+					</tr>
+					
+					
+					<tr>
+						<td>14</td>
+						<td>3038128793</td>
+						<td>대덕종합건설(주)</td>
+						<td>김기명</td>
+						
+						
+							
+							
+								<td>7,875,515,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.773
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-10 09:27:52</td>
+					</tr>
+					
+					
+					<tr>
+						<td>15</td>
+						<td>1208185879</td>
+						<td>(주)동의산업</td>
+						<td>박형찬</td>
+						
+						
+							
+							
+								<td>7,915,357,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.217
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 09:05:43</td>
+					</tr>
+					
+					
+					<tr>
+						<td>16</td>
+						<td>3018105756</td>
+						<td>대림건설산업 주식회사</td>
+						<td>정웅열</td>
+						
+						
+							
+							
+								<td>7,927,414,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.352
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 08:51:15</td>
+					</tr>
+					
+					
+					<tr>
+						<td>17</td>
+						<td>3018118305</td>
+						<td>대화건설 주식회사</td>
+						<td>이화련</td>
+						
+						
+							
+							
+								<td>7,963,468,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.754
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-10 11:14:59</td>
+					</tr>
+					
+					
+					<tr>
+						<td>18</td>
+						<td>3018154617</td>
+						<td>(주)신한진건설</td>
+						<td>김재선</td>
+						
+						
+							
+							
+								<td>7,986,385,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									89.009
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-10 15:03:52</td>
+					</tr>
+					
+					
+					<tr>
+						<td>19</td>
+						<td>3158134847</td>
+						<td>성익건설 주식회사</td>
+						<td>이윤구</td>
+						
+						
+							
+							
+								<td>7,993,892,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									89.093
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 08:59:15</td>
+					</tr>
+					
+					
+					<tr>
+						<td>20</td>
+						<td>3018154316</td>
+						<td>대신토건  주식회사</td>
+						<td>김영석</td>
+						
+						
+							
+							
+								<td>8,080,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									90.052
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-10 10:49:12</td>
+					</tr>
+					
+					
+					<tr>
+						<td>21</td>
+						<td>3018121998</td>
+						<td>주식회사 두성기업</td>
+						<td>윤인기</td>
+						
+						
+							
+							
+								<td>7,587,715,640</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.566
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 09:51:28</td>
+					</tr>
+					
+					
+					<tr>
+						<td>22</td>
+						<td>3018145869</td>
+						<td>선광토건(주)</td>
+						<td>황원구</td>
+						
+						
+							
+							
+								<td>7,612,375,320</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									84.841
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 10:51:51</td>
+					</tr>
+					
+					
+					<tr>
+						<td>23</td>
+						<td>3018173157</td>
+						<td>리드종합건설주식회사</td>
+						<td>오상혁</td>
+						
+						
+							
+							
+								<td>7,628,579,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.021
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 09:43:39</td>
+					</tr>
+					
+					
+					<tr>
+						<td>24</td>
+						<td>3018158684</td>
+						<td>(주)심우</td>
+						<td>오덕진</td>
+						
+						
+							
+							
+								<td>7,640,878,480</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.158
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 11:58:48</td>
+					</tr>
+					
+					
+					<tr>
+						<td>25</td>
+						<td>3158120630</td>
+						<td>삼보종합건설 주식회사</td>
+						<td>유봉기</td>
+						
+						
+							
+							
+								<td>7,650,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.260
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 09:49:07</td>
+					</tr>
+					
+					
+					<tr>
+						<td>26</td>
+						<td>3058124997</td>
+						<td>주식회사 용상건설</td>
+						<td>김겸순</td>
+						
+						
+							
+							
+								<td>7,651,919,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.281
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-10 10:08:30</td>
+					</tr>
+					
+					
+					<tr>
+						<td>27</td>
+						<td>3018170903</td>
+						<td>배경산업개발(주)</td>
+						<td>유희춘</td>
+						
+						
+							
+							
+								<td>7,660,143,120</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.373
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-10 13:28:42</td>
+					</tr>
+					
+					
+					<tr>
+						<td>28</td>
+						<td>3048106564</td>
+						<td>주식회사 대화종합건설</td>
+						<td>이기성</td>
+						
+						
+							
+							
+								<td>7,662,687,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.401
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 09:23:09</td>
+					</tr>
+					
+					
+					<tr>
+						<td>29</td>
+						<td>3038136857</td>
+						<td>일진건설산업 주식회사</td>
+						<td>신효원</td>
+						
+						
+							
+							
+								<td>7,666,633,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.445
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2014-02-11 10:04:34</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_오송역 홈지붕 신축 기타공사(긴급).pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>

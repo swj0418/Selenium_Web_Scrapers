@@ -1,0 +1,1693 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2012-01-000098-00</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">공항철도 청라역 신설 노반 기타공사(긴급)</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	22,199,678,000 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	22,199,678,000 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	장기계속
+	                    	
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	PQ
+	                    	
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>38-1. 300억미만 100억이상</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	79.995 %
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2012-08-31 17:10</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2012-09-27 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td>2012-09-17 18:00</td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2012-09-24 09:00 ~ 2012-09-28 14:00</td>
+	                    <th>개찰일시</th>
+	                    <td>2012-09-28 15:00</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>안충일</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		21,688,027,591 원 (97.695%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>1068144682</td>
+						<td>고려개발 주식회사</td>
+						<td>유장현</td>
+						
+						
+							
+							
+								<td>17,349,828,699</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.997
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 10:53:12</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>1168135007</td>
+						<td>대림산업 주식회사</td>
+						<td>김윤</td>
+						
+						
+							
+							
+								<td>17,353,735,500</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.015
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 10:01:08</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>1048126728</td>
+						<td>삼성물산(주)</td>
+						<td>정연주</td>
+						
+						
+							
+							
+								<td>17,362,437,327</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.055
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 13:30:01</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>1208150012</td>
+						<td>코오롱글로벌 주식회사</td>
+						<td>안병덕</td>
+						
+						
+							
+							
+								<td>17,366,166,640</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.073
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 10:37:21</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>1028131754</td>
+						<td>두산건설 주식회사</td>
+						<td>최종일</td>
+						
+						
+							
+							
+								<td>17,372,530,890</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.102
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 11:50:20</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>1048100771</td>
+						<td>삼부토건 주식회사</td>
+						<td>정해길</td>
+						
+						
+							
+							
+								<td>17,389,093,100</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.178
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 13:39:55</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>1048131309</td>
+						<td>금호산업(주)</td>
+						<td>기옥</td>
+						
+						
+							
+							
+								<td>17,389,377,180</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.180
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 11:06:04</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>5068102280</td>
+						<td>주식회사 포스코건설</td>
+						<td>정동화</td>
+						
+						
+							
+							
+								<td>17,389,466,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.180
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 13:38:14</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>2208122460</td>
+						<td>한일건설 주식회사</td>
+						<td>장현</td>
+						
+						
+							
+							
+								<td>17,391,029,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.187
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-27 10:40:52</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>2148169965</td>
+						<td>(주)케이씨씨건설</td>
+						<td>정몽열</td>
+						
+						
+							
+							
+								<td>17,428,400,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.360
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 13:01:23</td>
+					</tr>
+					
+					
+					<tr>
+						<td>11</td>
+						<td>2018145685</td>
+						<td>동부건설 주식회사</td>
+						<td>이순병</td>
+						
+						
+							
+							
+								<td>17,445,015,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.436
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 10:47:17</td>
+					</tr>
+					
+					
+					<tr>
+						<td>12</td>
+						<td>1058174543</td>
+						<td>주식회사 태영건설</td>
+						<td>김외곤</td>
+						
+						
+							
+							
+								<td>17,467,391,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.539
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 13:25:30</td>
+					</tr>
+					
+					
+					<tr>
+						<td>13</td>
+						<td>1388108534</td>
+						<td>주식회사 동양건설산업</td>
+						<td>이주원</td>
+						
+						
+							
+							
+								<td>17,468,456,370</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.544
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 12:10:45</td>
+					</tr>
+					
+					
+					<tr>
+						<td>14</td>
+						<td>1148100481</td>
+						<td>주식회사 건영</td>
+						<td>강희용</td>
+						
+						
+							
+							
+								<td>17,469,610,700</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.550
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-27 13:52:45</td>
+					</tr>
+					
+					
+					<tr>
+						<td>15</td>
+						<td>1068133808</td>
+						<td>신동아건설 주식회사</td>
+						<td>김용선</td>
+						
+						
+							
+							
+								<td>17,483,374,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.613
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 10:44:41</td>
+					</tr>
+					
+					
+					<tr>
+						<td>16</td>
+						<td>1108128978</td>
+						<td>글로웨이 주식회사</td>
+						<td>이낙영</td>
+						
+						
+							
+							
+								<td>17,492,252,930</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.654
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 11:10:06</td>
+					</tr>
+					
+					
+					<tr>
+						<td>17</td>
+						<td>2148655210</td>
+						<td>대우조선해양건설 주식회사</td>
+						<td>정재영</td>
+						
+						
+							
+							
+								<td>17,506,158,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.718
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 13:09:54</td>
+					</tr>
+					
+					
+					<tr>
+						<td>18</td>
+						<td>1048158180</td>
+						<td>주식회사 대우건설</td>
+						<td>서종욱</td>
+						
+						
+							
+							
+								<td>17,646,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									81.363
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 10:20:17</td>
+					</tr>
+					
+					
+					<tr>
+						<td>19</td>
+						<td>5018100050</td>
+						<td>화성산업주식회사</td>
+						<td>이홍중</td>
+						
+						
+							
+							
+								<td>18,586,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									85.697
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 10:34:55</td>
+					</tr>
+					
+					
+					<tr>
+						<td>20</td>
+						<td>6098104684</td>
+						<td>두산중공업 주식회사</td>
+						<td>한기선</td>
+						
+						
+							
+							
+								<td>18,941,570,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									87.337
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 10:37:05</td>
+					</tr>
+					
+					
+					<tr>
+						<td>21</td>
+						<td>1208152780</td>
+						<td>삼성중공업(주)</td>
+						<td>노인식</td>
+						
+						
+							
+							
+								<td>19,136,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									88.233
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 13:20:28</td>
+					</tr>
+					
+					
+					<tr>
+						<td>22</td>
+						<td>1168105522</td>
+						<td>경남기업(주)</td>
+						<td>김호영</td>
+						
+						
+							
+							
+								<td>17,195,705,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.287
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 11:58:53</td>
+					</tr>
+					
+					
+					<tr>
+						<td>23</td>
+						<td>1148158853</td>
+						<td>현대산업개발(주)</td>
+						<td>박창민</td>
+						
+						
+							
+							
+								<td>17,207,618,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.342
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 13:22:49</td>
+					</tr>
+					
+					
+					<tr>
+						<td>24</td>
+						<td>1108100214</td>
+						<td>東亞建設産業 株式會社</td>
+						<td>이보근</td>
+						
+						
+							
+							
+								<td>17,208,584,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.346
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 10:24:53</td>
+					</tr>
+					
+					
+					<tr>
+						<td>25</td>
+						<td>1148116377</td>
+						<td>롯데건설(주)</td>
+						<td>박창규</td>
+						
+						
+							
+							
+								<td>17,213,332,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.368
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 10:06:18</td>
+					</tr>
+					
+					
+					<tr>
+						<td>26</td>
+						<td>3148107954</td>
+						<td>계룡건설산업 주식회사</td>
+						<td>한승구</td>
+						
+						
+							
+							
+								<td>17,220,545,800</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.401
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 13:23:05</td>
+					</tr>
+					
+					
+					<tr>
+						<td>27</td>
+						<td>1108114611</td>
+						<td>주식회사 한양</td>
+						<td>박상진</td>
+						
+						
+							
+							
+								<td>17,238,126,900</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.482
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 10:32:44</td>
+					</tr>
+					
+					
+					<tr>
+						<td>28</td>
+						<td>1058129640</td>
+						<td>일성건설(주)</td>
+						<td>오세익</td>
+						
+						
+							
+							
+								<td>17,240,081,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.491
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 08:19:46</td>
+					</tr>
+					
+					
+					<tr>
+						<td>29</td>
+						<td>1208101957</td>
+						<td>쌍용건설(주)</td>
+						<td>김석준</td>
+						
+						
+							
+							
+								<td>17,240,436,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.493
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 11:11:18</td>
+					</tr>
+					
+					
+					<tr>
+						<td>30</td>
+						<td>1058113677</td>
+						<td>성지건설 주식회사</td>
+						<td>이관호</td>
+						
+						
+							
+							
+								<td>17,241,501,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.498
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 10:00:36</td>
+					</tr>
+					
+					
+					<tr>
+						<td>31</td>
+						<td>1208165984</td>
+						<td>주식회사 호반산업</td>
+						<td>강현정</td>
+						
+						
+							
+							
+								<td>17,256,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.565
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 10:19:07</td>
+					</tr>
+					
+					
+					<tr>
+						<td>32</td>
+						<td>1028134561</td>
+						<td>주식회사 삼호</td>
+						<td>김한기</td>
+						
+						
+							
+							
+								<td>17,275,970,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.657
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 13:36:29</td>
+					</tr>
+					
+					
+					<tr>
+						<td>33</td>
+						<td>3138102806</td>
+						<td>대보건설(주)</td>
+						<td>송황근</td>
+						
+						
+							
+							
+								<td>17,292,114,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.731
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 08:44:54</td>
+					</tr>
+					
+					
+					<tr>
+						<td>34</td>
+						<td>1148104605</td>
+						<td>한신공영(주)</td>
+						<td>태기전</td>
+						
+						
+							
+							
+								<td>17,294,599,360</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.743
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 11:19:19</td>
+					</tr>
+					
+					
+					<tr>
+						<td>35</td>
+						<td>6028142993</td>
+						<td>주식회사 한진중공업</td>
+						<td>송화영</td>
+						
+						
+							
+							
+								<td>17,310,220,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.815
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 11:54:41</td>
+					</tr>
+					
+					
+					<tr>
+						<td>36</td>
+						<td>2158140656</td>
+						<td>주식회사 한라</td>
+						<td>정무현</td>
+						
+						
+							
+							
+								<td>17,341,819,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.960
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2012-09-28 09:12:52</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_공항철도 청라역 신설 노반 기타공사(긴급).pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>

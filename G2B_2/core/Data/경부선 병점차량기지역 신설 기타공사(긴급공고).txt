@@ -1,0 +1,1642 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2008-01-000037-00</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">경부선 병점차량기지역 신설 기타공사(긴급공고)</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	12,907,906,000 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	12,907,906,000 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	장기계속
+	                    	
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	
+	                    	적격심사
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>38-1. 300억미만 100억이상</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	79.995 %
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2008-06-23 18:49</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2008-07-14 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td>2008-07-15 14:00</td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2008-06-30 09:00 ~ 2008-07-15 14:00</td>
+	                    <th>개찰일시</th>
+	                    <td>2008-07-15 15:00</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>조복형</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		12,675,180,972 원 (98.197%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>1208150012</td>
+						<td>코오롱글로벌 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,144,257,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.032
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 11:51:21</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>1168125566</td>
+						<td>碧山建設 株式會社</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,144,866,500</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.037
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 10:01:30</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>1388108534</td>
+						<td>주식회사 동양건설산업</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,156,113,400</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.126
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 11:42:12</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>1238131372</td>
+						<td>홍익산업개발(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,167,180,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.213
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 10:59:08</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>2018145083</td>
+						<td>극동건설 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,249,662,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.864
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 09:34:50</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>1248198702</td>
+						<td>엘디건설주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,250,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.867
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 09:37:25</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>2208122460</td>
+						<td>한일건설 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,354,137,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									81.688
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 08:47:30</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>1288113398</td>
+						<td>영도건설산업 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,355,906,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									81.702
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 09:58:44</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>1208102072</td>
+						<td>일광이앤씨 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,558,400,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									83.300
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 13:10:19</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>3148107954</td>
+						<td>계룡건설산업 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>11,484,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									90.602
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 13:00:37</td>
+					</tr>
+					
+					
+					<tr>
+						<td>11</td>
+						<td>1248125359</td>
+						<td>국제산업(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,013,663,190</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.002
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-14 18:19:57</td>
+					</tr>
+					
+					
+					<tr>
+						<td>12</td>
+						<td>5068106781</td>
+						<td>동양종합건설(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,014,753,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.011
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-14 16:41:47</td>
+					</tr>
+					
+					
+					<tr>
+						<td>13</td>
+						<td>2208110116</td>
+						<td>풍림산업 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,016,116,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.021
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 13:20:45</td>
+					</tr>
+					
+					
+					<tr>
+						<td>14</td>
+						<td>1388101773</td>
+						<td>에스엠상선 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,020,039,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.052
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-14 18:27:30</td>
+					</tr>
+					
+					
+					<tr>
+						<td>15</td>
+						<td>2208119330</td>
+						<td>(주)서희건설</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,020,660,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.057
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 11:02:30</td>
+					</tr>
+					
+					
+					<tr>
+						<td>16</td>
+						<td>1058111500</td>
+						<td>이화공영주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,036,560,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.183
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 11:01:35</td>
+					</tr>
+					
+					
+					<tr>
+						<td>17</td>
+						<td>1068144682</td>
+						<td>고려개발 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,036,560,400</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.183
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 11:08:14</td>
+					</tr>
+					
+					
+					<tr>
+						<td>18</td>
+						<td>1208101995</td>
+						<td>남광토건 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,037,799,470</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.193
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 09:54:53</td>
+					</tr>
+					
+					
+					<tr>
+						<td>19</td>
+						<td>5158127228</td>
+						<td>(주)국제개발</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,050,707,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.294
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 10:24:56</td>
+					</tr>
+					
+					
+					<tr>
+						<td>20</td>
+						<td>2098106013</td>
+						<td>(주)서광건설산업</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,050,953,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.296
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 11:39:55</td>
+					</tr>
+					
+					
+					<tr>
+						<td>21</td>
+						<td>4083161340</td>
+						<td>남해종합개발</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,064,956,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.407
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 09:17:08</td>
+					</tr>
+					
+					
+					<tr>
+						<td>22</td>
+						<td>3118106897</td>
+						<td>서진산업주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,068,931,400</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.438
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 13:31:50</td>
+					</tr>
+					
+					
+					<tr>
+						<td>23</td>
+						<td>6108129929</td>
+						<td>주식회사 창흥건설</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,071,255,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.456
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 10:54:46</td>
+					</tr>
+					
+					
+					<tr>
+						<td>24</td>
+						<td>1068133808</td>
+						<td>신동아건설 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,094,177,700</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.637
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 10:17:53</td>
+					</tr>
+					
+					
+					<tr>
+						<td>25</td>
+						<td>1058181307</td>
+						<td>우남하우징(주)</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,101,436,626</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.695
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-14 17:15:03</td>
+					</tr>
+					
+					
+					<tr>
+						<td>26</td>
+						<td>4088100028</td>
+						<td>금광기업 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,104,834,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.721
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 08:47:49</td>
+					</tr>
+					
+					
+					<tr>
+						<td>27</td>
+						<td>1168108140</td>
+						<td>벽산엔지니어링 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,106,454,900</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.734
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 10:55:16</td>
+					</tr>
+					
+					
+					<tr>
+						<td>28</td>
+						<td>1108128978</td>
+						<td>글로웨이 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,110,335,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.765
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-14 10:35:37</td>
+					</tr>
+					
+					
+					<tr>
+						<td>29</td>
+						<td>1048100771</td>
+						<td>삼부토건 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,130,813,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.926
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 10:07:49</td>
+					</tr>
+					
+					
+					<tr>
+						<td>30</td>
+						<td>2208112467</td>
+						<td>에스지신성건설주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,131,247,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.930
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 11:31:01</td>
+					</tr>
+					
+					
+					<tr>
+						<td>31</td>
+						<td>3088106533</td>
+						<td>형진건설 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>10,137,339,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.978
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 13:39:06</td>
+					</tr>
+					
+					
+					<tr>
+						<td>32</td>
+						<td>1208159629</td>
+						<td>인본건설주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>9,972,700,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									78.679
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-14 18:42:10</td>
+					</tr>
+					
+					
+					<tr>
+						<td>33</td>
+						<td>2208125657</td>
+						<td>태평양개발 주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>9,992,469,740</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									78.835
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 08:50:35</td>
+					</tr>
+					
+					
+					<tr>
+						<td>34</td>
+						<td>1268150887</td>
+						<td>화산건설주식회사</td>
+						<td></td>
+						
+						
+							
+							
+								<td>9,994,716,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									78.853
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2008-07-15 10:57:54</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_경부선 병점차량기지역 신설 기타공사(긴급공고).pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>

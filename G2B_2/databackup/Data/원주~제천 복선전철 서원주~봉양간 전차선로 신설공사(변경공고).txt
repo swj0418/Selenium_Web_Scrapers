@@ -1,0 +1,1666 @@
+<html lang="ko"><head>
+<title>한국철도시설공단 - 개찰조서(업체)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="shortcut icon" href="http://kr.or.kr/images/common/kr.ico">
+<link rel="stylesheet" type="text/css" href="/css/base.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.11.4.custom.min.css">
+<script type="text/javascript" src="/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.4.custom.min.js"></script>
+<script type="text/javascript" src="/js/ebid.custom.js"></script>
+<script type="text/javascript" src="/js/common/util/Notification.js"></script>
+<script type="text/javascript" src="/js/common/util/CmmUtl.js"></script>
+
+<script type="text/javascript" src="/js/ebid.pdf.js"></script>
+<script type="text/javascript" src="/js/ebid.fonts.js"></script>
+<style>
+table td input, table td textarea {width:100%;}
+</style></head>
+
+
+
+<body>
+<!-- popup s -->
+<section class="Popup" style="width:100%;">
+<h3>개찰조서(공사)</h3>
+
+<form name="frm" method="post">
+
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">				
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	공고정보 상세
+	                </caption>
+	                <colgroup>
+						<col width="15%">
+						<col width="35%">
+						<col width="15%">
+						<col width="35%">
+					</colgroup>            
+                	<tbody>
+                	
+                	<tr>
+						<th>입찰공고번호</th>
+	                    <td>2016-01-000202-01</td>
+	                    <th>예가방식</th>
+	                    <td>
+			        		복수예가
+				            
+				            
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고명</th>
+	                    <td colspan="3">원주~제천 복선전철 서원주~봉양간 전차선로 신설공사(변경공고)</td>
+					</tr>
+					
+					<tr>
+						<th>설계금액</th>
+	                    <td>
+	                    	21,463,140,000 원
+	                    </td>
+					
+						<th>추정가격</th>
+	                    <td>
+	                    	19,511,945,455 원
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>계약방법</th>
+	                    <td>
+	                    	장기계속
+	                    	
+	                    	
+	                    </td>
+	                    <th>낙찰자선정방식</th>
+	                    <td>
+	                    	
+	                    	
+	                    	적격심사
+	                    	
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>심사기준</th>
+	                    <td>38-1. 300억미만 100억이상</td>
+	                    <th>낙찰하한율(%)</th>
+	                    <td>
+	                    	79.995 %
+	                    </td>
+					</tr>
+					
+					<tr>
+						<th>입찰공고게시일</th>
+	                    <td colspan="3">2016-11-10 09:24</td>
+					</tr>
+					
+					<tr>
+						<th>입찰참가자 자격등록 마감일시</th>
+	                    <td>2016-11-21 18:00</td>
+	                    <th>공동수급접수 마감일시</th>
+	                    <td>2016-11-21 18:00</td>
+					</tr>
+					
+					<tr>
+						<th>입찰서 접수기간</th>
+	                    <td>2016-11-15 09:00 ~ 2016-11-22 10:00</td>
+	                    <th>개찰일시</th>
+	                    <td>2016-11-22 11:00</td>
+					</tr>
+					
+					<tr>
+						<th>계약담당자</th>
+	                    <td>전병하</td>
+	                    <th>개찰장소</th>
+	                    <td>계약담당 PC</td>
+					</tr>
+					
+					<tr>
+						<th>예정가격(%)</th>
+	                    <td>
+	                    	
+		                    	
+		                    		21,639,933,493 원 (100.823%)
+		                    	
+		                    	
+	                    	
+	                    </td>
+	                    
+						<th>처리상태</th>
+	                    <td>
+	                    	
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							계약완료
+							
+							
+							
+							
+							
+							
+	                    </td>
+					</tr>
+                	</tbody>
+				</table>
+			</div>
+		</div>
+	</article>
+	
+	
+	
+	<div class="Btn_Group">
+		<button class="btn_t2" onclick="pdf()" type="button">PDF</button>
+		<button class="btn_t1" onclick="self.close()" type="button">닫기</button>
+	</div>
+	
+	
+	
+	<article class="List_Area">
+		<div class="Box">
+			<div class="Grid">
+				<table summary="#" class="tbl02">
+	                <caption class="Hidden">
+	                	업체목록
+	                </caption>
+	                <colgroup>
+						<col width="5%">
+						<col width="12%">
+						<col width="18%">
+						<col width="8%">
+						<col width="12%">
+						<col width="10%">
+						<col width="20%">
+						<col width="15%">
+					</colgroup>
+                	<thead>
+                	<tr>
+                		<th>순위</th>
+                		<th>사업자등록번호</th>
+                		<th>업체명</th>
+                		<th>대표자</th>
+                		<th>입찰금액</th>
+                		<th>낙찰율</th>
+                		<th>비고</th>
+                		<th>투찰시간</th>
+					</tr>
+					</thead>
+					<tbody id="area">
+					
+					
+					<tr>
+						<td>1</td>
+						<td>3018182388</td>
+						<td>(주) 기전사</td>
+						<td>임만심</td>
+						
+						
+							
+							
+								<td>17,325,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									80.060
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				낙찰
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 08:46:41</td>
+					</tr>
+					
+					
+					<tr>
+						<td>2</td>
+						<td>1148104605</td>
+						<td>한신공영(주)</td>
+						<td>태기전</td>
+						
+						
+							
+							
+								<td>18,008,077,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									83.217
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:26:06</td>
+					</tr>
+					
+					
+					<tr>
+						<td>3</td>
+						<td>1138107384</td>
+						<td>지에스네오텍 주식회사</td>
+						<td>남기정</td>
+						
+						
+							
+							
+								<td>17,026,757,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									78.682
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:24:02</td>
+					</tr>
+					
+					
+					<tr>
+						<td>4</td>
+						<td>3058173178</td>
+						<td>코레일테크(주)</td>
+						<td>백종찬</td>
+						
+						
+							
+							
+								<td>17,031,698,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									78.705
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-21 18:19:13</td>
+					</tr>
+					
+					
+					<tr>
+						<td>5</td>
+						<td>2188108562</td>
+						<td>합자회사 부원전기</td>
+						<td>김철수</td>
+						
+						
+							
+							
+								<td>17,047,966,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									78.780
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-21 16:23:42</td>
+					</tr>
+					
+					
+					<tr>
+						<td>6</td>
+						<td>6028142993</td>
+						<td>주식회사 한진중공업</td>
+						<td>안진규</td>
+						
+						
+							
+							
+								<td>17,048,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									78.780
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:15:04</td>
+					</tr>
+					
+					
+					<tr>
+						<td>7</td>
+						<td>1148158853</td>
+						<td>현대산업개발(주)</td>
+						<td>김재식</td>
+						
+						
+							
+							
+								<td>17,059,212,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									78.832
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:41:45</td>
+					</tr>
+					
+					
+					<tr>
+						<td>8</td>
+						<td>2148138083</td>
+						<td>유한회사 일석</td>
+						<td>조인환</td>
+						
+						
+							
+							
+								<td>17,071,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									78.887
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-21 17:34:08</td>
+					</tr>
+					
+					
+					<tr>
+						<td>9</td>
+						<td>1208105711</td>
+						<td>주식회사 삼진일렉스</td>
+						<td>김성관</td>
+						
+						
+							
+							
+								<td>17,097,138,340</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.007
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:01:28</td>
+					</tr>
+					
+					
+					<tr>
+						<td>10</td>
+						<td>3048104362</td>
+						<td>주식회사 건주</td>
+						<td>안병만</td>
+						
+						
+							
+							
+								<td>17,098,529,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.014
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 07:42:01</td>
+					</tr>
+					
+					
+					<tr>
+						<td>11</td>
+						<td>1168137494</td>
+						<td>대아티아이 주식회사</td>
+						<td>최진우</td>
+						
+						
+							
+							
+								<td>17,117,930,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.103
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:14:15</td>
+					</tr>
+					
+					
+					<tr>
+						<td>12</td>
+						<td>2148188924</td>
+						<td>우민전기(주)</td>
+						<td>이학표</td>
+						
+						
+							
+							
+								<td>17,122,360,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.124
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:38:02</td>
+					</tr>
+					
+					
+					<tr>
+						<td>13</td>
+						<td>1068152810</td>
+						<td>주식회사 보성엔지니어링</td>
+						<td>박광신</td>
+						
+						
+							
+							
+								<td>17,128,644,260</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.153
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:31:20</td>
+					</tr>
+					
+					
+					<tr>
+						<td>14</td>
+						<td>4048130985</td>
+						<td>주식회사 현대종합기술</td>
+						<td>김영옥</td>
+						
+						
+							
+							
+								<td>17,130,739,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.163
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-21 17:37:56</td>
+					</tr>
+					
+					
+					<tr>
+						<td>15</td>
+						<td>4098107742</td>
+						<td>주식회사 삼원전력</td>
+						<td>김원삼</td>
+						
+						
+							
+							
+								<td>17,132,577,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.171
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 07:57:59</td>
+					</tr>
+					
+					
+					<tr>
+						<td>16</td>
+						<td>2078136393</td>
+						<td>삼언전공 주식회사</td>
+						<td>공석복</td>
+						
+						
+							
+							
+								<td>17,137,848,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.195
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:08:46</td>
+					</tr>
+					
+					
+					<tr>
+						<td>17</td>
+						<td>2058126341</td>
+						<td>종합전기 주식회사</td>
+						<td>김유훈</td>
+						
+						
+							
+							
+								<td>17,148,827,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.246
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 08:53:03</td>
+					</tr>
+					
+					
+					<tr>
+						<td>18</td>
+						<td>1068180878</td>
+						<td>주식회사 신보</td>
+						<td>박종규</td>
+						
+						
+							
+							
+								<td>17,158,795,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.292
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:29:54</td>
+					</tr>
+					
+					
+					<tr>
+						<td>19</td>
+						<td>2078129117</td>
+						<td>경우전기(주)</td>
+						<td>김한정</td>
+						
+						
+							
+							
+								<td>17,172,873,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.357
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 08:28:05</td>
+					</tr>
+					
+					
+					<tr>
+						<td>20</td>
+						<td>1048118121</td>
+						<td>지에스건설 주식회사</td>
+						<td>임병용</td>
+						
+						
+							
+							
+								<td>17,195,846,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.463
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:23:55</td>
+					</tr>
+					
+					
+					<tr>
+						<td>21</td>
+						<td>1198107631</td>
+						<td>승아전기(주)</td>
+						<td>김태훈</td>
+						
+						
+							
+							
+								<td>17,203,159,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.497
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:09:13</td>
+					</tr>
+					
+					
+					<tr>
+						<td>22</td>
+						<td>1148137654</td>
+						<td>(주)미동이엔씨</td>
+						<td>이병복</td>
+						
+						
+							
+							
+								<td>17,207,057,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.515
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 08:51:56</td>
+					</tr>
+					
+					
+					<tr>
+						<td>23</td>
+						<td>1028131754</td>
+						<td>두산건설 주식회사</td>
+						<td>이병화</td>
+						
+						
+							
+							
+								<td>17,208,929,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.524
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-21 20:58:02</td>
+					</tr>
+					
+					
+					<tr>
+						<td>24</td>
+						<td>2148122316</td>
+						<td>금송전기(주)</td>
+						<td>신중현</td>
+						
+						
+							
+							
+								<td>17,213,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.543
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-21 17:53:12</td>
+					</tr>
+					
+					
+					<tr>
+						<td>25</td>
+						<td>1118101759</td>
+						<td>신원전설(주)</td>
+						<td>심한섭</td>
+						
+						
+							
+							
+								<td>17,218,832,400</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.570
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:20:51</td>
+					</tr>
+					
+					
+					<tr>
+						<td>26</td>
+						<td>2298119166</td>
+						<td>(주)삼영기업</td>
+						<td>금동흠</td>
+						
+						
+							
+							
+								<td>17,219,999,900</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.575
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:19:29</td>
+					</tr>
+					
+					
+					<tr>
+						<td>27</td>
+						<td>1208117027</td>
+						<td>세안이엔씨 주식회사</td>
+						<td>이은상</td>
+						
+						
+							
+							
+								<td>17,226,957,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.607
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:44:58</td>
+					</tr>
+					
+					
+					<tr>
+						<td>28</td>
+						<td>2208110402</td>
+						<td>정안전기(주)</td>
+						<td>이학용</td>
+						
+						
+							
+							
+								<td>17,227,093,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.608
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-21 18:32:57</td>
+					</tr>
+					
+					
+					<tr>
+						<td>29</td>
+						<td>1388100487</td>
+						<td>합자회사동화</td>
+						<td>김연회</td>
+						
+						
+							
+							
+								<td>17,231,249,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.627
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:30:57</td>
+					</tr>
+					
+					
+					<tr>
+						<td>30</td>
+						<td>1198116692</td>
+						<td>주식회사 서우건설산업</td>
+						<td>이종근</td>
+						
+						
+							
+							
+								<td>17,237,914,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.658
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:43:37</td>
+					</tr>
+					
+					
+					<tr>
+						<td>31</td>
+						<td>1268145759</td>
+						<td>(주)창원기전</td>
+						<td>김귀범</td>
+						
+						
+							
+							
+								<td>17,240,518,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.670
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:26:57</td>
+					</tr>
+					
+					
+					<tr>
+						<td>32</td>
+						<td>1128120900</td>
+						<td>(주)조일이씨에스</td>
+						<td>안종석</td>
+						
+						
+							
+							
+								<td>17,246,787,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.699
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 09:06:13</td>
+					</tr>
+					
+					
+					<tr>
+						<td>33</td>
+						<td>2148104884</td>
+						<td>두원이에프씨주식회사</td>
+						<td>박광섭</td>
+						
+						
+							
+							
+								<td>17,248,000,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.704
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-22 08:50:17</td>
+					</tr>
+					
+					
+					<tr>
+						<td>34</td>
+						<td>1108130979</td>
+						<td>(주)대림코퍼레이션</td>
+						<td>추교인</td>
+						
+						
+							
+							
+								<td>17,251,732,000</td>
+								<td>
+		                			
+									
+										
+											
+											
+										
+									
+									79.722
+	                		</td>
+							
+	                		<td>
+	                			
+	                				
+	                				
+	                					낙찰하한선 미달
+	                					
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                				
+	                		</td>
+						
+						
+						
+						<td>2016-11-21 17:34:33</td>
+					</tr>
+					
+					
+                	</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="Btn_Group"></div>
+	</article>
+	
+
+</form>
+
+</section>
+
+<div id="dialog-template" class="tpl">
+	<div id="reason" style="width:100%; height:100px;"></div>
+</div>
+
+<script>
+function pdf() { 
+	$ebid.pdf.title = '개찰조서';
+	$ebid.pdf.down('개찰조서_원주~제천 복선전철 서원주~봉양간 전차선로 신설공사(변경공고).pdf');
+}
+
+// 부적격사유를 조회
+function viewUnfitReason(reason) {
+	$('#reason').html(reason);
+	
+	// dialog
+	$ebid.dialog.open({
+		title: '부적격사유 조회',
+		width: '400px'
+	});
+	
+	//v IeProcConformJudgCS get-f20
+}
+
+</script>
+
+</body></html>
