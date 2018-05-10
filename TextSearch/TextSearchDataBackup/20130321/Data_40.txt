@@ -1,0 +1,217 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+    
+
+
+
+
+
+    
+
+
+        <title>국민권익위원회 국민신문고</title>
+        <!-- 공통적용헤더정보 -->
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=EUC-KR">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 공통적용헤더정보 -->
+        
+        <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery-ui-1.8.16.custom.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery.mCustomScrollbar.css" media="all">
+        
+	    <script type="text/javascript" src="/2014/egov_js/jquery-1.10.2.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery-ui-1.10.4.custom.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.mCustomScrollbar.js"></script>
+	    
+	    <script type="text/javascript" src="/2014/egov_js/publishing.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.ui.datepicker-ko.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/2014/egov_js/jquery.wheel.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.PrintArea.js"></script>
+	    
+	     <script type="text/javascript" src="/2014/egov_js/nj.common.js"></script>
+         <script type="text/javascript" src="/2014/egov_js/nj.validator.js"></script>
+	    
+
+	    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/JPopup.js"></script> 
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/pp/common.js"></script></head><body><div id="loadingLayer" style="position:absolute; top:50%; left:50%; margin-left:-100px; margin-top:-30px; width:200px; height:60px; display:none;" oncontextmenu="return false;"><iframe id="iframeLoad" title="요청 처리중" style="width:200px; height:60px; margin:0px; padding:0px;" scrolling="no" src="/blank.html" frameborder="0"></iframe></div>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/component.js"></script>
+	    
+
+        <!--[if IE 6]>
+            <script src="/common/js/publishing_png.js" type="text/livescript"></script>
+            <script type="text/javascript">
+                DD_belatedPNG.fix('.png24');
+            </script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript">
+            <!--
+            function page_onload(){
+         
+                // 스크롤 없애기
+                document.body.style.overflow='hidden';
+        
+                var clintAgent = navigator.userAgent;
+                if ( clintAgent.indexOf("MSIE") != -1 || clintAgent.indexOf("Trident") != -1 )
+                {
+                    // IE
+                    window.resizeBy(410-document.body.clientWidth, 355-document.body.clientHeight);
+                } else {
+                    window.resizeBy(410-window.innerWidth, 355-window.innerHeight);
+                }
+            }
+            //-->
+        </script>
+        
+        <!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 시작-->
+		
+
+
+
+
+		<!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 끝-->
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style_civil.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/frame/total_basic_style.css ">
+    
+
+    
+    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+    
+    
+    <script language="JavaScript" type="text/JavaScript">
+	  <!--
+	  function goList() {
+	      document.frm.action="UPcOpenCvreqList.paid";
+	      document.frm.submit();
+	  }   
+	  //-->
+    </script>
+    
+     
+    
+    
+        <!--  20110706 김연성 국민신문고 연락처 추가종료 -->
+        <!-- 키보드 보안추가 -->
+        <!--nProtect  키보드보안설정 적용여부 시작-->
+<!-- 2007 0507
+<script language="javascript" type="text/javascript"
+src="http://update.nprotect.net/keycrypt/epeople/npkcx.js">
+</script>
+-->
+<!--nProtect  키보드보안설정 적용여부 끝-->
+
+
+        
+		<form name="frm" action="UPcOpenCvreqList.paid" method="post">
+			<input name="anc_code" value="1613000" type="hidden">
+			<input name="menu_code" value="PC001" type="hidden">
+			<input name="channel" value="1613000" type="hidden">
+			<input name="pageNo" value="4" type="hidden"> 
+			
+			<input name="peti_cat_code_c" value="0100000000" type="hidden">
+			<input name="peti_cat_code_v" value="" type="hidden"> 
+			<input name="startd" value="2013-03-21" type="hidden"> 
+			<input name="endd" value="2014-03-20" type="hidden"> 
+			<input name="select" value="title" type="hidden"> 
+			<input name="peti_title_v" value="개발부담금" type="hidden"> 
+			<input name="peti_status_c" value="" type="hidden"> 
+
+        <div id="content">
+            <div class="viewForm1 mt30">
+                <table summary="유사민원(공유민원)의 상세(제목, 성명, 등록일, 처리상태, 민원내용,처리결과)를 보여주는 페이지입니다.">
+                    <caption>유사민원(공유민원) 상세보기</caption>
+                    <colgroup>
+                        <col width="*">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <div class="viewTit">
+                                    <p class="txt2">개발부담금 관련 질의</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="subTxt">
+                                <p><strong>성명</strong>OOO</p>
+                                <p><strong>등록일</strong>2013.11.07 11:42:19</p>
+                                <p><strong>처리상태</strong>완료</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="viewDiv">
+                                <div class="txt">국정에 노고가 많으십니다.
+<br>아래와 같은 궁금한 점에 대해 질의하오니 답변하여 주시기 바랍니다.
+<br>
+<br>*개발이익환수에관한법률 1997. 1. 13의 법률 제5285호에 의한 개정에서
+<br>-산림법에 의한 준보전임지의 면적이 개발사업 총면적의 70%를 초과하는 경우로서 대통령령이 정하는 사업
+<br>*개발이익환수에관한법률 2008. 3. 28의 법률 제9045호에 의한 개정에서
+<br>-산림법에 의한 준보전임지의 면적이 개발사업 총면적의 70%를 초과하는 경우로서 대통령령이 정하는 사업에 대한 감면조항 삭제
+<br>
+<br>- 질의 내용
+<br>준보전산지 100%에서 공장용지로 
+<br>(1) 2006년 9월 13일 공장신설승인을 득함
+<br>(2) 2013년 7월 15일 승인취소
+<br>(3) 2013년 8월 5일 공장신설승인(재허가) 일 경우
+<br>
+<br>1. (1) 인가일에서 (2)사업취소시점까지 개발부담금 부과 시 위의 감면조항에 해당할 수 있는지 여부
+<br>2. 위 사업은 (1)~(3)까지 허가권자, 사업면적, 목적사업 등의 변동이 없는 사업으로 (2)의 승인취소와 (3)의 재승인에도 불구하고 (1)~(3)사업의 연속성이 있다 라고  볼 수 있는지 여부. 
+<br>3. 사업의 연속성이 있다면 위 사업 전체대 대해 개발부담금 부과 시 위의 감면조항에 해당 할 수 있는지 여부
+<br></div>
+                            </td>
+                        </tr>
+						
+                    </tbody>
+                </table>
+            </div>
+            
+	            <div class="answerDiv">
+	                <p class="iconA"><img src="/2014/images/icon/icon_result.gif" alt="처리결과"></p>
+	                <div class="answerTxt">○ 고객님 안녕 하십니까?
+<br>평소 국토교통행정에 관심과 애정에 대하여 깊이 감사드립니다.
+<br>고객님께서 개발부담금과 관련하여 우리부 홈페이지 전자민원  (국민신문고)로 질의하신 내용에 대하여 아래와 같이 답변드립니다.
+<br>
+<br>○ 당해 개발사업 최초 인가일 당시 「개발이익환수에 관한 법률」 제7조제2항 제5호에 따르면 "산지관리법 제4조제1항제2호의 규정에 의한 준보전산지의 면적이 개발사업 총면적의 100분의 70을 초과하는 경우로서 대통령령이 정하는 사업"의 경우에 개발부담금의 50%를 경감할 수 있도록 규정하고 있습니다. 또한, 「개발이익환수에 관한 법률 시행령 (대통령령 제19639호, 시행 2006.8.5, 2006.8.4, 타법개정)」제5조제4항은 다음과 같습니다. 
+<br> ④법 제7조제2항제5호에서 "대통령령이 정하는 사업"이라 함은 다음 각호의 1에 해당되는 사업을 말한다. 
+<br> 1. 제1항제1호(택지개발사업(주택단지조성사업을 포함한다)?제2호(공업단지조성사업) 및 제6호(유통단지조성사업)의 사업
+<br> 2. 여객자동차터미널법?화물유통촉진법 또는 국토의계획및이용에관한법률에 의하여 시행하는 여객자동차터미널사업 및 화물터미널사업
+<br> 3. 체육시설의설치?이용에관한법률 제5조 내지 제8조의 규정에 의한 공공체육시설설치사업
+<br> 4. 별표 1 제9호의 지목변경이 수반되는 개발사업으로서 건축법시행령 별표 1 제6호 가목 내지 다목의 판매 및 영업시설과 제14호의 창고시설 설치사업
+<br>
+<br> 위의 법제7조제2항제5호 및 동법 시행령 제5조제4항에 따라 개발부담금 50%를 감면 적용은 공장용지 조성의 경우 적용할 수 있는 조항을 분석해보면 
+<br> 시행령 별표1의 제2호 공장용지 조성사업과 제9호 지목변경 수반 개발사업으로서 판매 및 영업시설과 창고시설을 설치하는 사업에만 제한적으로 적용이 가능합니다.  
+<br>
+<br>  - 귀 질의하신 개발사업 적용당시 법 시행령 별표1의 제9호사업에 해당하는 경우에는 공장용지 조성 사업이 감면대상 범위에 포함되지 않아 감면대상에 해당 하지 않습니다.  
+<br>    (즉 지목변경을 수반한 임야를 공장용지로 조성하는 개발사업인 경우 감면대상에 해당하지 않고 오직 시행령 별표1의 제2호 공업단지 조성사업에 해당하는 경우에만 50%감면규정을 적용할 수 있음)
+<br>
+<br> - 따라서 사업의 취소 여부와 상관없이 감면대상에 해당하지 않는 것으로 판단되며 귀 질문2의 경우에 사업이 취소된 경우는 사업자 사업목적 등이 변동이 없더라도 인허가가 취소되고 재인가를 받은경우 새로운 사업으로 볼 수 밖에 없습니다.
+<br>
+<br> - 귀 질문3의 경우 인허가 취소시는 사업의 연속성이 없고 신규사업으로 판단하므로 추가 답변이 불필요합니다.  
+<br>
+<br>  - 정리하면 귀 질의하신 사례가 어디에 해당하는지는 개발부담금 관할관청에서 인허가 서류 등 사실확인을 거쳐 최종 결정할 사항입니다. 
+<br>
+<br>
+<br>○ 답변내용 중 궁금한 사항에 대하여는 우리부 홈페이지를 통하여 질의(www.molit.go.kr : 민원마당) 하여 주시거나 ☎ 044-201-3405로 연락주시면 성의껏 상담하여 드리겠습니다.    그리고 답변내용이 만족스럽지 못하더라도 법령해석상 부득이한 부분이 있는 점 널리 이해하여 주시기 바라며, 귀하의 무궁한 발전을 기원 합니다. 
+<br>
+<br>  오늘도 좋은 하루되시기 바랍니다. 
+<br>								</div> <!--//answerTxt-->
+                    
+	            </div>
+	        
+            <p class="taR mt20">
+                <a href="javascript:void(0);" onclick="goList();" class="black_80x40">목록</a>
+            </p>
+        </div><!-- // content -->
+    
+
+</form><iframe title="빈프레임" src="https://eminwon.molit.go.kr/epeople/frame/epeople_frame.html?height=1836&amp;width=730" name="epeople_reframe" id="epeople_reframe" scrolling="no" width="0" height="0"></iframe></body></html>

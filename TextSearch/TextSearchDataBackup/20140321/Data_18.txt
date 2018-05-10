@@ -1,0 +1,198 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+    
+
+
+
+
+
+    
+
+
+        <title>국민권익위원회 국민신문고</title>
+        <!-- 공통적용헤더정보 -->
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=EUC-KR">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 공통적용헤더정보 -->
+        
+        <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery-ui-1.8.16.custom.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery.mCustomScrollbar.css" media="all">
+        
+	    <script type="text/javascript" src="/2014/egov_js/jquery-1.10.2.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery-ui-1.10.4.custom.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.mCustomScrollbar.js"></script>
+	    
+	    <script type="text/javascript" src="/2014/egov_js/publishing.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.ui.datepicker-ko.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/2014/egov_js/jquery.wheel.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.PrintArea.js"></script>
+	    
+	     <script type="text/javascript" src="/2014/egov_js/nj.common.js"></script>
+         <script type="text/javascript" src="/2014/egov_js/nj.validator.js"></script>
+	    
+
+	    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/JPopup.js"></script> 
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/pp/common.js"></script></head><body><div id="loadingLayer" style="position:absolute; top:50%; left:50%; margin-left:-100px; margin-top:-30px; width:200px; height:60px; display:none;" oncontextmenu="return false;"><iframe id="iframeLoad" title="요청 처리중" style="width:200px; height:60px; margin:0px; padding:0px;" scrolling="no" src="/blank.html" frameborder="0"></iframe></div>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/component.js"></script>
+	    
+
+        <!--[if IE 6]>
+            <script src="/common/js/publishing_png.js" type="text/livescript"></script>
+            <script type="text/javascript">
+                DD_belatedPNG.fix('.png24');
+            </script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript">
+            <!--
+            function page_onload(){
+         
+                // 스크롤 없애기
+                document.body.style.overflow='hidden';
+        
+                var clintAgent = navigator.userAgent;
+                if ( clintAgent.indexOf("MSIE") != -1 || clintAgent.indexOf("Trident") != -1 )
+                {
+                    // IE
+                    window.resizeBy(410-document.body.clientWidth, 355-document.body.clientHeight);
+                } else {
+                    window.resizeBy(410-window.innerWidth, 355-window.innerHeight);
+                }
+            }
+            //-->
+        </script>
+        
+        <!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 시작-->
+		
+
+
+
+
+		<!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 끝-->
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style_civil.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/frame/total_basic_style.css ">
+    
+
+    
+    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+    
+    
+    <script language="JavaScript" type="text/JavaScript">
+	  <!--
+	  function goList() {
+	      document.frm.action="UPcOpenCvreqList.paid";
+	      document.frm.submit();
+	  }   
+	  //-->
+    </script>
+    
+     
+    
+    
+        <!--  20110706 김연성 국민신문고 연락처 추가종료 -->
+        <!-- 키보드 보안추가 -->
+        <!--nProtect  키보드보안설정 적용여부 시작-->
+<!-- 2007 0507
+<script language="javascript" type="text/javascript"
+src="http://update.nprotect.net/keycrypt/epeople/npkcx.js">
+</script>
+-->
+<!--nProtect  키보드보안설정 적용여부 끝-->
+
+
+        
+		<form name="frm" action="UPcOpenCvreqList.paid" method="post">
+			<input name="anc_code" value="1613000" type="hidden">
+			<input name="menu_code" value="PC001" type="hidden">
+			<input name="channel" value="1613000" type="hidden">
+			<input name="pageNo" value="2" type="hidden"> 
+			
+			<input name="peti_cat_code_c" value="0100000000" type="hidden">
+			<input name="peti_cat_code_v" value="" type="hidden"> 
+			<input name="startd" value="2014-03-21" type="hidden"> 
+			<input name="endd" value="2015-03-20" type="hidden"> 
+			<input name="select" value="title" type="hidden"> 
+			<input name="peti_title_v" value="개발부담금" type="hidden"> 
+			<input name="peti_status_c" value="" type="hidden"> 
+
+        <div id="content">
+            <div class="viewForm1 mt30">
+                <table summary="유사민원(공유민원)의 상세(제목, 성명, 등록일, 처리상태, 민원내용,처리결과)를 보여주는 페이지입니다.">
+                    <caption>유사민원(공유민원) 상세보기</caption>
+                    <colgroup>
+                        <col width="*">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <div class="viewTit">
+                                    <p class="txt2">개발부담금 분할납부신청시 담보물건</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="subTxt">
+                                <p><strong>성명</strong>OOO</p>
+                                <p><strong>등록일</strong>2014.12.26 17:36:03</p>
+                                <p><strong>처리상태</strong>완료</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="viewDiv">
+                                <div class="txt">개발부담금 분할납부 신청에 담보물건에 대하여 제한이 있나요??
+<br>
+<br>담보물건의 지목이 목장용지, 도로, 묘지 등 입니다.
+<br>
+<br>공시지가로 담보가액은 충분합니다.
+<br>
+<br>담보물건 지목이 위 지목이라고 담보로 효력이 없는건가요??</div>
+                            </td>
+                        </tr>
+						
+                    </tbody>
+                </table>
+            </div>
+            
+	            <div class="answerDiv">
+	                <p class="iconA"><img src="/2014/images/icon/icon_result.gif" alt="처리결과"></p>
+	                <div class="answerTxt">○ 고객님 안녕 하십니까?
+<br>평소 국토교통행정에 관심과 애정에 대하여 깊이 감사드립니다.
+<br>고객님께서 개발부담금과 관련하여 우리부 홈페이지 전자민원  (국민신문고)로 질의하신 내용에 대하여 아래와 같이 답변드립니다.
+<br>
+<br>
+<br>○ 「개발이익 환수에 관한 법률 시행령」제24조제3항에 따르면 부담금 부과금액이 1천만원을 초과하고 납부의무자가 「국세기본법」제31조에 따른 담보를 제공하는 경우를 말한다로 규정하고 있습니다. 
+<br>
+<br>- 또한 국세기본법 제31조에 따르면 제31조(담보의 제공 방법) ① 금전이나 유가증권을 납세담보로 제공하려는 자는 이를 공탁(供託)하고 그 공탁수령증을 세무서장(세법에 따라 국세에 관한 사무를 세관장이 관장하는 경우에는 세관장을 말한다. 이하 같다)에게 제출하여야 한다. 다만, 등록된 유가증권의 경우에는 담보 제공의 뜻을 등록하고 그 등록확인증을 제출하여야 한다. &lt;개정 2011.12.31.&gt; 
+<br>② 납세보증보험증권이나 납세보증서를 납세담보로 제공하려는 자는 그 보험증권이나 보증서를 세무서장에게 제출하여야 한다. 
+<br>③ 토지, 건물, 공장재단(工場財團), 광업재단(鑛業財團), 선박, 항공기 또는 건설기계를 납세담보로 제공하려는 자는 그 등기필증, 등기완료통지서 또는 등록필증을 세무서장에게 제시하여야 하며, 세무서장은 이에 의하여 저당권 설정을 위한 등기 또는 등록 절차를 밟아야 한다. 
+<br>
+<br>로 규정하고 있으므로 위 요건을 충족하여야 할 것으로 판단됩니다.
+<br>
+<br>
+<br>
+<br>
+<br>○  상기 답변내용은 귀하께서 제시한 자료만을 근거로 작성된 것으로 법적효력을 갖는 유권해석(결정, 판단)이 아니므로 각종 신고, 불복청구 등의 증거자료로서의 효력은 없습니다. 
+<br>
+<br>○ 답변내용 중 궁금한 사항에 대하여는 우리부 홈페이지를 통하여 질의(www.molit.go.kr : 민원마당) 하여 주시거나 (국토교통부 토지정책과 개발부담금 담당 김동규주무관 ☎ 044-201-3405, kbruce74@korea.kr)로 연락주시면 성의껏 상담하여 드리겠습니다.   귀하의 무궁한 발전을 기원 합니다.  오늘도 좋은 하루되시기 바랍니다. 
+<br>								</div> <!--//answerTxt-->
+                    
+	            </div>
+	        
+            <p class="taR mt20">
+                <a href="javascript:void(0);" onclick="goList();" class="black_80x40">목록</a>
+            </p>
+        </div><!-- // content -->
+    
+
+</form><iframe title="빈프레임" src="https://eminwon.molit.go.kr/epeople/frame/epeople_frame.html?height=1251&amp;width=730" name="epeople_reframe" id="epeople_reframe" scrolling="no" width="0" height="0"></iframe></body></html>

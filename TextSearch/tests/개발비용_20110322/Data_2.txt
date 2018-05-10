@@ -1,0 +1,193 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+    
+
+
+
+
+
+    
+
+
+        <title>국민권익위원회 국민신문고</title>
+        <!-- 공통적용헤더정보 -->
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=EUC-KR">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 공통적용헤더정보 -->
+        
+        <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery-ui-1.8.16.custom.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery.mCustomScrollbar.css" media="all">
+        
+	    <script type="text/javascript" src="/2014/egov_js/jquery-1.10.2.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery-ui-1.10.4.custom.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.mCustomScrollbar.js"></script>
+	    
+	    <script type="text/javascript" src="/2014/egov_js/publishing.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.ui.datepicker-ko.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/2014/egov_js/jquery.wheel.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.PrintArea.js"></script>
+	    
+	     <script type="text/javascript" src="/2014/egov_js/nj.common.js"></script>
+         <script type="text/javascript" src="/2014/egov_js/nj.validator.js"></script>
+	    
+
+	    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/JPopup.js"></script> 
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/pp/common.js"></script></head><body><div id="loadingLayer" style="position:absolute; top:50%; left:50%; margin-left:-100px; margin-top:-30px; width:200px; height:60px; display:none;" oncontextmenu="return false;"><iframe id="iframeLoad" title="요청 처리중" style="width:200px; height:60px; margin:0px; padding:0px;" scrolling="no" src="/blank.html" frameborder="0"></iframe></div>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/component.js"></script>
+	    
+
+        <!--[if IE 6]>
+            <script src="/common/js/publishing_png.js" type="text/livescript"></script>
+            <script type="text/javascript">
+                DD_belatedPNG.fix('.png24');
+            </script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript">
+            <!--
+            function page_onload(){
+         
+                // 스크롤 없애기
+                document.body.style.overflow='hidden';
+        
+                var clintAgent = navigator.userAgent;
+                if ( clintAgent.indexOf("MSIE") != -1 || clintAgent.indexOf("Trident") != -1 )
+                {
+                    // IE
+                    window.resizeBy(410-document.body.clientWidth, 355-document.body.clientHeight);
+                } else {
+                    window.resizeBy(410-window.innerWidth, 355-window.innerHeight);
+                }
+            }
+            //-->
+        </script>
+        
+        <!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 시작-->
+		
+
+
+
+
+		<!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 끝-->
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style_civil.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/frame/total_basic_style.css ">
+    
+
+    
+    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+    
+    
+    <script language="JavaScript" type="text/JavaScript">
+	  <!--
+	  function goList() {
+	      document.frm.action="UPcOpenCvreqList.paid";
+	      document.frm.submit();
+	  }   
+	  //-->
+    </script>
+    
+     
+    
+    
+        <!--  20110706 김연성 국민신문고 연락처 추가종료 -->
+        <!-- 키보드 보안추가 -->
+        <!--nProtect  키보드보안설정 적용여부 시작-->
+<!-- 2007 0507
+<script language="javascript" type="text/javascript"
+src="http://update.nprotect.net/keycrypt/epeople/npkcx.js">
+</script>
+-->
+<!--nProtect  키보드보안설정 적용여부 끝-->
+
+
+        
+		<form name="frm" action="UPcOpenCvreqList.paid" method="post">
+			<input name="anc_code" value="1613000" type="hidden">
+			<input name="menu_code" value="PC001" type="hidden">
+			<input name="channel" value="1613000" type="hidden">
+			<input name="pageNo" value="1" type="hidden"> 
+			
+			<input name="peti_cat_code_c" value="0100000000" type="hidden">
+			<input name="peti_cat_code_v" value="" type="hidden"> 
+			<input name="startd" value="2011-03-22" type="hidden"> 
+			<input name="endd" value="2012-03-21" type="hidden"> 
+			<input name="select" value="title" type="hidden"> 
+			<input name="peti_title_v" value="개발비용" type="hidden"> 
+			<input name="peti_status_c" value="" type="hidden"> 
+
+        <div id="content">
+            <div class="viewForm1 mt30">
+                <table summary="유사민원(공유민원)의 상세(제목, 성명, 등록일, 처리상태, 민원내용,처리결과)를 보여주는 페이지입니다.">
+                    <caption>유사민원(공유민원) 상세보기</caption>
+                    <colgroup>
+                        <col width="*">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <div class="viewTit">
+                                    <p class="txt2">표준개발비용 적용 방법</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="subTxt">
+                                <p><strong>성명</strong>OOO</p>
+                                <p><strong>등록일</strong>2012.03.13 13:39:49</p>
+                                <p><strong>처리상태</strong>완료</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="viewDiv">
+                                <div class="txt">표준개발비용 적용에 관한 질의 입니다.
+<br>
+<br>2011.5.19 개정 법률 부칙에 의하면 "제11조제2항 및 제3항의 개정규정은 이 법 시행 후 최초로 개발부담금을 결정ㆍ부과하는 사업부터 적용한다."라는 조항에 대하여 질의 드립니다.
+<br>
+<br>2011.5.19 이전 2,000㎡에 대하여 준공,부과,납부 하였고,(5년이내) 
+<br>
+<br>법 시행 후 1,000㎡를 준공 하였을 경우
+<br>
+<br>갑설) 연접사업(3,000㎡)에 해당되어 표준공사비 적용 불가
+<br>
+<br>을설) 법 시행 후 연접에 해당되는 면적이 2,700㎡미만(1,000㎡)이므로 적용 가능
+<br>
+<br>5년 이내의 연접한 모든 사업을 기준으로 판단하는게 맞는건지
+<br>
+<br>법 시행 후 연접사업의 면적을 기준으로 판단하는게 맞는건지요.
+<br>
+<br>감사합니다.</div>
+                            </td>
+                        </tr>
+						
+                    </tbody>
+                </table>
+            </div>
+            
+	            <div class="answerDiv">
+	                <p class="iconA"><img src="/2014/images/icon/icon_result.gif" alt="처리결과"></p>
+	                <div class="answerTxt">○ 평소 국토해양행정에 관심과 애정을 가져 주신 점 깊이 감사드리며, 귀하께서 국민신문고를 통하여 질의하신 사항에 대해 다음과 같이 답변 드립니다.
+<br>
+<br>○ 「개발이익환수에 관한 법률」제5조 및 같은 법 시행령 제4조에 의하면, 동일인(배우자 및 직계존비속을 포함)이 연접한 토지(동일인이 소유한 연속된 일단의 토지인 경우를 포함)에 하나의 개발사업이 끝난 후 5년 이내에 개발사업의 인가등을 받아 사실상 분할하여 시행하는 경우에는 각 사업의 대상 토지 면적을 합한 토지에 하나의 개발사업이 시행되는 것으로 보도록 규정하고 있습니다.
+<br>
+<br>○ 따라서, 연접사업의 경우 각 사업 대상토지 면적을 합산하여 2,700제곱미터 미만인 경우에 표준비용 적용이 가능하다고 봅니다.</div> <!--//answerTxt-->
+                    
+	            </div>
+	        
+            <p class="taR mt20">
+                <a href="javascript:void(0);" onclick="goList();" class="black_80x40">목록</a>
+            </p>
+        </div><!-- // content -->
+    
+
+</form><iframe title="빈프레임" src="https://eminwon.molit.go.kr/epeople/frame/epeople_frame.html?height=965&amp;width=730" name="epeople_reframe" id="epeople_reframe" scrolling="no" width="0" height="0"></iframe></body></html>

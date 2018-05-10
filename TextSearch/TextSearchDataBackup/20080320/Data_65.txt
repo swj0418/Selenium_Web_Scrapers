@@ -1,0 +1,200 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+    
+
+
+
+
+
+    
+
+
+        <title>국민권익위원회 국민신문고</title>
+        <!-- 공통적용헤더정보 -->
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=EUC-KR">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 공통적용헤더정보 -->
+        
+        <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery-ui-1.8.16.custom.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery.mCustomScrollbar.css" media="all">
+        
+	    <script type="text/javascript" src="/2014/egov_js/jquery-1.10.2.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery-ui-1.10.4.custom.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.mCustomScrollbar.js"></script>
+	    
+	    <script type="text/javascript" src="/2014/egov_js/publishing.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.ui.datepicker-ko.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/2014/egov_js/jquery.wheel.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.PrintArea.js"></script>
+	    
+	     <script type="text/javascript" src="/2014/egov_js/nj.common.js"></script>
+         <script type="text/javascript" src="/2014/egov_js/nj.validator.js"></script>
+	    
+
+	    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/JPopup.js"></script> 
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/pp/common.js"></script></head><body><div id="loadingLayer" style="position:absolute; top:50%; left:50%; margin-left:-100px; margin-top:-30px; width:200px; height:60px; display:none;" oncontextmenu="return false;"><iframe id="iframeLoad" title="요청 처리중" style="width:200px; height:60px; margin:0px; padding:0px;" scrolling="no" src="/blank.html" frameborder="0"></iframe></div>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/component.js"></script>
+	    
+
+        <!--[if IE 6]>
+            <script src="/common/js/publishing_png.js" type="text/livescript"></script>
+            <script type="text/javascript">
+                DD_belatedPNG.fix('.png24');
+            </script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript">
+            <!--
+            function page_onload(){
+         
+                // 스크롤 없애기
+                document.body.style.overflow='hidden';
+        
+                var clintAgent = navigator.userAgent;
+                if ( clintAgent.indexOf("MSIE") != -1 || clintAgent.indexOf("Trident") != -1 )
+                {
+                    // IE
+                    window.resizeBy(410-document.body.clientWidth, 355-document.body.clientHeight);
+                } else {
+                    window.resizeBy(410-window.innerWidth, 355-window.innerHeight);
+                }
+            }
+            //-->
+        </script>
+        
+        <!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 시작-->
+		
+
+
+
+
+		<!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 끝-->
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style_civil.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/frame/total_basic_style.css ">
+    
+
+    
+    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+    
+    
+    <script language="JavaScript" type="text/JavaScript">
+	  <!--
+	  function goList() {
+	      document.frm.action="UPcOpenCvreqList.paid";
+	      document.frm.submit();
+	  }   
+	  //-->
+    </script>
+    
+     
+    
+    
+        <!--  20110706 김연성 국민신문고 연락처 추가종료 -->
+        <!-- 키보드 보안추가 -->
+        <!--nProtect  키보드보안설정 적용여부 시작-->
+<!-- 2007 0507
+<script language="javascript" type="text/javascript"
+src="http://update.nprotect.net/keycrypt/epeople/npkcx.js">
+</script>
+-->
+<!--nProtect  키보드보안설정 적용여부 끝-->
+
+
+        
+		<form name="frm" action="UPcOpenCvreqList.paid" method="post">
+			<input name="anc_code" value="1613000" type="hidden">
+			<input name="menu_code" value="PC001" type="hidden">
+			<input name="channel" value="1613000" type="hidden">
+			<input name="pageNo" value="7" type="hidden"> 
+			
+			<input name="peti_cat_code_c" value="0100000000" type="hidden">
+			<input name="peti_cat_code_v" value="" type="hidden"> 
+			<input name="startd" value="2008-03-20" type="hidden"> 
+			<input name="endd" value="2009-03-20" type="hidden"> 
+			<input name="select" value="title" type="hidden"> 
+			<input name="peti_title_v" value="개발부담금" type="hidden"> 
+			<input name="peti_status_c" value="" type="hidden"> 
+
+        <div id="content">
+            <div class="viewForm1 mt30">
+                <table summary="유사민원(공유민원)의 상세(제목, 성명, 등록일, 처리상태, 민원내용,처리결과)를 보여주는 페이지입니다.">
+                    <caption>유사민원(공유민원) 상세보기</caption>
+                    <colgroup>
+                        <col width="*">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <div class="viewTit">
+                                    <p class="txt2">개발부담금 물납 범위 및 산정 질의</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="subTxt">
+                                <p><strong>성명</strong>OOO</p>
+                                <p><strong>등록일</strong>2008.06.26 15:59:46</p>
+                                <p><strong>처리상태</strong>완료</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="viewDiv">
+                                <div class="txt">평소 민원업무에 수고가 많으십니다.
+<br>
+<br>개발이익환수에관한법률 제16조2항의 규정에 의한 물납이 인정되는 토지는 당해 부과대상토지 또는 드와 유산한 토지로서 당해 지방자치단체에서 직접 활용할 수 있거나 처분이 가능한
+<br>토지이어야 한다고 되어 있습니다.
+<br>
+<br>그렇다면 법 16조 2항 규정에 의거 납부의무자가 당해 부과토지 일부를 물납으로 납부 할 경우 토지 가액은 시행령 18조 4항 규정에 따라 물납토지가 부과 대상토지일 경우 종료시점지가를 적용한다고 나와 있으므로 물납으로 납부할 일부 부과대상 토지가 도로와 접하지 않을경우(맹지)라도 시행령 18조4항 규정에 따라 부과 종료 시점지가로 토지가액을 산정해야 되는지요 아니면 물납 할 토지가 비록 부과 대상토지이지만  도로 조건이 변경 되여 새로운
+<br> 토지 가액을 산정해야 되는지여 ?
+<br>
+<br>또한 부과대상 토지 일지라도 관계관청에서 직접 활용할수 없을경우  물납대상에서 제외가 되는 지요?
+<br>
+<br>%% 개발당시  부과 대상토지는 도로에 접합
+<br>%% 일부 물납을 신청할 부과대상토지는 도로에 접합지 않음(맹지)
+<br></div>
+                            </td>
+                        </tr>
+						
+                    </tbody>
+                </table>
+            </div>
+            
+	            <div class="answerDiv">
+	                <p class="iconA"><img src="/2014/images/icon/icon_result.gif" alt="처리결과"></p>
+	                <div class="answerTxt">국토해양 행정에 애정과 관심을 가져 주신 점 감사드리며, 아래와 같이 답변드립니다.
+<br>
+<br>개발이익환수에관한법률제18조제2항의 규정에 의하면 개발부담금은 현금 납부를 원칙으로 하되, 해당 부과 대상 토지 및 그와 유사한 토지로 하는 납부[이하 "물납(物納)"이라 한다]를 인정할 수 있습니다.
+<br>
+<br>같은법시행령제22조의 규정에 의하여 물납을 청구할 수 있는 토지의 가액은 해당 부담금 부과액을 초과할 수 없으며, 납부 의무자는 부과된 부담금과 물납토지의 가액과의 차액을 현금으로 내야 하며, 물납에 충당할 토지 가액의 산정은 부과 종료 시점 당시의 개별공시지가(물납 토지가 부과 대상 토지인 경우에는 종료시점지가)에 부과 종료 시점부터 제2항에 따라 서면으로 알린 날까지의 정상지가상승분을 합한 금액으로 합니다.
+<br>
+<br>개발부담금부과징수업무처리규정제18조의 규정에 따라 물납이 인정되는 토지는 당해 부과대상토지 또는 그와 유사한 토지로서 당해 지방자치단체에서 직접 활용할 수 있거나 처분이 가능한 토지이어야 하며, 다음 어느 하나에 해당되는 토지는 물납에서 제외합니다.
+<br>1. 물납대상토지가액이 부담금 부과액을 초과하는 토지
+<br>2. 도시계획시설로 결정된 토지
+<br>3. 공공청사부지등 특정용도로 사용이 지정된 토지
+<br>다만, 제2호와 제3호의 토지를 당해 지방자치단체가 직접 활용하기 위한 토지는 그러하지 아니합니다.
+<br>
+<br>물납이 가능한 토지는 지방자치단체에서 직접 활용하거나 처분이 가능한 토지로서 법령에서 정한 사항등을 검토하여 수납여부를 판단하여야 할 사항입니다. 자세한 사항은 해당 부과권자가 수납여부를 결정하여야 할 사항으로 직접 상의하여야 할 사항입니다.
+<br>
+<br>기타 회신내용에 대하여 추가 질문이 있으실 경우 고객만족센터(1599-0001, 담당 윤 미)로 문의하여 주시기 바랍니다
+<br></div> <!--//answerTxt-->
+                    
+	            </div>
+	        
+            <p class="taR mt20">
+                <a href="javascript:void(0);" onclick="goList();" class="black_80x40">목록</a>
+            </p>
+        </div><!-- // content -->
+    
+
+</form><iframe title="빈프레임" src="https://eminwon.molit.go.kr/epeople/frame/epeople_frame.html?height=1316&amp;width=730" name="epeople_reframe" id="epeople_reframe" scrolling="no" width="0" height="0"></iframe></body></html>

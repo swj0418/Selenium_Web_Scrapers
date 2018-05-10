@@ -1,0 +1,227 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+    
+
+
+
+
+
+    
+
+
+        <title>국민권익위원회 국민신문고</title>
+        <!-- 공통적용헤더정보 -->
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=EUC-KR">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 공통적용헤더정보 -->
+        
+        <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery-ui-1.8.16.custom.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery.mCustomScrollbar.css" media="all">
+        
+	    <script type="text/javascript" src="/2014/egov_js/jquery-1.10.2.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery-ui-1.10.4.custom.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.mCustomScrollbar.js"></script>
+	    
+	    <script type="text/javascript" src="/2014/egov_js/publishing.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.ui.datepicker-ko.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/2014/egov_js/jquery.wheel.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.PrintArea.js"></script>
+	    
+	     <script type="text/javascript" src="/2014/egov_js/nj.common.js"></script>
+         <script type="text/javascript" src="/2014/egov_js/nj.validator.js"></script>
+	    
+
+	    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/JPopup.js"></script> 
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/pp/common.js"></script></head><body><div id="loadingLayer" style="position:absolute; top:50%; left:50%; margin-left:-100px; margin-top:-30px; width:200px; height:60px; display:none;" oncontextmenu="return false;"><iframe id="iframeLoad" title="요청 처리중" style="width:200px; height:60px; margin:0px; padding:0px;" scrolling="no" src="/blank.html" frameborder="0"></iframe></div>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/component.js"></script>
+	    
+
+        <!--[if IE 6]>
+            <script src="/common/js/publishing_png.js" type="text/livescript"></script>
+            <script type="text/javascript">
+                DD_belatedPNG.fix('.png24');
+            </script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript">
+            <!--
+            function page_onload(){
+         
+                // 스크롤 없애기
+                document.body.style.overflow='hidden';
+        
+                var clintAgent = navigator.userAgent;
+                if ( clintAgent.indexOf("MSIE") != -1 || clintAgent.indexOf("Trident") != -1 )
+                {
+                    // IE
+                    window.resizeBy(410-document.body.clientWidth, 355-document.body.clientHeight);
+                } else {
+                    window.resizeBy(410-window.innerWidth, 355-window.innerHeight);
+                }
+            }
+            //-->
+        </script>
+        
+        <!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 시작-->
+		
+
+
+
+
+		<!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 끝-->
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style_civil.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/frame/total_basic_style.css ">
+    
+
+    
+    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+    
+    
+    <script language="JavaScript" type="text/JavaScript">
+	  <!--
+	  function goList() {
+	      document.frm.action="UPcOpenCvreqList.paid";
+	      document.frm.submit();
+	  }   
+	  //-->
+    </script>
+    
+     
+    
+    
+        <!--  20110706 김연성 국민신문고 연락처 추가종료 -->
+        <!-- 키보드 보안추가 -->
+        <!--nProtect  키보드보안설정 적용여부 시작-->
+<!-- 2007 0507
+<script language="javascript" type="text/javascript"
+src="http://update.nprotect.net/keycrypt/epeople/npkcx.js">
+</script>
+-->
+<!--nProtect  키보드보안설정 적용여부 끝-->
+
+
+        
+		<form name="frm" action="UPcOpenCvreqList.paid" method="post">
+			<input name="anc_code" value="1613000" type="hidden">
+			<input name="menu_code" value="PC001" type="hidden">
+			<input name="channel" value="1613000" type="hidden">
+			<input name="pageNo" value="3" type="hidden"> 
+			
+			<input name="peti_cat_code_c" value="0100000000" type="hidden">
+			<input name="peti_cat_code_v" value="" type="hidden"> 
+			<input name="startd" value="2013-03-21" type="hidden"> 
+			<input name="endd" value="2014-03-20" type="hidden"> 
+			<input name="select" value="title" type="hidden"> 
+			<input name="peti_title_v" value="개발부담금" type="hidden"> 
+			<input name="peti_status_c" value="" type="hidden"> 
+
+        <div id="content">
+            <div class="viewForm1 mt30">
+                <table summary="유사민원(공유민원)의 상세(제목, 성명, 등록일, 처리상태, 민원내용,처리결과)를 보여주는 페이지입니다.">
+                    <caption>유사민원(공유민원) 상세보기</caption>
+                    <colgroup>
+                        <col width="*">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <div class="viewTit">
+                                    <p class="txt2">개발부담금 개량비 관련 질의</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="subTxt">
+                                <p><strong>성명</strong>OOO</p>
+                                <p><strong>등록일</strong>2013.12.23 14:41:30</p>
+                                <p><strong>처리상태</strong>완료</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="viewDiv">
+                                <div class="txt">2008년 10월 건축허가(개발행위허가 및 산지전용허가 건축의제) - 제1종근린생활시설 부지면적 970㎡
+<br>           개발부담금 부과대상면적 미만(도시지역)
+<br>2008년 11월 건축물 착공신고
+<br>2009년 토목공사(토지개량)완료
+<br>2010년 3월 건축허가 취소 처분 사전통지
+<br>2010년 5월 건축허가(개발행위허가 및 산지전용허가 건축의제) 취소 - 제1종근린생활시설 부지면적 970㎡
+<br>
+<br>2011년 4월 건축허가(개발행위허가 및 산지전용허가 건축의제) - 제1종근린생활시설 부지면적 970㎡
+<br>           개발부담금 부과대상면적 미만(도시지역)
+<br>2012년 1월 1차변경허가(면적556㎡ 증가) - 제1종근린생활시설 부지면적 1,526㎡
+<br>           개발부담금 부과대상면적 초과(도시지역)
+<br>2013년 5월 건축관계자변경
+<br>2013년 11월 1일 개발행위준공 - 제1종근린생활시설 부지면적 1,526㎡
+<br>2013년 11월 건축물사용승인 - 제1종근린생활시설 부지면적 1,526㎡
+<br>
+<br>질의 1) 개발부담금부과대상사업으로 개시시점 및 종료시점은?
+<br>
+<br>질의 2를 위한 조건
+<br>개발부담금 부과대상사업의 개시시점이 2011년 4월 건축허가(재인가) 또는 2012년 1월 1차변경허가(면적556㎡ 증가) - 1,526㎡ 개발부담금 부과대상면적 초과(도시지역)일 경우
+<br> 
+<br>질의 2) 2009년 토목공사(토지개량비용)를 완료한 비용이 개시시점 지가에 반영되지 않았을 경우 개량비로 인정이 가능한지 여부?
+<br>
+<br>질의 3) 개량비로 인정이 불가능 하다면, 개시시점지가를 감정평가 또는 행정적조치를 통해 정정할 수 있는지 여부?
+<br>
+<br>답변 부탁드립니다.</div>
+                            </td>
+                        </tr>
+						                        
+                        <tr>
+                            <td class="fileDiv">
+                                <ul>
+                                       <li>
+	                                        <p class="file">첨부파일</p>
+	                                        <p class="fileName">
+	                                            
+		                                            <a href="/FileDownload.do?doc_id=4492052&amp;filename=2012년 업무편람 및 질의응답모음.pdf">2012년 업무편람 및 질의응답모음.pdf</a>
+		                                        
+	                                        </p>
+	                                    </li>                                 
+                                </ul>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+	            <div class="answerDiv">
+	                <p class="iconA"><img src="/2014/images/icon/icon_result.gif" alt="처리결과"></p>
+	                <div class="answerTxt">○ 고객님 안녕 하십니까?
+<br>평소 국토교통행정에 관심과 애정에 대하여 깊이 감사드립니다.
+<br>고객님께서 개발부담금과 관련하여 우리부 홈페이지 전자민원  (국민신문고)로 질의하신 내용에 대하여 아래와 같이 답변드립니다.
+<br>
+<br>
+<br>○ 「개발이익환수에 관한 법률」제9조 및 시행령 제10조제3항제1호에 의하면, 개발사업에 대한 인가등이 해당 법률에서 정하는 바에 따라 취소된 경우 그 발생일을 부과종료시점으로 보도록 규정하고 있습니다. 따라서 귀 질의하신 경우에 
+<br>  최초 인허가일 2008년 10월에는 부과대상 면적 미만으로 사업이 취소되어도 개발부담금이 부과되지 않습니다. 
+<br>
+<br>  - 2011년 4월이 취소된 사업을 재허가를 받았으므로 새로운 인허가로 봐야 하고 당초 부과대상이 아니었으나 2012년 1월 사업변경으로 개발부담금 부과대상에 해당하게 됩니다. 따라서  부과개시시점은 2011년 4월이 됩니다.
+<br>
+<br>○ 「개발이익환수에 관한 법률 시행령」제12조제1항에 의하면, 개발사업을 시작하기 전에 부과 대상 토지를 개량하기 위하여 지출한 비용으로서 개시시점지가에 반영되지 아니한 비용은 개발비용으로 산정이 가능하나, 개시시점지가인 실제 매입가액에 이미 개량비가 반영된 경우에는 개발비용으로 인정되지 아니함을 알려드리며, 개별적인 사례에 대하여는 부과권자가 사실관계 등을 확인하여 판단할 사항으로 구체적인 사항은 당해 부과권자와 상의하여 주시기 바랍니다. 
+<br>
+<br>○  상기 답변내용은 귀하께서 제시한 자료만을 근거로 작성된 것으로 법적효력을 갖는 유권해석(결정, 판단)이 아니므로 각종 신고, 불복청구 등의 증거자료로서의 효력은 없습니다. 
+<br>
+<br>○ 답변내용 중 궁금한 사항에 대하여는 우리부 홈페이지를 통하여 질의(www.molit.go.kr : 민원마당) 하여 주시거나 ☎ 044-201-3405로 연락주시면 성의껏 상담하여 드리겠습니다.   귀하의 무궁한 발전을 기원 합니다.  오늘도 좋은 하루되시기 바랍니다. 
+<br>								</div> <!--//answerTxt-->
+                    
+	            </div>
+	        
+            <p class="taR mt20">
+                <a href="javascript:void(0);" onclick="goList();" class="black_80x40">목록</a>
+            </p>
+        </div><!-- // content -->
+    
+
+</form><iframe title="빈프레임" src="https://eminwon.molit.go.kr/epeople/frame/epeople_frame.html?height=1632&amp;width=730" name="epeople_reframe" id="epeople_reframe" scrolling="no" width="0" height="0"></iframe></body></html>

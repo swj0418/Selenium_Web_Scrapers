@@ -1,0 +1,848 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+    
+
+
+
+
+
+    
+
+
+        <title>국민권익위원회 국민신문고</title>
+        <!-- 공통적용헤더정보 -->
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=EUC-KR">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 공통적용헤더정보 -->
+        
+        <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery-ui-1.8.16.custom.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery.mCustomScrollbar.css" media="all">
+        
+	    <script type="text/javascript" src="/2014/egov_js/jquery-1.10.2.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery-ui-1.10.4.custom.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.mCustomScrollbar.js"></script>
+	    
+	    <script type="text/javascript" src="/2014/egov_js/publishing.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.ui.datepicker-ko.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/2014/egov_js/jquery.wheel.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.PrintArea.js"></script>
+	    
+	     <script type="text/javascript" src="/2014/egov_js/nj.common.js"></script>
+         <script type="text/javascript" src="/2014/egov_js/nj.validator.js"></script>
+	    
+
+	    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/JPopup.js"></script> 
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/pp/common.js"></script></head><body><div id="loadingLayer" style="position:absolute; top:50%; left:50%; margin-left:-100px; margin-top:-30px; width:200px; height:60px; display:none;" oncontextmenu="return false;"><iframe id="iframeLoad" title="요청 처리중" style="width:200px; height:60px; margin:0px; padding:0px;" scrolling="no" src="/blank.html" frameborder="0"></iframe></div>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/component.js"></script>
+	    
+
+        <!--[if IE 6]>
+            <script src="/common/js/publishing_png.js" type="text/livescript"></script>
+            <script type="text/javascript">
+                DD_belatedPNG.fix('.png24');
+            </script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript">
+            <!--
+            function page_onload(){
+         
+                // 스크롤 없애기
+                document.body.style.overflow='hidden';
+        
+                var clintAgent = navigator.userAgent;
+                if ( clintAgent.indexOf("MSIE") != -1 || clintAgent.indexOf("Trident") != -1 )
+                {
+                    // IE
+                    window.resizeBy(410-document.body.clientWidth, 355-document.body.clientHeight);
+                } else {
+                    window.resizeBy(410-window.innerWidth, 355-window.innerHeight);
+                }
+            }
+            //-->
+        </script>
+        
+        <!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 시작-->
+		
+
+
+
+
+		<!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 끝-->
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style_civil.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/frame/total_basic_style.css ">
+    
+
+    
+	<script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+	<script language="javascript" type="text/javascript" src="/egov_js/jsUserMenu.js"></script>
+	<script language="javascript" type="text/javascript" src="/egov_js/pc/date.js"></script>
+	<script language="javascript" type="text/javascript" src="/egov_js2/JPopup.js"></script>
+    
+    
+  <script language="JavaScript" type="text/JavaScript">
+
+	//-------------------------------------------------------------------
+	//리스트개수 검색(추가) - 이전 검색조건 유지 - 2015.1.6 조강래
+	//-------------------------------------------------------------------
+	
+	function goListCountSearch() {
+	    var form = document.listCountForm;
+	    
+	    form.pagingCnt.value = document.Frm.pagingCnt.value;
+	    
+	    form.pageNo.value = 1;
+	    form.action = "UPcOpenCvreqList.paid";
+	    form.submit();
+	    paid.UserEvent.stopEvent(event);
+	    
+	}
+
+  
+     // 각 페이지 별 스크립트 함수 선언 영역
+     function movePage(pageNo) {
+		 document.frm.pageNo.value = pageNo;
+         document.frm.submit();
+     }
+
+     function valid(obj,len,msg)
+     {
+         var str = v_null(obj.value);
+         if (str.length<len)
+         {
+             msgFocus(obj,msg);
+             return false;
+         }
+         return true;
+     }
+     
+     function searchOpen(){
+         
+         var frm = document.frm;
+         var start = document.frm.startd.value;
+         var end = document.frm.endd.value;
+         
+         if(start =="" && end ==""){
+             alert("검색 조건을 입력하세요.");
+         }else if(start !="" && end !=""){
+             if (!valid(frm.startd,1,"시작일이 잘못되었습니다.")) return;
+             if (!valid(frm.endd,1,"종료일이  잘못되었습니다.")) return;
+             if (frm.startd.value > frm.endd.value) {
+                 alert("시작일이 종료일보다 뒤의 날짜입니다.\n날짜를 다시 입력해 주세요.");
+                 return false;
+             }else{
+                 if(!validDateRange(start, end, 12)){
+                     alert("신청일의 검색기간은 최대 12개월입니다.");
+                     return false;
+                 }else{
+                     document.frm.pageNo.value = "1"; // 페이지 초기화 080507
+                     
+                     document.getElementById("LinkBtn").style.display = "none";      // 검색 버튼 비활성
+                     document.getElementById("ImgBtn").style.display = "block";      // 처리중 버튼 활성
+                     
+                     //document.frm.submit();
+                     return true;
+                 }
+             }
+         }else if(start !=""){
+     
+             if(end == ""){
+                 document.frm.endd.focus();
+                 alert("검색날짜를 정확히 입력하세요.");
+                 return false;
+             }
+         }else if(end !=""){
+         
+             if(start == ""){
+                 document.frm.startd.focus();
+                 alert("검색날짜를 정확히 입력하세요.");
+                 return false;
+             }
+         }else{
+             document.frm.pageNo.value = "1"; // 페이지 초기화 080507
+             
+             document.getElementById("LinkBtn").style.display = "none";      // 검색 버튼 비활성
+             document.getElementById("ImgBtn").style.display = "block";      // 처리중 버튼 활성
+             
+             //document.frm.submit();
+             return true;
+         }
+     }
+
+     /**
+      * 특정 기간의 검색범위 기준으로 날짜를 체크 한다.
+      * 2007.04.04 추가
+      */
+     function validDateRange(sDateVal, eDateVal, numMonth){
+         var startMonth = parseInt(sDateVal.substring(5,7),  10) -1;
+         var startDay   = parseInt(sDateVal.substring(8,10), 10);
+         var endMonth   = parseInt(eDateVal.substring(5,7),  10) -1;
+         var endDay     = parseInt(eDateVal.substring(8,10), 10);
+
+         var objDateS = new Date(sDateVal.substring(0,4), startMonth, startDay);
+         var objDateE = new Date(eDateVal.substring(0,4), endMonth,   endDay);
+
+         return checkTermDate(objDateS, objDateE, numMonth);
+     }
+
+     /**
+      * 특정 기간의 검색범위 기준으로 날짜를 체크 한다.
+      * 2007.04.04 추가
+      */
+     function checkTermDate(startDate, endDate, termdays){
+         var msg = termdays;
+         var startDate = startDate.setMonth(startDate.getMonth() + termdays);
+         if(startDate < endDate){
+             //alert( msg + "개월의 검색범위를 초과하였습니다.");
+             return false;
+         }else{
+             //alert( msg + " 개월의 검색범위가 적절합니다.");
+             return true;
+         }
+     }
+
+     function v_null(str) {
+         if (str.length == 0)
+             return "";
+         if ( str.search(/\s/) != -1)
+             str = str.replace(/\s/g, "");
+         return str;
+     }   
+             
+     function cals() {
+         SSGetDateFr(document.frm.startd);
+         
+     }
+     function cale() {
+         SSGetDateFr(document.frm.endd);
+         
+     }
+
+     function OpenView(peti_no_c,civil_no_c,anc_code,org_status) {
+         document.frm.peti_no_c.value=peti_no_c;
+         document.frm.org_status.value=org_status;
+         document.frm.civil_no_c.value=civil_no_c;
+         document.frm.anc_code_v.value=anc_code;
+         document.frm.action="UPcOpenCvreqView.paid";
+         document.frm.submit();
+     }   
+     
+     function goCvreqForm(){
+         //document.frm.action="/jsp/user/frame/pc/cvreq/UPcCvreqCategory.paid";
+         //document.frm.submit();
+         var form = document.frm;
+         
+         
+         
+         
+         
+         var cat_code = form.peti_cat_code_c.value;
+         
+         if(form.peti_cat_code_c.value==''){
+                  alert('신청분야를 선택후 등록하셔야 합니다. \n  검색후 등록해주세요');
+                  return ;
+         }
+         
+         //eval("_"+cat_code+".value");
+         
+         if(form.peti_cat_code_c.value!='' && !document.getElementById('_'+cat_code)){
+         alert('신청분야를 선택후 검색하지않으셨습니다. \n검색후 등록해주세요');
+         return ;
+         }
+//       var cat_code_name = document.getElementById('_'+cat_code).value;        //SSO관련 한글처리문제로 주석처리
+//       form.peti_cat_name_v.value = cat_code_name;
+         form.action = "/jsp/user/frame/pc/cvreq/UPcCvreqForm.paid";
+         
+         form.peti_cat_code_c.value = cat_code;
+         form.submit();
+         
+     }
+
+     //지자체 가져오기
+     function getAncSubList() {
+         document.frm.action = "UPcOpenCvreqList.paid"
+         document.frm.submit();
+     }   
+
+   </script>
+
+
+
+    <script language="javascript" type="text/javascript">
+    
+	  //-------------------------------------------------------------------
+	  //날짜 format
+	  //-------------------------------------------------------------------
+	  Date.prototype.format = function(f) {
+	      if (!this.valueOf()) return " ";
+	      
+	      var weekName = ["일요일", "월요일", "화요일", "수요일", "목요일", "금요일", "토요일"];
+	      var d = this;
+	      
+	      return f.replace(/(yyyy|yy|MM|dd|E|hh|mm|ss|a\/p)/gi, function($1) {
+	          switch ($1) {
+	              case "yyyy" : return d.getFullYear();
+	              case "yy"   : return (d.getFullYear() % 1000).zf(2);
+	              case "MM"   : return (d.getMonth() + 1).zf(2);
+	              case "dd"   : return d.getDate().zf(2);
+	              case "E"    : return weekName[d.getDay];
+	              case "HH"   : return d.getHours().zf(2);
+	              case "hh"   : return ((h = d.getHours() % 12) ? h : 12).zf(2);
+	              case "mm"   : return d.getMinutes().zf(2);
+	              case "ss"   : return d.getSeconds().zf(2);
+	              case "a/p"  : return d.getHours() < 12 ? "오전" : "오후";
+	              default: return $1;
+	          }
+	      });
+	  };
+	
+	  String.prototype.string = function(len){var s = '', i = 0; while (i++ < len) { s += this; } return s;};
+	  String.prototype.zf = function(len){return "0".string(len - this.length) + this;};
+	  Number.prototype.zf = function(len){return this.toString().zf(len);};
+    
+    $(function(){
+        
+    	// 달력 공통 jquery 이벤트
+        jQuery(".datepicker_input").datepicker({
+            showOn: "button", // focus, button, both
+            buttonImage: "/2014/images/btn/btn_cal.gif",
+            buttonImageOnly: "true",
+            buttonText: "달력",
+            changeMonth:true,
+            changeYear:true,
+            showAnim: "blind", // blind, clip, drop, explode, fold, puff, slide, scale, size, pulsate, bounce, highlight, shake, transfer
+            showOptions: {direction: 'horizontal'},
+            dateFormat: 'yy-mm-dd',
+            duration: 200
+        });
+	    
+     	// 달력 공통 jquery css
+        $("img.ui-datepicker-trigger").attr("style","width:25px;height:25px;margin-left:3px;margin-top:4px;vertical-align:middle;cursor:Pointer;");
+        
+     // 날짜 숫자입력 시 '-'
+        $("#startd, #endd").on("keypress", function(e){
+        	$(this).val($(this).val().replace(/[^\d;\-]/, ""));
+        	var v_val = $(this).val();
+        	var charCode = (window.Event) ? e.which : e.keyCode;
+        	if((e.keyCode < 48 || e.keyCode > 57) || (e.keyCode < 96 || e.keyCode > 105)){
+        		if((4 == v_val.length || 7 == v_val.length) && charCode != 8){
+            		$(this).val(v_val + "-");
+            	}
+        	}
+        });
+
+        // 날짜 validation
+        $("#startd, #endd").on("focusout", function(){        	
+        	var dateStr = $(this).val();
+    		var year = Number(dateStr.substr(0,4)); 
+    		var month = Number(dateStr.substr(5,2));
+    		var day = Number(dateStr.substr(8,2));
+    		var check_flag = true;
+    		
+    		if("" != dateStr && null != dateStr){
+    			if (month  < 1 || month > 12) { // check month range
+    				check_flag = false;
+    			}
+    			if (day < 1 || day > 31) {
+    				check_flag = false;
+    			}
+    			if ((month==4 || month==6 || month==9 || month==11) && day==31) {
+    				check_flag = false;
+    			}
+    			if (month == 2) { // check for february 29th
+    			var isleap = (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
+    				if (day>29 || (day==29 && !isleap)) {
+    					check_flag = false;
+    				}
+    			}
+    		}
+    		
+    		if(!check_flag){
+    			alert("날짜입력이 잘못되었습니다(YYYY-MM-DD).");
+				$(this).focus();
+    		}
+        });
+        
+        /* 기간검색 주기 선택 */
+        jQuery(".sel_54x35").each(function(q){
+            jQuery(this).click(function(){
+                $(".sel_54x35").removeClass("on");
+                
+                var dt;
+                dt = new Date();
+                var toDay = dt.format("yyyy-MM-dd");
+                $("#endd").val(toDay);
+                if ($("#endd").val() != "") {
+                    //dt = new Date($("#endd").val());
+                    var daySplit = $("#endd").val().split("-");
+                    dt = new Date(daySplit[0], daySplit[1]-1, daySplit[2]);                        
+                }
+                
+                if(q == 0){
+                    var dt2 = dt.getDate();
+                    dt.setDate(dt2 - 7);
+                    var resultDate = dt.format("yyyy-MM-dd");
+                    $("#startd").val(resultDate);
+                    $(this).addClass("on");
+                } else if(q == 1) {
+                    var dt2 = dt.getMonth();
+                    dt.setMonth(dt2 - 1);
+                    var resultDate = dt.format("yyyy-MM-dd");
+                    $("#startd").val(resultDate);
+                    $(this).addClass("on");
+                } else if(q == 2) {
+                    var dt2 = dt.getMonth();
+                    dt.setMonth(dt2 - 3);
+                    var resultDate = dt.format("yyyy-MM-dd");
+                    $("#startd").val(resultDate);
+                    $(this).addClass("on");
+                } else if(q == 3) {
+                    var dt2 = dt.getMonth();
+                    dt.setMonth(dt2 - 6);
+                    var resultDate = dt.format("yyyy-MM-dd");
+                    $("#startd").val(resultDate);
+                    $(this).addClass("on");
+                } else if(q == 4) {
+                    var dt2 = dt.getMonth();
+                    dt.setMonth(dt2 - 12);
+                    var resultDate = dt.format("yyyy-MM-dd");
+                    $("#startd").val(resultDate);
+                    $(this).addClass("on");
+                }
+            });
+        });
+    });// READY FN
+    </script>
+    
+    
+    
+    
+		<!--  20110706 김연성 국민신문고 연락처 추가종료 -->
+		<!-- 키보드 보안추가 -->
+		<!--nProtect  키보드보안설정 적용여부 시작-->
+<!-- 2007 0507
+<script language="javascript" type="text/javascript"
+src="http://update.nprotect.net/keycrypt/epeople/npkcx.js">
+</script>
+-->
+<!--nProtect  키보드보안설정 적용여부 끝-->
+
+
+		
+        <!-- 페이지개수 보기용(이전 검색조건 유지) -->
+        <form name="listCountForm" id="listCountForm" action="UPpProposDeptMyList.paid" method="post" onsubmit="return false;">
+            <input name="anc_code" value="1613000" type="hidden">
+            <input name="menu_code" value="PC001" type="hidden">
+            <input name="channel" value="1613000" type="hidden">
+            <input name="peti_no_c" value="" type="hidden">
+            <input name="org_status" value="" type="hidden">
+            <input name="anc_code_v" value="" type="hidden">
+            <input name="civil_no_c" value="" type="hidden">
+            <input name="pageNo" value="1" type="hidden">  
+            <input name="s_peti_cat_code_c" value="0100000000" type="hidden">
+            
+            <input name="peti_cat_code_c" value="0100000000" type="hidden">
+            <input name="startd" value="2015-03-21" type="hidden">
+            <input name="endd" value="2016-03-20" type="hidden">
+            <input name="select" value="title" type="hidden">
+            <input name="peti_title_v" value="개발부담금" type="hidden">
+            <input name="proc_anc_code_v" value="" type="hidden">
+            <input name="ancSubCodeTotal" value="" type="hidden">
+            <input name="pagingCnt" value="" type="hidden">
+        </form>
+		
+		<!-- Contents 영역 시작 : 개발관련 소스코드 반영 -->  
+		<form name="frm" action="UPcOpenCvreqList.paid" method="post" onsubmit="goSearch();">
+		    <input name="anc_code" value="1613000" type="hidden">
+		    <input name="menu_code" value="PC001" type="hidden">
+		    <input name="channel" value="1613000" type="hidden">
+		    <input name="peti_no_c" value="" type="hidden">
+		    <input name="org_status" value="" type="hidden">
+		    <input name="anc_code_v" value="" type="hidden">
+		    <input name="civil_no_c" value="" type="hidden">
+		    <input name="pageNo" value="1" type="hidden">  
+		    <input name="s_peti_cat_code_c" value="0100000000" type="hidden">  
+		    <!-- input type="hidden" name="peti_cat_name_v" value="" />   -->  <!-- SSO관련 한글처리문제로 주석처리  -->
+
+        <div id="content">
+            
+            <div class="srchBoxCivil mt15"><!-- 활성화시 display -->
+                    <fieldset>
+                    <legend>게시판 검색</legend>
+                        <div class="con">
+			                
+			                
+				                
+		                            <p>
+		                                <label for="select2">신청분야</label>
+		                                <select style="width:260px; margin-right:10px" title="신청분야선택" id="select2" name="peti_cat_code_c">
+		                                    <option value="">전체</option>
+		                                    
+				                                <option value="0250000000">
+				                                    건축정책
+				                                </option>
+				                            
+				                                <option value="0020000000">
+				                                    주택정책
+				                                </option>
+				                            
+				                                <option value="0030000000">
+				                                    주택정비
+				                                </option>
+				                            
+				                                <option value="0040000000">
+				                                    주택건설공급
+				                                </option>
+				                            
+				                                <option value="0050000000">
+				                                    주택기금
+				                                </option>
+				                            
+				                                <option value="0060000000">
+				                                    주거복지
+				                                </option>
+				                            
+				                                <option value="0240000000">
+				                                    부동산개발
+				                                </option>
+				                            
+				                                <option value="0080000000">
+				                                    도시정책
+				                                </option>
+				                            
+				                                <option value="0090000000">
+				                                    녹색도시(환경)
+				                                </option>
+				                            
+				                                <option value="0100000000" selected="selected">
+				                                    토지정책
+				                                </option>
+				                            
+				                                <option value="0110000000">
+				                                    부동산산업
+				                                </option>
+				                            
+				                                <option value="0120000000">
+				                                    지적 및 측량
+				                                </option>
+				                            
+				                                <option value="0130000000">
+				                                    도시광역교통
+				                                </option>
+				                            
+				                                <option value="0140000000">
+				                                    대중교통
+				                                </option>
+				                            
+				                                <option value="0260000000">
+				                                    자동차정책
+				                                </option>
+				                            
+				                                <option value="0150000000">
+				                                    자동차운영
+				                                </option>
+				                            
+				                                <option value="0160000000">
+				                                    광역도시철도
+				                                </option>
+				                            
+				                                <option value="0170000000">
+				                                    물류산업
+				                                </option>
+				                            
+				                                <option value="0180000000">
+				                                    건설정책
+				                                </option>
+				                            
+				                                <option value="0190000000">
+				                                    건설산업
+				                                </option>
+				                            
+				                                <option value="0200000000">
+				                                    건설안전
+				                                </option>
+				                            
+				                                <option value="0210000000">
+				                                    도로정책
+				                                </option>
+				                            
+				                                <option value="0220000000">
+				                                    도로운영
+				                                </option>
+				                            
+				                                <option value="0230000000">
+				                                    공항정책
+				                                </option>
+				                            
+				                                <option value="0010000000">
+				                                    기타분야
+				                                </option>
+				                            
+		                                </select>
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                                    <input id="_0100000000" name="_0100000000" value="" type="hidden">
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+			                                
+			                            
+		                            </p>
+		                        
+		                    
+                            <div class="overF mt10">
+                                <p>
+                                    <label for="day1" style="display:none;">등록기간</label>
+                                    <span>
+                                        <input title="시작일" id="startd" name="startd" value="2015-03-21" class="txt txt112 datepicker_input input-small hasDatepicker" maxlength="10" style="ime-mode:disabled;" type="text"><img class="ui-datepicker-trigger" src="/2014/images/btn/btn_cal.gif" alt="달력" title="달력" style="width:25px;height:25px;margin-left:3px;margin-top:4px;vertical-align:middle;cursor:Pointer;">
+                                    </span>
+                                    ~
+                                    <span>
+                                        <input title="종료일" id="endd" name="endd" value="2016-03-20" class="txt txt112 datepicker_input input-small hasDatepicker" maxlength="10" style="ime-mode:disabled;" type="text"><img class="ui-datepicker-trigger" src="/2014/images/btn/btn_cal.gif" alt="달력" title="달력" style="width:25px;height:25px;margin-left:3px;margin-top:4px;vertical-align:middle;cursor:Pointer;">
+                                    </span>
+                                    
+                                </p>
+                                <p class="mt5">
+                                    <a class="sel_54x35" href="javascript:void(0);" title="1주일">1주일</a><!-- 활성화시 addClass on -->
+                                    <a class="sel_54x35" href="javascript:void(0);" title="1개월">1개월</a>
+                                    <a class="sel_54x35" href="javascript:void(0);" title="3개월">3개월</a>
+                                    <a class="sel_54x35" href="javascript:void(0);" title="6개월">6개월</a>
+                                    <a class="sel_54x35" href="javascript:void(0);" title="1년">1년</a>
+                                </p>
+                            </div>
+                            <p class="mt10">
+                                <label for="type2" style="display:none;">상세검색</label>
+                                <select name="select" id="select10" title="검색어선택" style="width:120px; ">
+	                                <option value="title" selected="selected">제목</option>
+	                                <option value="gist">요지</option>
+                                </select>
+                                <input id="peti_title_v" style="width:65%" name="peti_title_v" title="검색어" class="txt473 txt" size="25" value="개발부담금" type="text">
+                            </p>
+                            <!-- 전자정부 전문포털 관련 추가 2009.11.15 kby -->
+                           
+                          
+	                            <p class="taC fN mt20">
+	                                <input id="btnSearch" name="btnSearch" title="검색" onclick="javascript:return searchOpen();" value="검색" class="search_117x35" type="submit">
+	                            </p>
+                         
+                        </div>
+                    </fieldset>
+               
+            </div><!-- // srchBoxHappy -->
+           	 
+            <div class="pageType mt30">
+                <div class="page">
+                    <span>1</span> / 7
+                </div>
+                <div class="pageList">
+	                <select id="pagingCnt" name="pagingCnt" title="리스트보기">
+	                    <option value="10" selected="selected">10개씩 보기</option>
+	                    <option value="15">15개씩 보기</option>
+	                </select>
+	                <input class="gray_50x30" title="확인" onclick="javascript:goListCountSearch();" value="확인" type="submit">
+                </div>
+            </div> <!--//pageType-->
+            <div class="listForm1 mt10">
+                <table summary="공개민원(유사민원)의 번호, 제목, 담당부서, 등록일, 상태 리스트">
+                    <caption>공개민원(유사민원)의 리스트</caption>
+                    <colgroup>
+                        <col width="60px">
+                        
+                            
+                            
+                                <col width="368px">
+                            
+                        
+                        
+                        <col width="131px">
+                        <col width="101px">
+                        <col width="50px">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">번호</th>
+                            <th scope="col">제목</th>
+                            
+                            <th scope="col">담당부서</th>
+                            <th scope="col">등록일</th>
+                            <th scope="col">상태</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+	                
+	                    
+		                    
+		                        <tr>
+		                            <td>69</td>
+		                            <td class="taL"><a href="javascript:void(0);" onclick="OpenView( '1AA-1603-052418','2AA-1603-124581','1613000','00620090' );return false;" onkeypress="">개발부담금 사업문의 (개발이익 환수에관한 법률시행령 제3조 2항 대상문의)</a></td>
+		                            
+		                            <td>토지정책과</td>
+		                            <td>2016.03.10</td>
+		                            <td>완료</td>
+		                        </tr>
+		                    
+		                        <tr>
+		                            <td>68</td>
+		                            <td class="taL"><a href="javascript:void(0);" onclick="OpenView( '1AA-1603-050668','2AA-1603-119894','1613000','00620090' );return false;" onkeypress="">개발부담금 부과 대상 여부</a></td>
+		                            
+		                            <td>토지정책과</td>
+		                            <td>2016.03.10</td>
+		                            <td>완료</td>
+		                        </tr>
+		                    
+		                        <tr>
+		                            <td>67</td>
+		                            <td class="taL"><a href="javascript:void(0);" onclick="OpenView( '1AA-1602-103166','2AA-1602-243744','1613000','00620090' );return false;" onkeypress="">구획정리완료후 주차장 건립 개발행위에대한 개발부담금 부과대상 여부</a></td>
+		                            
+		                            <td>토지정책과</td>
+		                            <td>2016.02.23</td>
+		                            <td>완료</td>
+		                        </tr>
+		                    
+		                        <tr>
+		                            <td>66</td>
+		                            <td class="taL"><a href="javascript:void(0);" onclick="OpenView( '1AA-1602-100732','2AA-1602-239203','1613000','00620090' );return false;" onkeypress="">개발부담금 부과대상인지와, 대상이라면 납부 의무자는 누구입니까?</a></td>
+		                            
+		                            <td>토지정책과</td>
+		                            <td>2016.02.22</td>
+		                            <td>완료</td>
+		                        </tr>
+		                    
+		                        <tr>
+		                            <td>65</td>
+		                            <td class="taL"><a href="javascript:void(0);" onclick="OpenView( '1AA-1602-079598','2AA-1602-189341','1613000','00620090' );return false;" onkeypress="">개발부담금 연접문의</a></td>
+		                            
+		                            <td>토지정책과</td>
+		                            <td>2016.02.18</td>
+		                            <td>완료</td>
+		                        </tr>
+		                    
+		                        <tr>
+		                            <td>64</td>
+		                            <td class="taL"><a href="javascript:void(0);" onclick="OpenView( '1AA-1602-078894','2AA-1602-187204','1613000','00620090' );return false;" onkeypress="">개발부담금 (연접사업) 대상사업여부 </a></td>
+		                            
+		                            <td>토지정책과</td>
+		                            <td>2016.02.18</td>
+		                            <td>완료</td>
+		                        </tr>
+		                    
+		                        <tr>
+		                            <td>63</td>
+		                            <td class="taL"><a href="javascript:void(0);" onclick="OpenView( '1AA-1602-068701','2AA-1602-165670','1613000','00620090' );return false;" onkeypress="">개발부담금 산정시 건축물의 건축 관련 비부과대상사업의 종료후 5년이내의 기준 적용일</a></td>
+		                            
+		                            <td>토지정책과</td>
+		                            <td>2016.02.16</td>
+		                            <td>완료</td>
+		                        </tr>
+		                    
+		                        <tr>
+		                            <td>62</td>
+		                            <td class="taL"><a href="javascript:void(0);" onclick="OpenView( '1AA-1602-014638','2AA-1602-044232','1613000','00620090' );return false;" onkeypress="">개발부담금 대상사업 여부 문의</a></td>
+		                            
+		                            <td>토지정책과</td>
+		                            <td>2016.02.03</td>
+		                            <td>완료</td>
+		                        </tr>
+		                    
+		                        <tr>
+		                            <td>61</td>
+		                            <td class="taL"><a href="javascript:void(0);" onclick="OpenView( '1AA-1602-013566','2AA-1602-041838','1613000','00620090' );return false;" onkeypress="">사실상 종교시설로서  종교집회장의 개발부담금 부과여부</a></td>
+		                            
+		                            <td>토지정책과</td>
+		                            <td>2016.02.03</td>
+		                            <td>완료</td>
+		                        </tr>
+		                    
+		                        <tr>
+		                            <td>60</td>
+		                            <td class="taL"><a href="javascript:void(0);" onclick="OpenView( '1AA-1602-003568','2AA-1602-018366','1613000','00620090' );return false;" onkeypress="">개발부담금 부과 대상 여부</a></td>
+		                            
+		                            <td>토지정책과</td>
+		                            <td>2016.02.01</td>
+		                            <td>완료</td>
+		                        </tr>
+		                    
+	                    
+                        
+	                
+                    </tbody>
+                </table>
+            </div>
+            <div class="paging mt30"><!-- paging -->
+                <p>&nbsp;<strong>1</strong>
+<a href="#2Page" title="2번째 페이지" onclick="movePage(2); return false;">2</a>
+<a href="#3Page" title="3번째 페이지" onclick="movePage(3); return false;">3</a>
+<a href="#4Page" title="4번째 페이지" onclick="movePage(4); return false;">4</a>
+<a href="#5Page" title="5번째 페이지" onclick="movePage(5); return false;">5</a>
+<a href="#6Page" title="6번째 페이지" onclick="movePage(6); return false;">6</a>
+<a href="#7Page" title="7번째 페이지" onclick="movePage(7); return false;">7</a>&nbsp;
+<a href="#nextPage" onclick="movePage(2); return false;" class="btn next"><img src="/2014/images/btn/btn_next.gif" alt="다음페이지" border="0"></a>&nbsp;
+<a href="#lastPage" onclick="movePage(7); return false;" class="btn end"><img src="/2014/images/btn/btn_end.gif" alt="끝페이지" border="0"></a></p>
+
+            </div> <!--//paging-->
+            
+            <div class="overF mt20">
+                <p class="fR">
+                    <a href="javascript:void(0);" onclick="goCvreqForm();" class="gray_80x40" title="신청">신청</a>
+                </p>
+            </div>
+            
+        </div></form><!-- // content -->
+        
+    
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div><iframe title="빈프레임" src="https://eminwon.molit.go.kr/epeople/frame/epeople_frame.html?height=1079&amp;width=730" name="epeople_reframe" id="epeople_reframe" scrolling="no" width="0" height="0"></iframe></body></html>

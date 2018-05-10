@@ -1,0 +1,209 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+    
+
+
+
+
+
+    
+
+
+        <title>국민권익위원회 국민신문고</title>
+        <!-- 공통적용헤더정보 -->
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=EUC-KR">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 공통적용헤더정보 -->
+        
+        <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery-ui-1.8.16.custom.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery.mCustomScrollbar.css" media="all">
+        
+	    <script type="text/javascript" src="/2014/egov_js/jquery-1.10.2.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery-ui-1.10.4.custom.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.mCustomScrollbar.js"></script>
+	    
+	    <script type="text/javascript" src="/2014/egov_js/publishing.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.ui.datepicker-ko.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/2014/egov_js/jquery.wheel.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.PrintArea.js"></script>
+	    
+	     <script type="text/javascript" src="/2014/egov_js/nj.common.js"></script>
+         <script type="text/javascript" src="/2014/egov_js/nj.validator.js"></script>
+	    
+
+	    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/JPopup.js"></script> 
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/pp/common.js"></script></head><body><div id="loadingLayer" style="position:absolute; top:50%; left:50%; margin-left:-100px; margin-top:-30px; width:200px; height:60px; display:none;" oncontextmenu="return false;"><iframe id="iframeLoad" title="요청 처리중" style="width:200px; height:60px; margin:0px; padding:0px;" scrolling="no" src="/blank.html" frameborder="0"></iframe></div>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/component.js"></script>
+	    
+
+        <!--[if IE 6]>
+            <script src="/common/js/publishing_png.js" type="text/livescript"></script>
+            <script type="text/javascript">
+                DD_belatedPNG.fix('.png24');
+            </script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript">
+            <!--
+            function page_onload(){
+         
+                // 스크롤 없애기
+                document.body.style.overflow='hidden';
+        
+                var clintAgent = navigator.userAgent;
+                if ( clintAgent.indexOf("MSIE") != -1 || clintAgent.indexOf("Trident") != -1 )
+                {
+                    // IE
+                    window.resizeBy(410-document.body.clientWidth, 355-document.body.clientHeight);
+                } else {
+                    window.resizeBy(410-window.innerWidth, 355-window.innerHeight);
+                }
+            }
+            //-->
+        </script>
+        
+        <!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 시작-->
+		
+
+
+
+
+		<!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 끝-->
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style_civil.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/frame/total_basic_style.css ">
+    
+
+    
+    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+    
+    
+    <script language="JavaScript" type="text/JavaScript">
+	  <!--
+	  function goList() {
+	      document.frm.action="UPcOpenCvreqList.paid";
+	      document.frm.submit();
+	  }   
+	  //-->
+    </script>
+    
+     
+    
+    
+        <!--  20110706 김연성 국민신문고 연락처 추가종료 -->
+        <!-- 키보드 보안추가 -->
+        <!--nProtect  키보드보안설정 적용여부 시작-->
+<!-- 2007 0507
+<script language="javascript" type="text/javascript"
+src="http://update.nprotect.net/keycrypt/epeople/npkcx.js">
+</script>
+-->
+<!--nProtect  키보드보안설정 적용여부 끝-->
+
+
+        
+		<form name="frm" action="UPcOpenCvreqList.paid" method="post">
+			<input name="anc_code" value="1613000" type="hidden">
+			<input name="menu_code" value="PC001" type="hidden">
+			<input name="channel" value="1613000" type="hidden">
+			<input name="pageNo" value="1" type="hidden"> 
+			
+			<input name="peti_cat_code_c" value="0100000000" type="hidden">
+			<input name="peti_cat_code_v" value="" type="hidden"> 
+			<input name="startd" value="2008-03-22" type="hidden"> 
+			<input name="endd" value="2009-03-21" type="hidden"> 
+			<input name="select" value="title" type="hidden"> 
+			<input name="peti_title_v" value="개발비용" type="hidden"> 
+			<input name="peti_status_c" value="" type="hidden"> 
+
+        <div id="content">
+            <div class="viewForm1 mt30">
+                <table summary="유사민원(공유민원)의 상세(제목, 성명, 등록일, 처리상태, 민원내용,처리결과)를 보여주는 페이지입니다.">
+                    <caption>유사민원(공유민원) 상세보기</caption>
+                    <colgroup>
+                        <col width="*">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <div class="viewTit">
+                                    <p class="txt2">개발비용 인정여부</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="subTxt">
+                                <p><strong>성명</strong>OOO</p>
+                                <p><strong>등록일</strong>2008.10.13 10:45:50</p>
+                                <p><strong>처리상태</strong>완료</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="viewDiv">
+                                <div class="txt">귀부의 무궁한 발전을 기원합니다.
+<br>
+<br>개발이익환수에 관한 법률 시행령 제12조제4항제3호와 관련하여 질의합니다.
+<br>
+<br>개발이익환수에 관한 법률 시행령 제12조제4항을 살펴보면 납부의무자가 제시한 개발비용의 금액이 제3항에 따른 금액을 초과하는 경우로서 다음 각호의 어느 하나에 해당하는 경우에는 제3항에도 불구하고 그 금액을 법 제11조에 따른 개발비용으로 인정할 수 있다. 
+<br>
+<br>또한 같은 법 시행령 제12조제4항제3호를 보면 건설산업기본법에 따라 등록을 한 건설업자와의 도급계약, 엔지니어링기술 진흥법 제4조에 따라 신고한 엔지니어링활동주체와의 엔지니어링사업계약 등 명백한 원인에 따라 지출한 비용을 근거로 산정한 개발비용
+<br>
+<br>갑설) 개발이익환수에 관한 법률 시행령 제12조제4항제3호의 규정과 같이 건설산업기본법에 따라 등록을 한 건설업자와의 도급계약을 시행하였으므로 도급계약금액 그대로 인정하여 줄것을 주장.  또한 도급계약이란 순공사비, 일반관리비, 이윤, 부가가치세를 합한 금액을 도급계약 금액이라 하므로 이윤 및 부가가치세도 인정하여야 한다고 주장.
+<br>
+<br>을설) 납부의무자가 제시한 증빙자료, 즉 본 사업과 관련된 도면, 산출명세서를 기준으로 확인한 결과 현장에 시공한 수량과 개발이익환수에 관한 법률 시행령 제12조제3항제1호의 규정과 다소 차이가 있어 국토해양부장관이 정하는 요건을 갖춘 기관에 의뢰하여 산출된 금액으로 인정하는 것이 타당하다, 이윤는 토지의 형질변경과 무관한 간접비성 금액이므로 인정할 수 없으며, 부가가치세는 환급처리되므로 인정할 수 없다라고 주장.
+<br>
+<br>위와 같이 양쪽의 주장이 팽팽함. 
+<br>
+<br>1. 갑과 을설중 어느것이 타당한지 여부
+<br>2. 개발이익환수에 관한법률 시행령 제12조제4항제3호의 도급계약금액은 어떤 경우에 인정하는지 여부
+<br>3. 이윤 및 부가가치세는 인정이 가능한지 여부.
+<br>감사합니다.  조속한 답변 부탁드립니다.
+<br> 
+<br>
+<br>  
+<br>   </div>
+                            </td>
+                        </tr>
+						
+                    </tbody>
+                </table>
+            </div>
+            
+	            <div class="answerDiv">
+	                <p class="iconA"><img src="/2014/images/icon/icon_result.gif" alt="처리결과"></p>
+	                <div class="answerTxt">평소 국토해양부에 관심과 애정을 가져주시어 감사 드립니다. 
+<br>귀하께서 인터넷(홈페이지)을 통하여 질의하신 사항에 대하여 아래와 같이 알려드립니다.
+<br>
+<br>ㅇ개발이익환수에 관한 법률 시행령 제12조제4항제3호의 규정은 「건설산업기본법」에 의하여 등록을 한 건설업자와의 도급계약, 「엔지니어링기술 진흥법」에 의하여 신고한 엔지니어링활동주체와의 엔지니어링사업계약등 명백한 원인에 의하여 지출한 비용을 근거로 산정한 개발비용은 
+<br>- 납부의무자가 제시한 개발비용의 금액이 제3항의 규정에 따른 금액을 초과하는 경우에도 개발비용으로 인정할 수 있다는 규정으로 제3항의 규정은 납부의무자가 제시한 금액중 순공사비(재료비,노무비,경비),조사비, 설계비의 산출기준을 말합니다.
+<br>
+<br>따라서 부가가치세가 위의 규정에 의한 도급계약에 포함되어 환급 받지 않는 경우라면 개발비용으로 산정이 가능할 것으로 판단되나, 이윤은 위의 규정에 의한 개발비용으로 볼 수 없을 것입니다.
+<br>
+<br>기타 회신내용에 대하여 추가질문이 있으실 경우 고객만족센터(1599-0001,담당 윤 미)로 문의하시기 바랍니다.<br><br>평소 국토해양부에 관심과 애정을 가져주시어 감사 드립니다. 
+<br>귀하께서 인터넷(홈페이지)을 통하여 질의하신 사항에 대하여 아래와 같이 알려드립니다.
+<br>
+<br>ㅇ 개발이익환수에관한법률시행령 제12조제4항제3호「건설산업기본법」에 의하여 등록을 한 건설업자와의 도급계약, 「엔지니어링기술 진흥법」에 의하여 신고한 엔지니어링활동주체와의 엔지니어링사업계약등 명백한 원인에 의하여 지출한  비용을 근거로 산정한 개발비용은 법률제11조에 따른 개발비용으로 인정할 수 있습니다. 
+<br>
+<br>- 따라서 이윤, 부가가치세가 도급계약에 포함되어 환급 받지 않는 경우라면 개발비용 산정이 가능할 것으로 판단되나, 당해 비용이 개발비용에 해당되는지 여부는 법령해석이 아닌 사실판단에 관한 사항이므로 부과권자인 해당 시장, 군수, 구청장이 판단해야 할 것입니다. 
+<br>
+<br>기타 회신내용에 대하여 추가질문이 있으실 경우 고객만족센터(1599-0001,담당 윤 미)로 문의하시기 바랍니다.</div> <!--//answerTxt-->
+                    
+	            </div>
+	        
+            <p class="taR mt20">
+                <a href="javascript:void(0);" onclick="goList();" class="black_80x40">목록</a>
+            </p>
+        </div><!-- // content -->
+    
+
+</form><iframe title="빈프레임" src="https://eminwon.molit.go.kr/epeople/frame/epeople_frame.html?height=1685&amp;width=730" name="epeople_reframe" id="epeople_reframe" scrolling="no" width="0" height="0"></iframe></body></html>

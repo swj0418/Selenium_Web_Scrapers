@@ -1,0 +1,175 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+    
+
+
+
+
+
+    
+
+
+        <title>국민권익위원회 국민신문고</title>
+        <!-- 공통적용헤더정보 -->
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=EUC-KR">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 공통적용헤더정보 -->
+        
+        <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery-ui-1.8.16.custom.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery.mCustomScrollbar.css" media="all">
+        
+	    <script type="text/javascript" src="/2014/egov_js/jquery-1.10.2.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery-ui-1.10.4.custom.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.mCustomScrollbar.js"></script>
+	    
+	    <script type="text/javascript" src="/2014/egov_js/publishing.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.ui.datepicker-ko.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/2014/egov_js/jquery.wheel.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.PrintArea.js"></script>
+	    
+	     <script type="text/javascript" src="/2014/egov_js/nj.common.js"></script>
+         <script type="text/javascript" src="/2014/egov_js/nj.validator.js"></script>
+	    
+
+	    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/JPopup.js"></script> 
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/pp/common.js"></script></head><body><div id="loadingLayer" style="position:absolute; top:50%; left:50%; margin-left:-100px; margin-top:-30px; width:200px; height:60px; display:none;" oncontextmenu="return false;"><iframe id="iframeLoad" title="요청 처리중" style="width:200px; height:60px; margin:0px; padding:0px;" scrolling="no" src="/blank.html" frameborder="0"></iframe></div>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/component.js"></script>
+	    
+
+        <!--[if IE 6]>
+            <script src="/common/js/publishing_png.js" type="text/livescript"></script>
+            <script type="text/javascript">
+                DD_belatedPNG.fix('.png24');
+            </script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript">
+            <!--
+            function page_onload(){
+         
+                // 스크롤 없애기
+                document.body.style.overflow='hidden';
+        
+                var clintAgent = navigator.userAgent;
+                if ( clintAgent.indexOf("MSIE") != -1 || clintAgent.indexOf("Trident") != -1 )
+                {
+                    // IE
+                    window.resizeBy(410-document.body.clientWidth, 355-document.body.clientHeight);
+                } else {
+                    window.resizeBy(410-window.innerWidth, 355-window.innerHeight);
+                }
+            }
+            //-->
+        </script>
+        
+        <!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 시작-->
+		
+
+
+
+
+		<!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 끝-->
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style_civil.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/frame/total_basic_style.css ">
+    
+
+    
+    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+    
+    
+    <script language="JavaScript" type="text/JavaScript">
+	  <!--
+	  function goList() {
+	      document.frm.action="UPcOpenCvreqList.paid";
+	      document.frm.submit();
+	  }   
+	  //-->
+    </script>
+    
+     
+    
+    
+        <!--  20110706 김연성 국민신문고 연락처 추가종료 -->
+        <!-- 키보드 보안추가 -->
+        <!--nProtect  키보드보안설정 적용여부 시작-->
+<!-- 2007 0507
+<script language="javascript" type="text/javascript"
+src="http://update.nprotect.net/keycrypt/epeople/npkcx.js">
+</script>
+-->
+<!--nProtect  키보드보안설정 적용여부 끝-->
+
+
+        
+		<form name="frm" action="UPcOpenCvreqList.paid" method="post">
+			<input name="anc_code" value="1613000" type="hidden">
+			<input name="menu_code" value="PC001" type="hidden">
+			<input name="channel" value="1613000" type="hidden">
+			<input name="pageNo" value="10" type="hidden"> 
+			
+			<input name="peti_cat_code_c" value="0100000000" type="hidden">
+			<input name="peti_cat_code_v" value="" type="hidden"> 
+			<input name="startd" value="2012-03-22" type="hidden"> 
+			<input name="endd" value="2013-03-21" type="hidden"> 
+			<input name="select" value="title" type="hidden"> 
+			<input name="peti_title_v" value="개발부담금" type="hidden"> 
+			<input name="peti_status_c" value="" type="hidden"> 
+
+        <div id="content">
+            <div class="viewForm1 mt30">
+                <table summary="유사민원(공유민원)의 상세(제목, 성명, 등록일, 처리상태, 민원내용,처리결과)를 보여주는 페이지입니다.">
+                    <caption>유사민원(공유민원) 상세보기</caption>
+                    <colgroup>
+                        <col width="*">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <div class="viewTit">
+                                    <p class="txt2">개발부담금을 부과받게 된 토지소유자가 종전 토지소유자가 지출한 오염토양정화공사비를 개발이익환수에 관한 법률 소정의 순공사비에 포함시켜 개발비용 명목으로 공제받을 수 있는지 여부</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="subTxt">
+                                <p><strong>성명</strong>OOO</p>
+                                <p><strong>등록일</strong>2012.05.31 10:54:21</p>
+                                <p><strong>처리상태</strong>완료</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="viewDiv">
+                                <div class="txt">관할구청장이 종전 토지소유자에게 신축건물 공사부지에 대하여 토양정밀조사 실시명령을 내렸고, 정밀조사를 실시한 결과 신축건물 공사부지 중 일부가 토양오염 우려기준 및 대책기준을 초과하였음이 확인되었으며, 이에 따라 종전 토지소유자가 별도로 용역업체를 통하여 신축건물 공사부지 내에서 오염토를 굴착 후 반출하여 토양경작법 및 토양세척법을 적용하여 오염토양 정화공사를 실시하였습니다. 그 후 신축건물 공사부지를 종전 토지소유자로부터 양수하였고, 신축건물 준공 이후 관할구청장으로부터 개발부담금을 부과받게 되었는데, 이 경우 종전 토지소유자가 지출한 오염토양정화공사비를 개발이익환수에 관한 법률 소정의 순공사비에 포함시켜 개발비용 명목으로 공제받을 수 있는지 여부를 알려주시기 바랍니다
+<br>(개발이익환수에 관한 법률 제11조 제1항에서는 개발비용에 대하여 개발사업의 시행과 관련하여 지출된 비용이라고만 규정되어 있고 비용지출의 주체에 관하여는 명확히 규정되어 있지 않으며, 같은 법률 제12조 제1항에서는 개발부담금 부과개시시점 후 부과 전에 토지의 양도로 인하여 종전 토지소유자에게 부과된 양도소득세를 개발비용에 계상할 수 있다고 규정되어 있어 종전 토지소유자가 지출한 비용도 개발비용으로 원용할 수 있는지 여부를 질의하게 된 것이고, 대법원 2002. 1. 22. 선고 99두8923, 대법원 2000. 6. 9. 선고 98두15566 판결에 의하면 개발이익의 산정에 있어 공제대상이 되는 개발비용 중 순공사비는 당해 개발사업의 시행을 위하여 사업대상 토지에 투입되어 그 편익 혹은 가치의 증가를 가져온 것으로 볼 수 있는 경우를 뜻한다고 되어 있고, 개발사업자가 쓰레기를 사업대상 토지 내의 다른 곳으로 옮겨 매립하였다가 그 부당성이 지적되자 그 후 이를 다시 사업대상 토지 밖의 적법한 쓰레기매립장으로 반출한 경우, 당초부터 사업대상 토지 밖의 적법한 쓰레기매립장으로 반출하는데 소요되었을 비용만큼을 순공사비로서 개발비용에 포함시켜야 한다고 한 사례가 있어, 위와 같은 오염토양 정화공사비도 「개발이익환수에 관한 법률」 제11조 제1항 및 같은 법률 시행령 제12조 제1항 제1호의 순공사비에 해당하여 개발비용에 포함되는 것인지 여부를 질의하게 되었습니다.)</div>
+                            </td>
+                        </tr>
+						
+                    </tbody>
+                </table>
+            </div>
+            
+	            <div class="answerDiv">
+	                <p class="iconA"><img src="/2014/images/icon/icon_result.gif" alt="처리결과"></p>
+	                <div class="answerTxt">○ 평소 국토해양행정에 관심과 애정을 가져 주신 점 깊이 감사드리며, 귀하께서 국민신문고를 통하여 질의하신 사항에 대해 다음과 같이 답변 드립니다. 
+<br>○ 「개발이익 환수에 관한 법률」제11조에 의거 개발사업의 시행과 관련하여 지출된 순공사비 등은 개발비용으로 산정하도록 규정하고 있으므로 개발비용은 개발사업의 인가등을 받은 날 이후에 지출된 순공사비 등에 한하여 산정하여야 하나, 다만, 같은 법 시행령 제12조제1항제7호에 의거 개발사업을 시작하기 전에 부과대상 토지를 개량하기 위하여 지출한 비용으로서 개시시점지가에 반영되지 아니한 비용은 이를 개량비로 보아 개발비용으로 산정하도록 규정하고 있습니다. ○ 따라서, 개발사업 착수전에 지출한 공사비가 있는 경우 당해 개시시점지가에 반영되었는지 여부 등 위 규정에 의한 개량비 해당여부는 사실관계를 판단할 사항으로 부과권자가 관계법령 및 사실관계 등을 검토하여 판단할 사항으로 봅니다.</div> <!--//answerTxt-->
+                    
+	            </div>
+	        
+            <p class="taR mt20">
+                <a href="javascript:void(0);" onclick="goList();" class="black_80x40">목록</a>
+            </p>
+        </div><!-- // content -->
+    
+
+</form><iframe title="빈프레임" src="https://eminwon.molit.go.kr/epeople/frame/epeople_frame.html?height=1011&amp;width=730" name="epeople_reframe" id="epeople_reframe" scrolling="no" width="0" height="0"></iframe></body></html>

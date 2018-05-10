@@ -1,0 +1,198 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+    
+
+
+
+
+
+    
+
+
+        <title>국민권익위원회 국민신문고</title>
+        <!-- 공통적용헤더정보 -->
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=EUC-KR">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 공통적용헤더정보 -->
+        
+        <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery-ui-1.8.16.custom.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery.mCustomScrollbar.css" media="all">
+        
+	    <script type="text/javascript" src="/2014/egov_js/jquery-1.10.2.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery-ui-1.10.4.custom.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.mCustomScrollbar.js"></script>
+	    
+	    <script type="text/javascript" src="/2014/egov_js/publishing.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.ui.datepicker-ko.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/2014/egov_js/jquery.wheel.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.PrintArea.js"></script>
+	    
+	     <script type="text/javascript" src="/2014/egov_js/nj.common.js"></script>
+         <script type="text/javascript" src="/2014/egov_js/nj.validator.js"></script>
+	    
+
+	    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/JPopup.js"></script> 
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/pp/common.js"></script></head><body><div id="loadingLayer" style="position:absolute; top:50%; left:50%; margin-left:-100px; margin-top:-30px; width:200px; height:60px; display:none;" oncontextmenu="return false;"><iframe id="iframeLoad" title="요청 처리중" style="width:200px; height:60px; margin:0px; padding:0px;" scrolling="no" src="/blank.html" frameborder="0"></iframe></div>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/component.js"></script>
+	    
+
+        <!--[if IE 6]>
+            <script src="/common/js/publishing_png.js" type="text/livescript"></script>
+            <script type="text/javascript">
+                DD_belatedPNG.fix('.png24');
+            </script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript">
+            <!--
+            function page_onload(){
+         
+                // 스크롤 없애기
+                document.body.style.overflow='hidden';
+        
+                var clintAgent = navigator.userAgent;
+                if ( clintAgent.indexOf("MSIE") != -1 || clintAgent.indexOf("Trident") != -1 )
+                {
+                    // IE
+                    window.resizeBy(410-document.body.clientWidth, 355-document.body.clientHeight);
+                } else {
+                    window.resizeBy(410-window.innerWidth, 355-window.innerHeight);
+                }
+            }
+            //-->
+        </script>
+        
+        <!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 시작-->
+		
+
+
+
+
+		<!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 끝-->
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style_civil.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/frame/total_basic_style.css ">
+    
+
+    
+    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+    
+    
+    <script language="JavaScript" type="text/JavaScript">
+	  <!--
+	  function goList() {
+	      document.frm.action="UPcOpenCvreqList.paid";
+	      document.frm.submit();
+	  }   
+	  //-->
+    </script>
+    
+     
+    
+    
+        <!--  20110706 김연성 국민신문고 연락처 추가종료 -->
+        <!-- 키보드 보안추가 -->
+        <!--nProtect  키보드보안설정 적용여부 시작-->
+<!-- 2007 0507
+<script language="javascript" type="text/javascript"
+src="http://update.nprotect.net/keycrypt/epeople/npkcx.js">
+</script>
+-->
+<!--nProtect  키보드보안설정 적용여부 끝-->
+
+
+        
+		<form name="frm" action="UPcOpenCvreqList.paid" method="post">
+			<input name="anc_code" value="1613000" type="hidden">
+			<input name="menu_code" value="PC001" type="hidden">
+			<input name="channel" value="1613000" type="hidden">
+			<input name="pageNo" value="2" type="hidden"> 
+			
+			<input name="peti_cat_code_c" value="0100000000" type="hidden">
+			<input name="peti_cat_code_v" value="" type="hidden"> 
+			<input name="startd" value="2008-03-22" type="hidden"> 
+			<input name="endd" value="2009-03-21" type="hidden"> 
+			<input name="select" value="title" type="hidden"> 
+			<input name="peti_title_v" value="개발비용" type="hidden"> 
+			<input name="peti_status_c" value="" type="hidden"> 
+
+        <div id="content">
+            <div class="viewForm1 mt30">
+                <table summary="유사민원(공유민원)의 상세(제목, 성명, 등록일, 처리상태, 민원내용,처리결과)를 보여주는 페이지입니다.">
+                    <caption>유사민원(공유민원) 상세보기</caption>
+                    <colgroup>
+                        <col width="*">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <div class="viewTit">
+                                    <p class="txt2">개발비용 인정 여부</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="subTxt">
+                                <p><strong>성명</strong>OOO</p>
+                                <p><strong>등록일</strong>2008.08.06 19:34:44</p>
+                                <p><strong>처리상태</strong>완료</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="viewDiv">
+                                <div class="txt">귀 부의 무궁한 발전을 기원합니다.
+<br>
+<br>개발이익환수에 관한 법률 및 시행령 제12조와 관련하여 부과개시시점, 부과대상면적, 조사비 인정 여부를 다음과 같이 질의하오니  답변부탁드립니다. 
+<br>
+<br>1. 부과개시시점 기준일 : 골프장(체육시설) 건설사업과 관련하여 당초 관리지역에서 계획관리지역으로 용도지역이 변경된 경우 부과 개시시점을 용도지역 변경일로 보아야 하는 것인지, 아니면 실시계획승인일 또는 사업계획승인일로 보아야 하는지 여부
+<br>
+<br>2. 부과대상 면적 : 골프장건설사업 허가면적 153,671m2 중 일부 38,652m2는 원형보전녹지로 지정되어 준공된 경우 부과대상 면적은?(갑과을설이 분분함)
+<br>갑설 : 허가 및 준공면적 153,671m2로 준공되어 지가가 상승하였으므로 개발부담금 부과대상면적에 포함하여 부과하는 것이 타당
+<br>을설 : 원형보전녹지는 허가 및 준공면적에 포함되어 있다고는 하지만 실질적으로 원형을 보전하기위하여 토지형질변경(절토,성토가 이루어 지질않음) 사항이 없음으로 153,671m2 중 원형보전녹지 38,682m2를 제외한 115,019m2로 보는(부과대상면적) 것이 타당 
+<br>
+<br>3. 조사비 인정여부 : 골프장 건설사업과 관련하여 교통영향성 평가비와 환경영향성 평가비을 지출한 경우 개발이익환수에 관한 법률 시행령 제12조의 규정에 의한 조사비로 인정이 가능한지 여부 (학술연구 용역비로 지출되였으며 보고서로 제출됨)
+<br></div>
+                            </td>
+                        </tr>
+						
+                    </tbody>
+                </table>
+            </div>
+            
+	            <div class="answerDiv">
+	                <p class="iconA"><img src="/2014/images/icon/icon_result.gif" alt="처리결과"></p>
+	                <div class="answerTxt">국토해양 행정에 애정과 관심을 가져 주신 점 감사드리며 아래와 같이 답변드립니다.
+<br>
+<br>1. 부과개시시점
+<br> 개발이익환수에관한법률 제9조제1항제1호의 규정에 의거 인가등을 받기 전 5년 이내에 대통령령으로 정하는 토지 이용 계획 등이 변경된 경우로서 그 토지 이용 계획 등이 변경되기 전에 취득한 토지의 경우에는 취득일. 다만, 그 취득일부터 2년 이상이 지난 후 토지 이용 계획 등이 변경된 경우 등 대통령령으로 정하는 경우에는 대통령령으로 정하는 날로 하며,
+<br>시행령 제7조의 규정에 의하면 대통령령이 정하는 토지 이용 계획 등이 변경된 경우란 개발사업이 시행되는 토지가 별표 2의 용도지역ㆍ용도지구 등으로 지정 또는 변경되거나 그 토지에 지정된 용도지역ㆍ용도지구 등이 해제되는 것을 말한다. 다만, 토지 취득 당시의 용도지역ㆍ용도지구 등과 같은 용도지역ㆍ지구 등으로 되돌리는 경우는 제외하며, 토지 이용 계획 등의 변경이 두 번 이상 이루어진 경우에는 인가등을 받기 전 5년 이내에 최초로 이루어진 것을 제1항에 따른 토지 이용 계획 등의 변경으로 봅니다.
+<br>
+<br>따라서, 우선 별표2에 규정된 토지이용계획의 변경에 해당되는 지, 취득시점이 언제 인지등을 확인하여야 할 사항입니다
+<br>
+<br>2. 골프장건설할 경우 원형보전지역을 부과대상 면적에 제외하여야 하는 지
+<br>개발사업을 시행하기 위하여 허가받은 면적을 기준으로 하여 산정하며, 허가받은 면적에 포함될 경우 일단지로 평가합니다.
+<br>
+<br>3. 조사비 인정여부
+<br>시행령제12조제3항제2호의 규정에 의하여 조사비와 설계비는 엔지니어링기술진흥법 제10조에 따른 엔지니어링사업대가의 기준에 따라 산정한 금액을 말하므로, 동 기준에 포함되는 지를 확인하여야 할 사항입니다.
+<br>
+<br>기타 회신내용에 추가 질문이 있으실 경우 고객만족센터(1599-0001, 담당 윤 미)로 문의하시기 바랍니다.</div> <!--//answerTxt-->
+                    
+	            </div>
+	        
+            <p class="taR mt20">
+                <a href="javascript:void(0);" onclick="goList();" class="black_80x40">목록</a>
+            </p>
+        </div><!-- // content -->
+    
+
+</form><iframe title="빈프레임" src="https://eminwon.molit.go.kr/epeople/frame/epeople_frame.html?height=1419&amp;width=730" name="epeople_reframe" id="epeople_reframe" scrolling="no" width="0" height="0"></iframe></body></html>

@@ -1,0 +1,237 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+    
+
+
+
+
+
+    
+
+
+        <title>국민권익위원회 국민신문고</title>
+        <!-- 공통적용헤더정보 -->
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=EUC-KR">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 공통적용헤더정보 -->
+        
+        <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery-ui-1.8.16.custom.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery.mCustomScrollbar.css" media="all">
+        
+	    <script type="text/javascript" src="/2014/egov_js/jquery-1.10.2.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery-ui-1.10.4.custom.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.mCustomScrollbar.js"></script>
+	    
+	    <script type="text/javascript" src="/2014/egov_js/publishing.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.ui.datepicker-ko.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/2014/egov_js/jquery.wheel.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.PrintArea.js"></script>
+	    
+	     <script type="text/javascript" src="/2014/egov_js/nj.common.js"></script>
+         <script type="text/javascript" src="/2014/egov_js/nj.validator.js"></script>
+	    
+
+	    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/JPopup.js"></script> 
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/pp/common.js"></script></head><body><div id="loadingLayer" style="position:absolute; top:50%; left:50%; margin-left:-100px; margin-top:-30px; width:200px; height:60px; display:none;" oncontextmenu="return false;"><iframe id="iframeLoad" title="요청 처리중" style="width:200px; height:60px; margin:0px; padding:0px;" scrolling="no" src="/blank.html" frameborder="0"></iframe></div>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/component.js"></script>
+	    
+
+        <!--[if IE 6]>
+            <script src="/common/js/publishing_png.js" type="text/livescript"></script>
+            <script type="text/javascript">
+                DD_belatedPNG.fix('.png24');
+            </script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript">
+            <!--
+            function page_onload(){
+         
+                // 스크롤 없애기
+                document.body.style.overflow='hidden';
+        
+                var clintAgent = navigator.userAgent;
+                if ( clintAgent.indexOf("MSIE") != -1 || clintAgent.indexOf("Trident") != -1 )
+                {
+                    // IE
+                    window.resizeBy(410-document.body.clientWidth, 355-document.body.clientHeight);
+                } else {
+                    window.resizeBy(410-window.innerWidth, 355-window.innerHeight);
+                }
+            }
+            //-->
+        </script>
+        
+        <!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 시작-->
+		
+
+
+
+
+		<!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 끝-->
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style_civil.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/frame/total_basic_style.css ">
+    
+
+    
+    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+    
+    
+    <script language="JavaScript" type="text/JavaScript">
+	  <!--
+	  function goList() {
+	      document.frm.action="UPcOpenCvreqList.paid";
+	      document.frm.submit();
+	  }   
+	  //-->
+    </script>
+    
+     
+    
+    
+        <!--  20110706 김연성 국민신문고 연락처 추가종료 -->
+        <!-- 키보드 보안추가 -->
+        <!--nProtect  키보드보안설정 적용여부 시작-->
+<!-- 2007 0507
+<script language="javascript" type="text/javascript"
+src="http://update.nprotect.net/keycrypt/epeople/npkcx.js">
+</script>
+-->
+<!--nProtect  키보드보안설정 적용여부 끝-->
+
+
+        
+		<form name="frm" action="UPcOpenCvreqList.paid" method="post">
+			<input name="anc_code" value="1613000" type="hidden">
+			<input name="menu_code" value="PC001" type="hidden">
+			<input name="channel" value="1613000" type="hidden">
+			<input name="pageNo" value="2" type="hidden"> 
+			
+			<input name="peti_cat_code_c" value="0100000000" type="hidden">
+			<input name="peti_cat_code_v" value="" type="hidden"> 
+			<input name="startd" value="2008-03-22" type="hidden"> 
+			<input name="endd" value="2009-03-21" type="hidden"> 
+			<input name="select" value="title" type="hidden"> 
+			<input name="peti_title_v" value="개발부담금" type="hidden"> 
+			<input name="peti_status_c" value="" type="hidden"> 
+
+        <div id="content">
+            <div class="viewForm1 mt30">
+                <table summary="유사민원(공유민원)의 상세(제목, 성명, 등록일, 처리상태, 민원내용,처리결과)를 보여주는 페이지입니다.">
+                    <caption>유사민원(공유민원) 상세보기</caption>
+                    <colgroup>
+                        <col width="*">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <div class="viewTit">
+                                    <p class="txt2">개발부담금 부과와 관련하여</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="subTxt">
+                                <p><strong>성명</strong>OOO</p>
+                                <p><strong>등록일</strong>2009.01.22 12:09:29</p>
+                                <p><strong>처리상태</strong>완료</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="viewDiv">
+                                <div class="txt">저는 중소기업 총무부에서 근무하는회사원 입니다
+<br>2009.1.21일 사하구청으로 부터 개발부담금 부과 대상 사업고지 라는 공문을 받아
+<br>몇가지 의문이 생겨 문의 드립니다
+<br>회사 공장 신설을 위해 공장신축 허가를 받는 과정에서
+<br>101-1번지 지목 : 공장, 면적 : 11256㎡  --&gt; 기 공장용지
+<br>20-2번지 지목 : 전, 면적 : 129㎡   --&gt; 전용허가
+<br>12-3번지 : 임야, 면적 : 442㎡       --&gt; 전용허가
+<br>
+<br>합계 : 11827㎡(공장신설 허가면적)
+<br>순수 전용면적 : 571㎡
+<br>
+<br>개발이익 환수에관한 법률시행령  제4조 및 1항에 따르면 허가면적 660㎡ 이상으로
+<br>개발부담금 대상 사업자에 해당 될수 있으나
+<br>
+<br>법 의 근본 취지가 지목전용으로 인한 개발이익에 대해 개발부담금을 부과하는 것으로 알고
+<br>있으며 순수 전용면적은 660㎡ 에 훨씬 못 미치므로 개발부담 부과 대상은 아닌것 같습니다
+<br>(개인적으로 생각할때)
+<br>
+<br>관련하여 대법원의 비슷한 판례도 올려 봅니다
+<br>
+<br>국토해양부 장관님의 정확한 해석을 듣고 싶습니다. 고맙습니다.
+<br>
+<br>대법원 1999. 7. 23. 선고 98두17326 판결 【개발부담금부과처분취소】 
+<br>[공1999.9.1.(89),1806]
+<br>
+<br>--------------------------------------------------------------------------------
+<br> 
+<br>【판시사항】
+<br>[1] 공부상 지목은 전(전)이나 사실상 대지로 이용되어 온 토지 상에 근린생활시설을 건축한 후 지목변경을 신청하여 그 지목을 '대(대)'로 변경한 경우, 그 토지는 근린생활시설의 건축으로 인하여 비로소 사실상 지목이 '대'로 변경되었다는 이유로 구 개발이익환수에관한법률시행령 제4조 [별표 1]의 제10호 소정의 '사실상 또는 공부상 지목변경이 수반되는 사업'에 해당한다고 한 사례
+<br>[2] 토지형질변경허가의 대상행위와 같은 유형의 개발행위가 없이 수 필지의 토지에 걸친 건축물의 건축행위가 있고 그 중 일부 토지만에 관하여 사실상 또는 공부상의 지목변경이 이루어진 경우, 구 개발이익환수에관한법률시행령 제4조 제1항 소정의 개발부담금 부과대상이 되는 규모의 판단 기준(=지목변경이 이루어진 당해 토지만의 면적)
+<br>
+<br>【판결요지】 
+<br>[1] 공부상 지목은 전(전)이나 사실상 대지로 이용되어 온 토지 상에 근린생활시설을 건축한 후 지목변경을 신청하여 그 지목을 '대(대)'로 변경한 경우, 그 토지는 근린생활시설의 건축으로 인하여 비로소 사실상 지목이 '대'로 변경되었다는 이유로 구 개발이익환수에관한법률시행령(1997. 6. 25. 대통령령 제15398호로 개정되기 전의 것) 제4조 [별표 1]의 제10호 소정의 '사실상 또는 공부상 지목변경이 수반되는 사업'에 해당한다고 한 사례.
+<br>[2] 토지형질변경허가의 대상행위와 같은 유형의 개발행위가 없이 수 필지의 토지에 걸친 건축물의 건축행위가 있고 그 중 일부 토지만에 관하여 사실상 또는 공부상의 지목변경이 이루어진 경우 구 개발이익환수에관한법률시행령(1997. 6. 25. 대통령령 제15398호로 개정되기 전의 것) 제4조 제1항 소정의 개발부담금부과대상이 되는 규모의 판단 기준은, 그 지목변경이 이루어진 당해 토지의 면적만을 토대로 하는 것이 상당하다.
+<br>
+<br>【참조조문】 
+<br>[1] 개발이익환수에관한법률 제5조 제1항 제10호 , 구 개발이익환수에관한법률시행령(1997. 6. 25. 대통령령 제15398호로 개정되기 전의 것) 제4조 제1항 [별표 1] 제10호 , 구 개발이익환수에관한법률시행규칙(1997. 2. 15. 건설교통부령 제93호로 개정되기 전의 것) 제3조의2 제2항 [별표 2] , 구 지적법(1999. 1. 18. 법률 제5630호로 개정되기 전의 것) 제20조 , 구 지적법시행령(1999. 2. 26. 대통령령 제16124호로 개정되기 전의 것) 제19조 , 구 지적법시행규칙(1999. 5. 1. 내무부령 제50호로 개정되기 전의 것) 제21조 / [2] 개발이익환수에관한법률 제5조 제1항 제10호 , 구 개발이익환수에관한법률시행령(1997. 6. 25. 대통령령 제15398호로 개정되기 전의 것) 제4조 제1항 [별표 1] 제10호 , 구 개발이익환수에관한법률시행규칙(1997. 2. 15. 건설교통부령 제93호로 개정되기 전의 것) 제3조의2 제2항 [별표 2] 
+<br>
+<br>【참조판례】 
+<br>[1] 대법원 1994. 3. 22. 선고 93누6256 판결(공1994상, 1343), 대법원 1996. 1. 23. 선고 95누8287 판결(공1996상, 685), 대법원 1997. 5. 9. 선고 97누3873 판결(공1997상, 1758), 대법원 1998. 7. 14. 선고 97누775 판결(공1998하, 2143), 대법원 1998. 11. 13. 선고 97누2153 판결(공1998하, 2883) /[2] 대법원 1997. 6. 27. 선고 96누12337 판결(공1997하, 2192) 
+<br>
+<br>【전 문】 
+<br>【원고,피상고인】 빈영종 (소송대리인 법무법인 21세기종합법률사무소 담당변호사 이성렬 외 4인) 
+<br>【피고,상고인】 광주광역시 남구청장 
+<br>【원심판결】 광주고법 1998. 10. 1. 선고 96구3578 판결 
+<br>【주문】 
+<br>상고를 기각한다. 상고비용은 피고의 부담으로 한다.
+<br>
+<br>【이유】 
+<br>상고이유를 판단한다.
+<br>원심은, 원고가 1995. 5. 18. 건축법 제8조의 규정에 의하여 도시계획구역인 판시 토지들(원심판결문 첨부 별지목록 1, 2, 3기재 모든 토지들을 말함, 이하 같음) 위의 철근콘크리트조 슬래브지붕 지하 1층, 지상 4층으로 된 일반음식점 등 근린생활시설(이하 '이 사건 건물'이라 함)의 건축허가를 받아 그 건축을 완료한 다음, 1995. 12. 2. 피고로부터 이 사건 건물의 사용검사를 받았고, 1996. 10. 9. 판시 토지들 중 이 사건 토지(원심판결문 첨부 별지 목록 제2 기재 토지 광주 남구 진월동 587의 3 전 623㎡를 말함, 이하 같음)의 지목변경을 신청하여 같은 날 그 지목이 전(전)에서 대(대)로 변경된 사실, 이 사건 토지의 공부상 지목은 '전'이었으나 실제로는 이 사건 건물을 건축하기 훨씬 이전부터 이 사건 토지를 포함한 판시 토지들 전부가 사실상 대지로 이용되어 왔던 사실 등을 인정하였다.
+<br>원심은 나아가, 개발이익환수에관한법률 제5조 제1항 제10호에서 정한 '지목변경이 수반되는 사업으로서 대통령령이 정하는 사업'이라 함은, 같은법시행령 제4조 제1항 [별표 1] 제10호 및 같은법시행규칙 제3조의 2 제2항 [별표 2]의 각 규정 등에 비추어 볼 때, 토지에 대한 절토?성토?정지?매립 등의 행위를 통하여 공부상 또는 사실상 지목이 변경되거나 또는 지목이 변경되지 않더라도 건축물의 건축에 적합한 상태로 토지의 효용을 높이기 위하여 공사를 하는 경우 등을 말하고, 건축허가 당시에 이미 건축물의 건축을 위하여 별도의 절토?성토?정지?매립 등의 행위를 할 필요가 없는 토지였다거나 별도의 절토?성토?정지?매립 등의 행위가 필요했더라도 그것이 건축물의 설치를 위한 것으로서 토지형질변경행위허가를 얻을 필요가 없는 경미한 것이었기 때문에 별다른 인?허가 등의 절차 없이 건축허가만으로 건축물의 건축이 가능했던 경우에는 토지에 대한 개발사업이 있다고 할 수 없다고 설시한 다음, 비록 이 사건 건물의 건축을 위하여 판시 토지들에 대한 일부 절토 등 토공사 및 옹벽공사가 이루졌다고 할지라도, 제반 사정을 고려하면, 판시 토지들에 대한 공사가 이 사건 건물의 건축을 위한 대지 정지 작업에서 더 나아가 대지 자체의 효용을 높이기 위한 공사라고 보기는 어렵다는 이유로 이 사건 토지는 개발부담금부과대상에 해당하지 않는다고 판단하였다.
+<br>개발이익환수에관한법률(1993. 6. 11. 법률 제4563호로 개정되어 1993. 8. 12.부터 시행된 이후 1997. 8. 30. 법률 제5409호로 개정되기 전의 것, 이하 '법'이라고만 함) 제5조 제1항 제10호는 개발부담금 부과대상 개발사업의 하나로 '지목변경이 수반되는 사업으로서 대통령령이 정하는 사업'을 규정하고, 법시행령(1993. 8. 12. 대통령령 제13956호로 개정되고 1997. 6. 25. 대통령령 제15398호로 개정되기 전의 것) 제4조 [별표 1]의 제10호는 지목변경이 수반되는 개발사업으로서 '건설교통부령이 정하는 건축물의 건축으로 사실상 또는 공부상의 지목변경이 수반되는 사업'을 규정하고 있으며, 법시행규칙(1997. 2. 15. 건설교통부령 제93호로 개정되기 전의 것) 제3조의 2 제2항 [별표 2]는 그 건축물의 종류의 하나로서 '근린생활시설'을 규정하고 있다.
+<br>그리고 지목변경은 소정의 관계증빙서류를 첨부하여 신청한 경우에 이루어지는 것이어서(지적법 제20조, 같은법시행령 제19조, 같은법시행규칙 제21조 등 참조) 이 사건 토지가 종전에 사실상 '대'로 형질변경이 되어 있었다는 사실만으로 관계 법령에 의하여 당연히 당해 지목으로 변경될 것이라고는 단정할 수 없으므로, 비록 이 사건 토지가 이 사건 건물이 건축되기 훨씬 이전부터 사실상 대지로 이용되어 왔다 하더라도 원고가 1995. 5. 18. 건축법상의 건축허가를 받아 이 사건 토지 상에 근린생활시설인 이 사건 건물을 건축하여 1995. 12. 2. 그 사용검사를 받기에 이르렀으니, 이 사건 토지는 이 사건 건물의 건축으로 인하여 비로소 사실상 지목이 '대'로 변경되고 원고의 신청에 의하여 공부상으로 지목변경이 되었다고 볼 여지가 있는 것임에도 원심은 그 점을 간과하였다고 할 것이다. 
+<br>그러나 한편, 토지형질변경허가의 대상행위와 같은 유형의 개발행위가 없이 수 필지의 토지에 걸친 건축물의 건축행위가 있고 그 중 일부 토지만에 관하여 사실상 또는 공부상의 지목변경이 이루어진 경우 법시행령 제4조 제1항 소정의 개발부담금부과대상이 되는 규모의 판단 기준은, 그 지목변경이 이루어진 당해 토지의 면적만을 토대로 하는 것이 상당하다 할 것인바, 원심이 부가적으로, 이 사건 토지는 개발부담금부과대상이 되는 개발사업의 규모인 660㎡에 미치지 못하여 개발부담금부과대상에 해당하지 아니한다고 판단하였으며, 원심의 이와 같은 부가적 판단은 정당하므로 원심의 위에서 본 바와 같은 판시는 이 사건 처분이 위법하다고 판단한 결론에 있어서는 영향을 준 바 없는 것으로 된다. 
+<br>결국 상고이유의 주장은 받아들일 수 없다.
+<br>그러므로 상고를 기각하고, 상고비용은 피고의 부담으로 하기로 관여 대법관들의 의견이 일치되어 주문에 쓴 바와 같이 판결한다</div>
+                            </td>
+                        </tr>
+						
+                    </tbody>
+                </table>
+            </div>
+            
+	            <div class="answerDiv">
+	                <p class="iconA"><img src="/2014/images/icon/icon_result.gif" alt="처리결과"></p>
+	                <div class="answerTxt">국토해양 행정에 애정과 관심을 가져 주신점 감사드립니다.
+<br>
+<br>개발이익환수에관한법률시행령 제4조제4항의 규정에 의하면 별표 1 제9호에 따른 지목변경이 수반되는 개발사업의 경우 부담금 부과 대상이 되는 규모는 제1항에도 불구하고 국가 또는 지방자치단체로부터 인가등을 받은 토지의 면적 중 사실상 또는 공부상(公簿上) 지목이 변경되는 토지의 면적이 제1항 각 호에 해당하는 경우로 한다. 이 경우 하나의 필지가 사실상 둘 이상의 용도로 이용되고 있는 토지의 지목은 「지적법 시행령」 제6조에 따른다고 규정되어 있음을 알려드립니다.
+<br>
+<br>질의하신 개발사업이 시행령 별표1의 제9호에 해당되는 경우에는 사실상 또는 공부상의 지목변경이 수반되는 면적이 부과대상 기준면적 미만일 경우에는 부과대상사업에 해당되지 아니할 것이나, 자세한 사항은 해당 개발사업의 부과권자와 상의하여 주시기 바랍니다.
+<br>
+<br>기타 회신내용에 추가 질문이 있으실 경우 고객만족센터(1599-0001, 담당 윤미)로 문의하여 주시기 바랍니다.
+<br>
+<br></div> <!--//answerTxt-->
+                    
+	            </div>
+	        
+            <p class="taR mt20">
+                <a href="javascript:void(0);" onclick="goList();" class="black_80x40">목록</a>
+            </p>
+        </div><!-- // content -->
+    
+
+</form><iframe title="빈프레임" src="https://eminwon.molit.go.kr/epeople/frame/epeople_frame.html?height=3000&amp;width=730" name="epeople_reframe" id="epeople_reframe" scrolling="no" width="0" height="0"></iframe></body></html>

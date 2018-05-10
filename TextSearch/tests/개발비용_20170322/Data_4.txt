@@ -1,0 +1,210 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+    
+
+
+
+
+
+    
+
+
+        <title>국민권익위원회 국민신문고</title>
+        <!-- 공통적용헤더정보 -->
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=EUC-KR">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 공통적용헤더정보 -->
+        
+        <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery-ui-1.8.16.custom.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery.mCustomScrollbar.css" media="all">
+        
+	    <script type="text/javascript" src="/2014/egov_js/jquery-1.10.2.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery-ui-1.10.4.custom.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.mCustomScrollbar.js"></script>
+	    
+	    <script type="text/javascript" src="/2014/egov_js/publishing.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.ui.datepicker-ko.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/2014/egov_js/jquery.wheel.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.PrintArea.js"></script>
+	    
+	     <script type="text/javascript" src="/2014/egov_js/nj.common.js"></script>
+         <script type="text/javascript" src="/2014/egov_js/nj.validator.js"></script>
+	    
+
+	    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/JPopup.js"></script> 
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/pp/common.js"></script></head><body><div id="loadingLayer" style="position:absolute; top:50%; left:50%; margin-left:-100px; margin-top:-30px; width:200px; height:60px; display:none;" oncontextmenu="return false;"><iframe id="iframeLoad" title="요청 처리중" style="width:200px; height:60px; margin:0px; padding:0px;" scrolling="no" src="/blank.html" frameborder="0"></iframe></div>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/component.js"></script>
+	    
+
+        <!--[if IE 6]>
+            <script src="/common/js/publishing_png.js" type="text/livescript"></script>
+            <script type="text/javascript">
+                DD_belatedPNG.fix('.png24');
+            </script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript">
+            <!--
+            function page_onload(){
+         
+                // 스크롤 없애기
+                document.body.style.overflow='hidden';
+        
+                var clintAgent = navigator.userAgent;
+                if ( clintAgent.indexOf("MSIE") != -1 || clintAgent.indexOf("Trident") != -1 )
+                {
+                    // IE
+                    window.resizeBy(410-document.body.clientWidth, 355-document.body.clientHeight);
+                } else {
+                    window.resizeBy(410-window.innerWidth, 355-window.innerHeight);
+                }
+            }
+            //-->
+        </script>
+        
+        <!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 시작-->
+		
+
+
+
+
+		<!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 끝-->
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style_civil.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/frame/total_basic_style.css ">
+    
+
+    
+    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+    
+    
+    <script language="JavaScript" type="text/JavaScript">
+	  <!--
+	  function goList() {
+	      document.frm.action="UPcOpenCvreqList.paid";
+	      document.frm.submit();
+	  }   
+	  //-->
+    </script>
+    
+     
+    
+    
+        <!--  20110706 김연성 국민신문고 연락처 추가종료 -->
+        <!-- 키보드 보안추가 -->
+        <!--nProtect  키보드보안설정 적용여부 시작-->
+<!-- 2007 0507
+<script language="javascript" type="text/javascript"
+src="http://update.nprotect.net/keycrypt/epeople/npkcx.js">
+</script>
+-->
+<!--nProtect  키보드보안설정 적용여부 끝-->
+
+
+        
+		<form name="frm" action="UPcOpenCvreqList.paid" method="post">
+			<input name="anc_code" value="1613000" type="hidden">
+			<input name="menu_code" value="PC001" type="hidden">
+			<input name="channel" value="1613000" type="hidden">
+			<input name="pageNo" value="1" type="hidden"> 
+			
+			<input name="peti_cat_code_c" value="0100000000" type="hidden">
+			<input name="peti_cat_code_v" value="" type="hidden"> 
+			<input name="startd" value="2017-03-22" type="hidden"> 
+			<input name="endd" value="2018-03-21" type="hidden"> 
+			<input name="select" value="title" type="hidden"> 
+			<input name="peti_title_v" value="개발비용" type="hidden"> 
+			<input name="peti_status_c" value="" type="hidden"> 
+
+        <div id="content">
+            <div class="viewForm1 mt30">
+                <table summary="유사민원(공유민원)의 상세(제목, 성명, 등록일, 처리상태, 민원내용,처리결과)를 보여주는 페이지입니다.">
+                    <caption>유사민원(공유민원) 상세보기</caption>
+                    <colgroup>
+                        <col width="*">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <div class="viewTit">
+                                    <p class="txt2">연접부지 개발비용 산정관련</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="subTxt">
+                                <p><strong>성명</strong>OOO</p>
+                                <p><strong>등록일</strong>2017.10.25 10:03:24</p>
+                                <p><strong>처리상태</strong>완료</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="viewDiv">
+                                <div class="txt">개발비용 산정과 관련하여 질의드립니다.
+<br>
+<br>전원주택단지내 각 면적이 동일한 10개의 부지가 조성되었으며, 각 부지별 토목공사비(제반비용포함)는 첨부 그림과 같이 상이합니다. 도로공사비의 경우 10개부지 소유자가 각각 10분의1씩 지분을 소유하고 있습니다.
+<br>
+<br>1~5번부지가 먼저 준공되어 각 개별토지의 토목공사비와 진입도로 개설비용의 1/10(지분비율)씩을 개발비용으로 반영하여 이미 개발부담금을 납부하였습니다.
+<br>
+<br>이 후 6번 토지 소유자는 진입도로 공사비와 1~5번부지의 토목공사비를 포함한 1~10번부지 전체 공사비를 부지면적비율(1/10)로 배분하여 산정한 비용으로 개발부담금의 산정을 요청하고 있고, 10번 토지 소유자는 먼저 준공된 1~5번 토지와 마찬가지로 10번 토지의 토목공사비와 진입도로 개설비용의 1/10(지분비율)을 개발비용으로 반영하여 개발부담금을 산정해 줄 것을 요청하고 있습니다.
+<br>
+<br>이러한 경우 먼저 개발부담금을 납부한 1~5번부지 토지는 도로 개설비용만 공통공사비로 하여 개발비용을 산정하였는데 이후 준공된 6번 토지는 전체 부지공사비를 공통공사비로 하여 개발비용을 산정하고, 10번 토지는 도로개설비용만 공통공사비로 하여 개발비용을 산정하는 것이 가능한지 문의드립니다. 
+<br>
+<br></div>
+                            </td>
+                        </tr>
+						                        
+                        <tr>
+                            <td class="fileDiv">
+                                <ul>
+                                       <li>
+	                                        <p class="file">첨부파일</p>
+	                                        <p class="fileName">
+	                                            
+		                                            <a href="/FileDownload.do?doc_id=16831003&amp;filename=그림.JPG">그림.JPG</a>
+		                                        
+	                                        </p>
+	                                    </li>                                 
+                                </ul>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+	            <div class="answerDiv">
+	                <p class="iconA"><img src="/2014/images/icon/icon_result.gif" alt="처리결과"></p>
+	                <div class="answerTxt">     1. 안녕하십니까? 국토교통 행정에 애정과 관심을 가져 주신데 감사드리며, 귀하께서 개발부담금 업무와 관련하여 국민신문고(우리부 홈페이지 민원마당)를 통해 질의하신 사항에 대하여 아래와 같이 회신드립니다.
+<br>
+<br>     2. 질의요지
+<br>
+<br>      - 하나의 진입도로를 10개의 사업부지(동일면적)가 공동으로 사용하는 경우 개발부담금 산정방법은
+<br>
+<br>     3. 회신내용
+<br> 
+<br>      - 「개발이익 환수에 관한 법률」 제11조제1항 및 동법 시행령 제12조제1항제1호의 규정에 의하여 개발사업 시행에 투입된 순공사비(재료비, 노무비, 경비)는 개발비용으로 인정하여 개발부담금을 산정하고 있습니다.
+<br> 
+<br>      - 귀 질의의 경우 하나의 개발사업 부지에 대하여 개발 인허가를 득한 후 수개의 필지로 분할한 후 사업 완료된 경우 필지별 개발부담금 부과시 개발비용(순공사비) 산정은 각 개별토지의 토목공사비와 진입도로 개설비용의 지분율에 따른 토목공사비를 개발비용으로 인정하는 등 모든 필지에 대하여 동일한 방식으로 하여야 할 것으로 사료되니 구체적인 사항은 당해 지역의 개발부담금 부과.징수업무를 수행하고 있는 시.군.구청장에게 문의하시기 바랍니다.
+<br>
+<br>      - 회신내용에 궁금하신 사항이 있을 경우 우리 부 토지정책과(유병국, 044-201-3403)로 문의하시면 친절히 답변드리도록 하겠습니다. 즐거운 하루 되시길 바랍니다.  끝.</div> <!--//answerTxt-->
+                    
+	            </div>
+	        
+            <p class="taR mt20">
+                <a href="javascript:void(0);" onclick="goList();" class="black_80x40">목록</a>
+            </p>
+        </div><!-- // content -->
+    
+
+</form><iframe title="빈프레임" src="https://eminwon.molit.go.kr/epeople/frame/epeople_frame.html?height=1294&amp;width=730" name="epeople_reframe" id="epeople_reframe" scrolling="no" width="0" height="0"></iframe></body></html>

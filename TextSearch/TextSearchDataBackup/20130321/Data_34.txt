@@ -1,0 +1,191 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+    
+
+
+
+
+
+    
+
+
+        <title>국민권익위원회 국민신문고</title>
+        <!-- 공통적용헤더정보 -->
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=EUC-KR">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 공통적용헤더정보 -->
+        
+        <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery-ui-1.8.16.custom.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery.mCustomScrollbar.css" media="all">
+        
+	    <script type="text/javascript" src="/2014/egov_js/jquery-1.10.2.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery-ui-1.10.4.custom.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.mCustomScrollbar.js"></script>
+	    
+	    <script type="text/javascript" src="/2014/egov_js/publishing.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.ui.datepicker-ko.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/2014/egov_js/jquery.wheel.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.PrintArea.js"></script>
+	    
+	     <script type="text/javascript" src="/2014/egov_js/nj.common.js"></script>
+         <script type="text/javascript" src="/2014/egov_js/nj.validator.js"></script>
+	    
+
+	    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/JPopup.js"></script> 
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/pp/common.js"></script></head><body><div id="loadingLayer" style="position:absolute; top:50%; left:50%; margin-left:-100px; margin-top:-30px; width:200px; height:60px; display:none;" oncontextmenu="return false;"><iframe id="iframeLoad" title="요청 처리중" style="width:200px; height:60px; margin:0px; padding:0px;" scrolling="no" src="/blank.html" frameborder="0"></iframe></div>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/component.js"></script>
+	    
+
+        <!--[if IE 6]>
+            <script src="/common/js/publishing_png.js" type="text/livescript"></script>
+            <script type="text/javascript">
+                DD_belatedPNG.fix('.png24');
+            </script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript">
+            <!--
+            function page_onload(){
+         
+                // 스크롤 없애기
+                document.body.style.overflow='hidden';
+        
+                var clintAgent = navigator.userAgent;
+                if ( clintAgent.indexOf("MSIE") != -1 || clintAgent.indexOf("Trident") != -1 )
+                {
+                    // IE
+                    window.resizeBy(410-document.body.clientWidth, 355-document.body.clientHeight);
+                } else {
+                    window.resizeBy(410-window.innerWidth, 355-window.innerHeight);
+                }
+            }
+            //-->
+        </script>
+        
+        <!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 시작-->
+		
+
+
+
+
+		<!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 끝-->
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style_civil.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/frame/total_basic_style.css ">
+    
+
+    
+    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+    
+    
+    <script language="JavaScript" type="text/JavaScript">
+	  <!--
+	  function goList() {
+	      document.frm.action="UPcOpenCvreqList.paid";
+	      document.frm.submit();
+	  }   
+	  //-->
+    </script>
+    
+     
+    
+    
+        <!--  20110706 김연성 국민신문고 연락처 추가종료 -->
+        <!-- 키보드 보안추가 -->
+        <!--nProtect  키보드보안설정 적용여부 시작-->
+<!-- 2007 0507
+<script language="javascript" type="text/javascript"
+src="http://update.nprotect.net/keycrypt/epeople/npkcx.js">
+</script>
+-->
+<!--nProtect  키보드보안설정 적용여부 끝-->
+
+
+        
+		<form name="frm" action="UPcOpenCvreqList.paid" method="post">
+			<input name="anc_code" value="1613000" type="hidden">
+			<input name="menu_code" value="PC001" type="hidden">
+			<input name="channel" value="1613000" type="hidden">
+			<input name="pageNo" value="4" type="hidden"> 
+			
+			<input name="peti_cat_code_c" value="0100000000" type="hidden">
+			<input name="peti_cat_code_v" value="" type="hidden"> 
+			<input name="startd" value="2013-03-21" type="hidden"> 
+			<input name="endd" value="2014-03-20" type="hidden"> 
+			<input name="select" value="title" type="hidden"> 
+			<input name="peti_title_v" value="개발부담금" type="hidden"> 
+			<input name="peti_status_c" value="" type="hidden"> 
+
+        <div id="content">
+            <div class="viewForm1 mt30">
+                <table summary="유사민원(공유민원)의 상세(제목, 성명, 등록일, 처리상태, 민원내용,처리결과)를 보여주는 페이지입니다.">
+                    <caption>유사민원(공유민원) 상세보기</caption>
+                    <colgroup>
+                        <col width="*">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <div class="viewTit">
+                                    <p class="txt2">개발부담금부과시기와 대상자</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="subTxt">
+                                <p><strong>성명</strong>OOO</p>
+                                <p><strong>등록일</strong>2013.11.21 16:29:37</p>
+                                <p><strong>처리상태</strong>완료</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="viewDiv">
+                                <div class="txt">당사는 금년 9월에 양산시 소주동 소주공단내의 토지를 매입을 하였는데 개발부담금 부과대상이라는 통지를 받고 문의를 합니다 ,해당토지는 H 사에서 2008.02.29일에 토목 건축허가를 얻어서 토목공사는 완료하고 회사 경영상의 이유로 건축공사는 중단하고  5년이 지난 금년2013년 9월에 당사가 B사에게 토지를 매입하고 모든 대금을 지불을 하였습니다,당사는 2013년 지가를 기준으로 하여 해당 토지를 구입하였으며B사는 토지를 매매하여 지가상승분에 대한 이익을 보았습니다, 개발부담금은 건축승인을 받고 나면 개발비용명세서를 작성 신고를 하여야 해당 시에서 부과를 하는데 당사가 2008,02,29~ 2013,09,까지의 지가상승분에 대한 개발부담금을 전액 납부를 하여야 하나요 ,만약 그렇다면 당사는 2013년9월 해당토지의 기준시가보다 비싸게 매입을 하였으며 지가 상승으로 인한 이익은 없습니다 . 실 개발자인 B사에서  지가 상승분에 대한 이익을 보았으니 B사가 2008.02월~2013년 9월까지 지가 상승분에 대한 개발부담금을 납부하고
+<br>당사는 2013년 9월~준공승인후 까지 지가상승분에 대한 개발부담금을 납부하는 것이 타당한 것 같은데 확인을 바라며 개발이익 환수에 관한 법률의 제 2절 부과기준및 부담률 제9조에 있는 것처럼  실제 개발이익이 발생하고 이익을 얻은 B사가 부과개시점인 2008.02.29 ~2013.09.05 (부과종료점) 까지의 개발부담금을 납부하여야 하는 것이 아닌가 합니다 . 당사로서는 2008. 02~ 준공시점까지에 대한 개발부담금을 납부
+<br>해야 하는 것이 납득이 가지 않습니다, 몇몇 판례도 찾아보았으며 판결을 보면 당사의 주장이 맞는 것 같은데  어떤지 답변을 부탁합니다, 개발부담금부과대상은 인정을 하지만 부과시점이2008.02.29일은 아닌것 깉습니다.  당사의 부과개시점은 2013.09.05 이며 부과종료점은 준공승인일이 아닌가요?</div>
+                            </td>
+                        </tr>
+						
+                    </tbody>
+                </table>
+            </div>
+            
+	            <div class="answerDiv">
+	                <p class="iconA"><img src="/2014/images/icon/icon_result.gif" alt="처리결과"></p>
+	                <div class="answerTxt">○ 고객님 안녕 하십니까?
+<br>평소 국토교통행정에 관심과 애정에 대하여 깊이 감사드립니다.
+<br>고객님께서 개발부담금과 관련하여 우리부 홈페이지 전자민원  (국민신문고)로 질의하신 내용에 대하여 아래와 같이 답변드립니다.
+<br>
+<br>
+<br>○ 「개발이익환수에 관한 법률」제6조제1항제3호에 따르면 개발사업을 완료하기 전에 사업시행자의 지위나 제1호 또는 제2호에 해당하는 자의 지위를 승계하는 경우에는 그 지위를 승계한 자가 개발부담금 납부의무를 가지게 된다고 규정하고 있습니다. 
+<br>
+<br>   - 귀 질의하신 경우는 당해 토지에 대한 최초 인허가(2008년 2월)가 취소되지 않았고 귀 사가 당해 토지소유권을 인수하였으며 전 소유자의 건축허가를 인수받은 경우에 해당하므로(2013년 9월 소유권을 이전받았으므로) 위 법조문에 따라 개발부담금 납부의무를 승계하게 됩니다.
+<br>
+<br>     대법원 판례에서도 개발부담금 부과대상 토지를 매매시에는 당사자간 토지에 대한 개발이익 배분에 대한 약정이 가능한 것을 전제로 하고 있습니다.
+<br>
+<br>     귀 사에서 부과개시시점을 2013년으로 주장하려면 최초 인허가 받은 사람의 건축허가 또는 귀 사의 직전 소유자의 건축허가가 취소되고 귀사가 새롭게 건축허가를 받은 경우에만 인정이 됩니다.  
+<br>     
+<br>○ 답변내용 중 궁금한 사항에 대하여는 우리부 홈페이지를 통하여 질의(www.molit.go.kr : 민원마당) 하여 주시거나 ☎ 044-201-3405로 연락주시면 성의껏 상담하여 드리겠습니다.    그리고 답변내용이 만족스럽지 못하더라도 법령해석상 부득이한 부분이 있는 점 널리 이해하여 주시기 바라며, 귀하의 무궁한 발전을 기원 합니다. 
+<br>
+<br>  오늘도 좋은 하루되시기 바랍니다. 
+<br>								</div> <!--//answerTxt-->
+                    
+	            </div>
+	        
+            <p class="taR mt20">
+                <a href="javascript:void(0);" onclick="goList();" class="black_80x40">목록</a>
+            </p>
+        </div><!-- // content -->
+    
+
+</form><iframe title="빈프레임" src="https://eminwon.molit.go.kr/epeople/frame/epeople_frame.html?height=1293&amp;width=730" name="epeople_reframe" id="epeople_reframe" scrolling="no" width="0" height="0"></iframe></body></html>

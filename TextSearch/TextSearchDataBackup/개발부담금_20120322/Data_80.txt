@@ -1,0 +1,191 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+    
+
+
+
+
+
+    
+
+
+        <title>국민권익위원회 국민신문고</title>
+        <!-- 공통적용헤더정보 -->
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=EUC-KR">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 공통적용헤더정보 -->
+        
+        <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery-ui-1.8.16.custom.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery.mCustomScrollbar.css" media="all">
+        
+	    <script type="text/javascript" src="/2014/egov_js/jquery-1.10.2.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery-ui-1.10.4.custom.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.mCustomScrollbar.js"></script>
+	    
+	    <script type="text/javascript" src="/2014/egov_js/publishing.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.ui.datepicker-ko.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/2014/egov_js/jquery.wheel.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.PrintArea.js"></script>
+	    
+	     <script type="text/javascript" src="/2014/egov_js/nj.common.js"></script>
+         <script type="text/javascript" src="/2014/egov_js/nj.validator.js"></script>
+	    
+
+	    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/JPopup.js"></script> 
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/pp/common.js"></script></head><body><div id="loadingLayer" style="position:absolute; top:50%; left:50%; margin-left:-100px; margin-top:-30px; width:200px; height:60px; display:none;" oncontextmenu="return false;"><iframe id="iframeLoad" title="요청 처리중" style="width:200px; height:60px; margin:0px; padding:0px;" scrolling="no" src="/blank.html" frameborder="0"></iframe></div>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/component.js"></script>
+	    
+
+        <!--[if IE 6]>
+            <script src="/common/js/publishing_png.js" type="text/livescript"></script>
+            <script type="text/javascript">
+                DD_belatedPNG.fix('.png24');
+            </script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript">
+            <!--
+            function page_onload(){
+         
+                // 스크롤 없애기
+                document.body.style.overflow='hidden';
+        
+                var clintAgent = navigator.userAgent;
+                if ( clintAgent.indexOf("MSIE") != -1 || clintAgent.indexOf("Trident") != -1 )
+                {
+                    // IE
+                    window.resizeBy(410-document.body.clientWidth, 355-document.body.clientHeight);
+                } else {
+                    window.resizeBy(410-window.innerWidth, 355-window.innerHeight);
+                }
+            }
+            //-->
+        </script>
+        
+        <!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 시작-->
+		
+
+
+
+
+		<!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 끝-->
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style_civil.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/frame/total_basic_style.css ">
+    
+
+    
+    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+    
+    
+    <script language="JavaScript" type="text/JavaScript">
+	  <!--
+	  function goList() {
+	      document.frm.action="UPcOpenCvreqList.paid";
+	      document.frm.submit();
+	  }   
+	  //-->
+    </script>
+    
+     
+    
+    
+        <!--  20110706 김연성 국민신문고 연락처 추가종료 -->
+        <!-- 키보드 보안추가 -->
+        <!--nProtect  키보드보안설정 적용여부 시작-->
+<!-- 2007 0507
+<script language="javascript" type="text/javascript"
+src="http://update.nprotect.net/keycrypt/epeople/npkcx.js">
+</script>
+-->
+<!--nProtect  키보드보안설정 적용여부 끝-->
+
+
+        
+		<form name="frm" action="UPcOpenCvreqList.paid" method="post">
+			<input name="anc_code" value="1613000" type="hidden">
+			<input name="menu_code" value="PC001" type="hidden">
+			<input name="channel" value="1613000" type="hidden">
+			<input name="pageNo" value="8" type="hidden"> 
+			
+			<input name="peti_cat_code_c" value="0100000000" type="hidden">
+			<input name="peti_cat_code_v" value="" type="hidden"> 
+			<input name="startd" value="2012-03-22" type="hidden"> 
+			<input name="endd" value="2013-03-21" type="hidden"> 
+			<input name="select" value="title" type="hidden"> 
+			<input name="peti_title_v" value="개발부담금" type="hidden"> 
+			<input name="peti_status_c" value="" type="hidden"> 
+
+        <div id="content">
+            <div class="viewForm1 mt30">
+                <table summary="유사민원(공유민원)의 상세(제목, 성명, 등록일, 처리상태, 민원내용,처리결과)를 보여주는 페이지입니다.">
+                    <caption>유사민원(공유민원) 상세보기</caption>
+                    <colgroup>
+                        <col width="*">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <div class="viewTit">
+                                    <p class="txt2">개발부담금 가산금 및 중가산금 징수에 대하여..</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="subTxt">
+                                <p><strong>성명</strong>OOO</p>
+                                <p><strong>등록일</strong>2012.07.13 17:40:28</p>
+                                <p><strong>처리상태</strong>완료</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="viewDiv">
+                                <div class="txt">안녕하세요 서울시 일선구청에서 개발부담금을 담당하고 있읍니다.
+<br>업무 처리중에 궁금한점이 있어 질의드립니다.
+<br>
+<br>도정법에 의한 도시환경정비사업에 대하여 2012. 2. 8일 개발부담금 164백만원을 부과하여 2012. 8. 8일이 납부마감일입니다.
+<br>동사업은 사업인허가 조건에 따라 개발비용으로 인정되는 학교용지부담금을 전액 납부하면 개발이익이 없어 개발부담금이 부과되지 않는 사업이지만 개발부담금 납부마감일이 도래한 현재까지 아파트가 대량 미분양되어 학교용지부담금은 아직까지 전액 납부되지 않았읍니다. 
+<br>
+<br>향후 아파트가 분양되어 개발부담금에 준하는 학교용지부담금이 개발비용으로 인정되면 동법시행령 제20조의 규정에 따라 부과정정통지(개발부담금 0원)를 할 예정인데 문제는 납부기한이 얼마남지 않아 과연 가산금 및 중가산금을 부과해야 하는지가 의문입니다. 부과관청의 잘못이 아닌 납부의무자측의 사정에 의하여 개발부담금이 부과되어 납부기한이 도래한 것이므로 가산금 및 중가산금을 부과하여 향후 개발부담금 부과정정통지를 한후에도 가산금 및 중가산금은 징수해야하는건지, 아니면 당초 사업인허가 조건에 따라 사업시행자가 학교용지부담금을 전액 납부하면 개발부담금이 발생하지 않으므로 가산금 및 중가산금도 부과하지 않아도 되는건지 답변부탁드립니다.
+<br>
+<br>질의내용
+<br>1) 당초 학교용지부담금 전액납부에 따라 개발부담금이 부과되지 않으므로 개발부담금 납부기한이 도래하였으나 가산금 및 중가산금을 부과할 필요는 없다.
+<br>2) 사업시행자 사정에 따라 학교용지부담금이 일부 미납되어 개발부담금이 부과되었으므로 납부기한이 지나면 가산금 및 중가산금을 부과해야 하나 향후 개발부담금을 정정통보하여 사업시행자가 납부할 부담금이 없으면 가산금 및 중가산금도 징수할 수 없다.
+<br>3) 사업시행자가 학교용지부담금을 전액 납부하였으나 이미 개발부담금 납부기한이 지나 가산금 및 중가산금을 부과하였다면 개발부담금과 별개로 가산금 및 중가산금은 반드시 징수해야한다.</div>
+                            </td>
+                        </tr>
+						
+                    </tbody>
+                </table>
+            </div>
+            
+	            <div class="answerDiv">
+	                <p class="iconA"><img src="/2014/images/icon/icon_result.gif" alt="처리결과"></p>
+	                <div class="answerTxt">평소 국토해양행정에 관심과 애정을 가져 주신 점 깊이 감사드리며, 귀하께서 국민신문고를 통하여 질의하신 사항에 대해 다음과 같이 답변 드립니다. 
+<br>
+<br>「개발이익환수에 관한 법률」제15조제1항에 의하면, 부과권자는 이 법에 따라 개발부담금을 부과하기로 결정하면 납부 의무자에게 대통령령으로 정하는 바에 따라 납부고지서를 발부하여야 하며, 같은 법 제21조 규정에 의거 부과권자는 개발부담금의 납부 의무자가 지정된 기간에 그 개발부담금을 완납하지 아니하면 납부 기한이 지난 후 10일 이내에 독촉장을 발부하여야 하며, 독촉장을 받고도 지정된 기한까지 개발부담금과 가산금 등을 완납하지 아니하면 법 제22조에 의거 국세 체납처분의 예에 따라 징수할 수 있도록 규정하고 있습니다.
+<br>
+<br>따라서, 당해 개발사업의 시행과 직접 관련된 학교용지부담금을 사업시행자(납부의무자)의 사정으로 납부하지 못하여 개발부담금 산정시 개발비용으로 인정받지 못한 경우, 납부의무자가 납부기한까지 개발부담금을 완납하지 않는다면 부과권자가 납부고지서를 발부하고 독촉장 발부 등의 조치를 취한 경우에는 국세 체납처분의 예에 따라 가산금 및 중가산금을 부과하는 게 타당하다고 봅니다.
+<br>
+<br>감사합니다.
+<br></div> <!--//answerTxt-->
+                    
+	            </div>
+	        
+            <p class="taR mt20">
+                <a href="javascript:void(0);" onclick="goList();" class="black_80x40">목록</a>
+            </p>
+        </div><!-- // content -->
+    
+
+</form><iframe title="빈프레임" src="https://eminwon.molit.go.kr/epeople/frame/epeople_frame.html?height=1223&amp;width=730" name="epeople_reframe" id="epeople_reframe" scrolling="no" width="0" height="0"></iframe></body></html>

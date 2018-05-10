@@ -1,0 +1,192 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+    
+
+
+
+
+
+    
+
+
+        <title>국민권익위원회 국민신문고</title>
+        <!-- 공통적용헤더정보 -->
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=EUC-KR">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 공통적용헤더정보 -->
+        
+        <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery-ui-1.8.16.custom.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery.mCustomScrollbar.css" media="all">
+        
+	    <script type="text/javascript" src="/2014/egov_js/jquery-1.10.2.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery-ui-1.10.4.custom.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.mCustomScrollbar.js"></script>
+	    
+	    <script type="text/javascript" src="/2014/egov_js/publishing.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.ui.datepicker-ko.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/2014/egov_js/jquery.wheel.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.PrintArea.js"></script>
+	    
+	     <script type="text/javascript" src="/2014/egov_js/nj.common.js"></script>
+         <script type="text/javascript" src="/2014/egov_js/nj.validator.js"></script>
+	    
+
+	    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/JPopup.js"></script> 
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/pp/common.js"></script></head><body><div id="loadingLayer" style="position:absolute; top:50%; left:50%; margin-left:-100px; margin-top:-30px; width:200px; height:60px; display:none;" oncontextmenu="return false;"><iframe id="iframeLoad" title="요청 처리중" style="width:200px; height:60px; margin:0px; padding:0px;" scrolling="no" src="/blank.html" frameborder="0"></iframe></div>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/component.js"></script>
+	    
+
+        <!--[if IE 6]>
+            <script src="/common/js/publishing_png.js" type="text/livescript"></script>
+            <script type="text/javascript">
+                DD_belatedPNG.fix('.png24');
+            </script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript">
+            <!--
+            function page_onload(){
+         
+                // 스크롤 없애기
+                document.body.style.overflow='hidden';
+        
+                var clintAgent = navigator.userAgent;
+                if ( clintAgent.indexOf("MSIE") != -1 || clintAgent.indexOf("Trident") != -1 )
+                {
+                    // IE
+                    window.resizeBy(410-document.body.clientWidth, 355-document.body.clientHeight);
+                } else {
+                    window.resizeBy(410-window.innerWidth, 355-window.innerHeight);
+                }
+            }
+            //-->
+        </script>
+        
+        <!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 시작-->
+		
+
+
+
+
+		<!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 끝-->
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style_civil.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/frame/total_basic_style.css ">
+    
+
+    
+    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+    
+    
+    <script language="JavaScript" type="text/JavaScript">
+	  <!--
+	  function goList() {
+	      document.frm.action="UPcOpenCvreqList.paid";
+	      document.frm.submit();
+	  }   
+	  //-->
+    </script>
+    
+     
+    
+    
+        <!--  20110706 김연성 국민신문고 연락처 추가종료 -->
+        <!-- 키보드 보안추가 -->
+        <!--nProtect  키보드보안설정 적용여부 시작-->
+<!-- 2007 0507
+<script language="javascript" type="text/javascript"
+src="http://update.nprotect.net/keycrypt/epeople/npkcx.js">
+</script>
+-->
+<!--nProtect  키보드보안설정 적용여부 끝-->
+
+
+        
+		<form name="frm" action="UPcOpenCvreqList.paid" method="post">
+			<input name="anc_code" value="1613000" type="hidden">
+			<input name="menu_code" value="PC001" type="hidden">
+			<input name="channel" value="1613000" type="hidden">
+			<input name="pageNo" value="7" type="hidden"> 
+			
+			<input name="peti_cat_code_c" value="0100000000" type="hidden">
+			<input name="peti_cat_code_v" value="" type="hidden"> 
+			<input name="startd" value="2011-03-21" type="hidden"> 
+			<input name="endd" value="2012-03-20" type="hidden"> 
+			<input name="select" value="title" type="hidden"> 
+			<input name="peti_title_v" value="개발부담금" type="hidden"> 
+			<input name="peti_status_c" value="" type="hidden"> 
+
+        <div id="content">
+            <div class="viewForm1 mt30">
+                <table summary="유사민원(공유민원)의 상세(제목, 성명, 등록일, 처리상태, 민원내용,처리결과)를 보여주는 페이지입니다.">
+                    <caption>유사민원(공유민원) 상세보기</caption>
+                    <colgroup>
+                        <col width="*">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <div class="viewTit">
+                                    <p class="txt2">개발부담금 부과대상 여부</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="subTxt">
+                                <p><strong>성명</strong>OOO</p>
+                                <p><strong>등록일</strong>2011.09.28 14:44:59</p>
+                                <p><strong>처리상태</strong>완료</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="viewDiv">
+                                <div class="txt">저는 9월에 건축허가 659제곱미터를 받았습니다.
+<br>앞부분에 진출입로를 확보하고자 48제곱미터에 대해 사용수익허가를 받고,
+<br>건축허가 659제곱미터와 진출입로 공유지 48제곱미터에 대해 건축허가 의제처리로 개발행위허가 707제곱미터를 받았습니다.
+<br>개발부담금 부과대상인지요.
+<br>
+<br>사용수익허가를 받은 공유지는 도로개설을 위해 지자체에서 공유지로 매입하였으나, 현재 도시계획시설(도로)로 되어 있지 않은 실정이나,
+<br>지자체에서 공유재산 매입 목적에 맞게 진출입로를 사용수익허가 대신 도로점용허가를 내어 줄 경우
+<br>개발행위허가 707제곱미터(건축허가+도로점용)는 개발부담금 부과대상인지요. 
+<br>빠른 답변을 부탁드립니다...   
+<br></div>
+                            </td>
+                        </tr>
+						
+                    </tbody>
+                </table>
+            </div>
+            
+	            <div class="answerDiv">
+	                <p class="iconA"><img src="/2014/images/icon/icon_result.gif" alt="처리결과"></p>
+	                <div class="answerTxt">○ 평소 국토해양행정에 관심과 애정을 가져 주신 점 깊이 감사드리며, 귀하께서 국민신문고를 통하여 질의하신 사항에 대해 다음과 같이 답변 드립니다.
+<br>
+<br>○ 「소기업 및 소상공인지원을 위한 특별조치법」제4조제2항에 의하면, 소기업중 「산업집적활성화 및 공장설립에 관한 법률」 제2조제1호의 규정에 따른 공장의 건축면적 또는 이에 준하는 사업장의 면적이 1천제곱미터 미만인 기업이 수도권정비계획법 제2조의 규정에 의한 수도권외의 지역에서 공장을 신축, 증축 또는 이전하려는 경우와 소기업을 100분의 50 이상 유치하는 국가산업단지?일반산업단지?도시첨단산업단지 또는 농공단지(農工團地)를 조성하는 경우에는 개발부담금을 면제하도록 규정하고 있으므로, 수도권내 지역에서 산업단지를 조성하는 사업은 위 규정에 따른 개발부담금 면제 조항에 해당되지 아니한다고 보며,
+<br>
+<br>○ 또한, 「개발이익환수에 관한 법률」제7조제2항 및 동법 시행령 제6조에 의하면, 특별법에 따른 공기업 중 「중소기업협동조합법」에 따라 설립된 중소기업협동조합이 시행하는 사업으로서 「산업입지 및 개발에 관한 법률」에 따른 일반산업단지개발사업은 개발부담금의 100분의 50을 경감하도록 규정하고 있습니다.
+<br>
+<br>○ 따라서, 귀 질의와 같이 개발부담금 면제 및 감면에 관한 해당 여부에 대하여는 부과권자가 허가사항 및 사업내용 등 사실관계를 확인하여 판단할 사항으로 개별적인 사례가 이에 해당되는지 여부 등 구체적인 내용은 당해 부과권자와 상의하여 주시기 바랍니다.<br><br>○ 1차 처리결과 답변내용은 착오에 의하여 다른 질문에 대한 답변이 등록되었음을 양해하여 주시기 바라며, 귀하께서 국민신문고를 통하여 질의하신 사항에 대해 다음과 같이 답변 드립니다.
+<br>
+<br>○ 「개발이익환수에 관한 법률 시행령」제4조의 규정에 따라 부담금의 부과 대상이 되는 개발사업의 범위는 별표1과 같고, 그 규모는 관계 법률에 따라 국가 또는 지방자치단체로부터 인가?허가?면허 등(신고를 포함)을 받은 사업 대상 토지의 면적을 기준으로 부과대상 여부를 결정하고 있습니다.
+<br>
+<br>○ 따라서, 진입도로를 포함하여 개발행위허가를 받은 경우에는 도로를 포함한 전체 면적을 대상으로 개발부담금 부과대상 면적을 판단하게 됨을 알려드리며, 개별적인 사례에 대하여는 부과권자가 관계법령 및 사실관계 등을 검토하여 판단할 사항으로 구체적인 내용은 당해 부과권자와 상의하여 주시기 바랍니다.</div> <!--//answerTxt-->
+                    
+	            </div>
+	        
+            <p class="taR mt20">
+                <a href="javascript:void(0);" onclick="goList();" class="black_80x40">목록</a>
+            </p>
+        </div><!-- // content -->
+    
+
+</form><iframe title="빈프레임" src="https://eminwon.molit.go.kr/epeople/frame/epeople_frame.html?height=1308&amp;width=730" name="epeople_reframe" id="epeople_reframe" scrolling="no" width="0" height="0"></iframe></body></html>

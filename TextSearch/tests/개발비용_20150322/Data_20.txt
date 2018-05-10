@@ -1,0 +1,218 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+    
+
+
+
+
+
+    
+
+
+        <title>국민권익위원회 국민신문고</title>
+        <!-- 공통적용헤더정보 -->
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=EUC-KR">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 공통적용헤더정보 -->
+        
+        <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery-ui-1.8.16.custom.css" media="all">
+        <link rel="stylesheet" type="text/css" href="/2014/css/jquery.mCustomScrollbar.css" media="all">
+        
+	    <script type="text/javascript" src="/2014/egov_js/jquery-1.10.2.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery-ui-1.10.4.custom.min.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.mCustomScrollbar.js"></script>
+	    
+	    <script type="text/javascript" src="/2014/egov_js/publishing.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.ui.datepicker-ko.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/2014/egov_js/jquery.wheel.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="/2014/egov_js/jquery.PrintArea.js"></script>
+	    
+	     <script type="text/javascript" src="/2014/egov_js/nj.common.js"></script>
+         <script type="text/javascript" src="/2014/egov_js/nj.validator.js"></script>
+	    
+
+	    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/JPopup.js"></script> 
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/pp/common.js"></script></head><body><div id="loadingLayer" style="position:absolute; top:50%; left:50%; margin-left:-100px; margin-top:-30px; width:200px; height:60px; display:none;" oncontextmenu="return false;"><iframe id="iframeLoad" title="요청 처리중" style="width:200px; height:60px; margin:0px; padding:0px;" scrolling="no" src="/blank.html" frameborder="0"></iframe></div>
+	    <script language="javascript" type="text/javascript" src="/2014/egov_js2/component.js"></script>
+	    
+
+        <!--[if IE 6]>
+            <script src="/common/js/publishing_png.js" type="text/livescript"></script>
+            <script type="text/javascript">
+                DD_belatedPNG.fix('.png24');
+            </script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript">
+            <!--
+            function page_onload(){
+         
+                // 스크롤 없애기
+                document.body.style.overflow='hidden';
+        
+                var clintAgent = navigator.userAgent;
+                if ( clintAgent.indexOf("MSIE") != -1 || clintAgent.indexOf("Trident") != -1 )
+                {
+                    // IE
+                    window.resizeBy(410-document.body.clientWidth, 355-document.body.clientHeight);
+                } else {
+                    window.resizeBy(410-window.innerWidth, 355-window.innerHeight);
+                }
+            }
+            //-->
+        </script>
+        
+        <!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 시작-->
+		
+
+
+
+
+		<!-- 2016-11-04 2016년 민원시스템 고도화팀 키보드보안 JSP파일을 Include하여 NonActiveX 키보드보안 스크립트를 호출 끝-->
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/epeople_style_civil.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/2014/css/frame/total_basic_style.css ">
+    
+
+    
+    <script language="javascript" type="text/javascript" src="/js/frame/jsFrame.js"></script>
+    
+    
+    <script language="JavaScript" type="text/JavaScript">
+	  <!--
+	  function goList() {
+	      document.frm.action="UPcOpenCvreqList.paid";
+	      document.frm.submit();
+	  }   
+	  //-->
+    </script>
+    
+     
+    
+    
+        <!--  20110706 김연성 국민신문고 연락처 추가종료 -->
+        <!-- 키보드 보안추가 -->
+        <!--nProtect  키보드보안설정 적용여부 시작-->
+<!-- 2007 0507
+<script language="javascript" type="text/javascript"
+src="http://update.nprotect.net/keycrypt/epeople/npkcx.js">
+</script>
+-->
+<!--nProtect  키보드보안설정 적용여부 끝-->
+
+
+        
+		<form name="frm" action="UPcOpenCvreqList.paid" method="post">
+			<input name="anc_code" value="1613000" type="hidden">
+			<input name="menu_code" value="PC001" type="hidden">
+			<input name="channel" value="1613000" type="hidden">
+			<input name="pageNo" value="2" type="hidden"> 
+			
+			<input name="peti_cat_code_c" value="0100000000" type="hidden">
+			<input name="peti_cat_code_v" value="" type="hidden"> 
+			<input name="startd" value="2018-02-21" type="hidden"> 
+			<input name="endd" value="2018-03-21" type="hidden"> 
+			<input name="select" value="title" type="hidden"> 
+			<input name="peti_title_v" value="" type="hidden"> 
+			<input name="peti_status_c" value="" type="hidden"> 
+
+        <div id="content">
+            <div class="viewForm1 mt30">
+                <table summary="유사민원(공유민원)의 상세(제목, 성명, 등록일, 처리상태, 민원내용,처리결과)를 보여주는 페이지입니다.">
+                    <caption>유사민원(공유민원) 상세보기</caption>
+                    <colgroup>
+                        <col width="*">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                <div class="viewTit">
+                                    <p class="txt2">보상업무 수행 과정 상 문의드립니다(보상금 지급시기, 지장물 소유확인 등)</p>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="subTxt">
+                                <p><strong>성명</strong>OOO</p>
+                                <p><strong>등록일</strong>2018.02.26 13:34:56</p>
+                                <p><strong>처리상태</strong>완료</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="viewDiv">
+                                <div class="txt">안녕하세요. 청주시청 도로시설과 보상담당 심지섭입니다.
+<br>
+<br>보상업무 수행과정 상 문의사항 있어 질의합니다.
+<br>
+<br>1. 편입용지 위 수목 등의 지장물에 대해 협의보상(감정평가 산정기준 : 이전비)이 이루어졌으나, 보상금 수령인이 지장물을 철거 및 이전하지 않아 공사 진행에 차질이 있을 때(이와 같은 상황이 수개월 지속) 사업시행청에서 취할 수 있는 조치는 무엇인지 문의 드립니다(사업시행청의 철거 후 금액 청구 등).
+<br>
+<br>2. 
+<br>(상황)
+<br>공장부지 중 일부가 편입되어 인도가 공장건물과 약1m 이격(편입 전 인도와 공장건물은 10m 이상 이격)
+<br>(질의)
+<br>인도와 공장건물 사이의 공간이 좁아짐으로 인해 자재와 물품 등의 상하차를 위한 대형차량의 진입에 제한이 되는데, 진입통로를 위해 공장건물 중 일부를 철거한다면, 철거와 관련된 사항을 보상대상으로 볼 수 있는지 문의드립니다.
+<br> 만약 보상대상으로 판단된다면, 공장건물 철거(공사) 후 보상금이 지급되어야 하는지 문의드립니다.
+<br>※ 토지보상법 제73조 : 일단의 토지의 일부가 취득되거나 사용됨으로 인하여 잔여지에 통로 등의 신설이나 그 밖의 공사가 필요할 때에는 그 손실이나 공사의 비용을 보상하여야 한다.
+<br>
+<br>3. 
+<br>(상황)
+<br>1)공익사업에 편입되는 토지 : 등기상명의자 13인 공동명의, 1912년 취득
+<br>2)당해 필지를 실질적으로 관리함을 주장하는 법인B : 재산세 납부, 2002년 청주지법으로부터 소유권 확인의 소를 제기하여 주문상 소유임을 확인받음(단, 13인 전원을 피고로 지정하여 확인을 받지 않음, 농지법에 의해 등기이전은 불가한 상황, 판결문을 법률자문받은 결과, 소의 이익은 없으나 판결된 상황으로 회신받음)
+<br>3)당해 필지에 대해 법인 B와 임대차계약을 작성하여 지장물 설치 및 영농활동을 하는 C의 지장물 및 영농보상 신청을 받음.
+<br>(질의)
+<br> 통상 지장물 보상 절차 시 토지소유주의 확인을 받아 진행하고 있으며, 특히 영농의 경우 토지보상법 제48조 규정에 의거 토지소유주에게 확인을 필수로 요구하여 진행하고 있으나, 이와 같은 경우, 토지소유주의 확인으로 실관리를 하고 있는 법인 B의 확인으로 갈음할 수 있는지 문의드립니다.
+<br>
+<br>
+<br>당면업무로 바쁘시겠지만 답변 부탁드립니다.
+<br>
+<br>감사합니다.</div>
+                            </td>
+                        </tr>
+						
+                    </tbody>
+                </table>
+            </div>
+            
+	            <div class="answerDiv">
+	                <p class="iconA"><img src="/2014/images/icon/icon_result.gif" alt="처리결과"></p>
+	                <div class="answerTxt">평소 국토교통행정에 관심과 애정을 가져 주신 점 감사드리며, 귀하께서 토지보상법령과 관련하여 질의하신 사항에 대하여 아래와 같이 답변 드립니다. 
+<br>
+<br>	&lt;질의내용&gt;
+<br>	가. 수목 등 지장물에 대하여 이전비로 협의보상 하였으나 이를 이전하지 않는 경우 이에 대한 대책은?
+<br>
+<br>	나. 공장건물의 일부가 편입되면서 차량진출입 등이 제한되어 해당 공장건물을 일부 철거하여 통로를 개설하는 경우 보상은 및 보상금 지급시기?
+<br>
+<br>	다. 등기부상 다수인이 소유자로 되어 있으나 법인이 법원으로부터 소유자임을 판결받은 상태에서 해당 토지를 임차하여 지장물을 설치, 영농을 하고 있는 경우 누구에게 확인을 받아야 하는지?
+<br>
+<br>	&lt;회신내용&gt;
+<br>	가.「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률(이하 “토지보상법”이라 함)」제89조제1항에서 이 법 또는 이 법에 따른 처분으로 인한 의무를 이행하여야 할 자가 그 정하여진 기간 이내에 의무를 이행하지 아니하거나 완료하기 어려운 경우 또는 그로 하여금 그 의무를 이행하게 하는 것이 현저히 공익을 해친다고 인정되는 사유가 있는 경우에는 사업시행자는 시·도지사나 시장·군수 또는 구청장에게 「행정대집행법」에서 정하는 바에 따라 대집행을 신청할 수 있도록 하고 있음을 참고하시면 될 것으로 봅니다.
+<br>
+<br>	나. 토지보상법 시행규칙 제73조제1항에서 사업시행자는 동일한 소유자에게 속하는 일단의 토지의 일부가 취득되거나 사용됨으로 인하여 잔여지의 가격이 감소하거나 그 밖의 손실이 있을 때 또는 잔여지에 통로·도랑·담장 등의 신설이나 그 밖의 공사가 필요할 때에는 국토교통부령으로 정하는 바에 따라 그 손실이나 공사의 비용을 보상하여야 한다고 규정하고 있습니다.
+<br>
+<br>	따라서 잔여지에 통로등을 개설함에 따라 건축물 등에 손실이 발생한다면 이에 대하여 보상하여야 할 것으로 보며, 개별적인 사례에 대하여는 관계법령 및 통로, 건축물 현황 등을 검토하여 판단할 사항으로 봅니다.
+<br>	다. 토지보상법 시행규칙 제48조제7항에서 법 제77조제2항에 따른 실제 경작자는 농지의 임대차계약서 등 자료에 의하여 사업인정고시일등 당시 타인소유의 농지를 임대차 등 적법한 원인에 의하여 점유하고 자기소유의 농작물을 경작하는 것으로 인정된 자를 말한다. 이 경우 실제 경작자로 인정받으려는 자가 제3호의 자료만 제출한 경우 사업시행자는 해당 농지의 소유자에게 그 사실을 서면으로 통지할 수 있으며, 농지소유자가 통지받은 날부터 30일 이내에 이의를 제기하지 아니하는 경우에는 제2호의 자료가 제출된 것으로 본다고 규정하고 있습니다.
+<br>
+<br>	따라서 타인소유의 농지를 경작하고 있다면 상기 규정에 따라 토지소유자의 확인을 받아야 할 것으로, 개별적인 사례에서 소유자 여부는 사업시행자가 민법 등 관계법령, 판결결과 및 사실관계를 검토하여 판단할 사항으로 봅니다.  끝.
+<br>
+<br>
+<br>【토지보상법 관련내용에 대하여 추가로 궁금하신 사항이 있을 경우 우리부 토지정책과(장혁,  044-201-3409)로 문의하시면 답변드리도록 하겠습니다. 감사합니다.】</div> <!--//answerTxt-->
+                    
+	            </div>
+	        
+            <p class="taR mt20">
+                <a href="javascript:void(0);" onclick="goList();" class="black_80x40">목록</a>
+            </p>
+        </div><!-- // content -->
+    
+
+</form><iframe title="빈프레임" src="https://eminwon.molit.go.kr/epeople/frame/epeople_frame.html?height=2084&amp;width=730" name="epeople_reframe" id="epeople_reframe" scrolling="no" width="0" height="0"></iframe></body></html>
